@@ -1,7 +1,7 @@
 
 import numpy as num
 from numpy import array as tensor
-import quaternion 
+from pyquaternion import Quaternion #different import 
 
 
 """"
@@ -385,42 +385,34 @@ rot_imag(3, 45)
 #define quarternion rotation for the generated components based on the plane 
 
 
-def rot_quart(plane, n=0, w=[]): #tupule list of 2 or 3 
-    deg = num.radians(n)/2 #half of any defined theta is used 
-    i = tensor([1,0,0])
-    j = tensor([0,-1,0]) #define counterclockwise correction 
-    k = tensor([0,0,1])
+#this is used exlusively following imaginary rotation
 
-    #define rotation quarternion components 
+def rot_quart(plane, n=0, w=[]):  # List of tuples of 3D vectors
+    deg = num.radians(n) / 2  # Half of theta is used
+    i = num.array([1, 0, 0])
+    j = num.array([0, -1, 0])  # Define counterclockwise correction
+    k = num.array([0, 0, 1])
+
+    # Define rotation axis based on the plane
     if plane == 'xy':
         axis_vector = k
     elif plane == 'yz':
-        axis_vector = j 
+        axis_vector = i
     elif plane == 'xz':
         axis_vector = j
     else:
-        raise ValueError("Axis must be 'xy', 'yz', or 'xz'.")
+        raise ValueError("Plane must be 'xy', 'yz', or 'xz'.")
 
-    axis_vectpr = axis_vector / num.linalg.norm(axis_vector) #generate unit vector from vector object 
+    axis_vector = axis_vector / num.linalg.norm(axis_vector)  # Normalize axis vector
 
-    #a unit quarternion has the form cos(n/2) + sin(n/2)*quart  where cos is the scalar part and sin is the rotational axis 
-    #first generate the appropriate rotation quarternion components 
-
-    qw = num.cos(deg) #scalar part of quarternion 
-    qx, qy, qz = axis_vector * num.sin(deg) #axis part of quarternion  
-    qA = quaternion.quaternion(qw, qx, qy, qz)
-
-    qB = [] #create quarternions out of the vectors in w, either 1 or 3 coordinates 
-
-    for x,y,z in w: #list of tupules  passed specifically in the form x,y,z 
-        qb = quaternion.quaternion(0, x, y, z)
-        qB.append(qb)
-    qneg = qA.conjugate()
+    # Create the rotation quaternion based ib the set plane 
+    qA = Quaternion(axis=axis_vector, angle=num.radians(n))
 
     rotated = []
-    for quart in qB: #for each array present 
-        rot = qA*quart*qneg 
-        rotated.append(rot)
+    for x, y, z in w:  # List of tuples passed as (x, y, z)
+        vec = tensor([x, y, z])
+        rotated_vec = qA.rotate(vec)  # Rotate the scalar vector with qA  quaternion 
+        rotated.append(tuple(rotated_vec)) #generate vector of form x,y,z 
 
-    return rotated #return the rotated vectors according to the passed plane and degrees provided 
-
+    return rotated  # Return rotated vectors
+#redefined function works essentially the same way 
