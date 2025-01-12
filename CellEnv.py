@@ -13,20 +13,6 @@ import Proarray as pro
 
 #chatGPT provided functions for randomness and probabilistic regulation  
 
-"""Weighted/randomizer function 
-    Selects a random item from input_list based on the probabilities defined in prob_dict.
-
-    Arguments:
-    input_list: A list of either integers, floats (for ranges), or letters (for selection).
-    prob_dict: A dictionary that defines the probabilities for items in input_list. 
-               The dictionary should contain the keys corresponding to items in input_list, 
-               with their respective probabilities as values.
-               The dictionary may also contain a 'depend' key (True/False) to control probability dependence.
-
-    Returns:
-    A randomly selected item from input_list based on the given probabilities.
-    """
-
 def randomizer(input_list):
     # Check if the input is a list and contains the appropriate types
     if isinstance(input_list, list):
@@ -378,8 +364,8 @@ class Protein:
                                     canon_arr[0, 2].append((single_unit,0)) #z is zero (k axis rotation) 
                                 else: #if values exist 
                                     canon_arr[0, 0].append((single_unit, vec[0]+canon_arr[0, 0, -1])) 
-                                    anon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
-                                    anon_arr[0, 1].append((single_unit, canon_arr[0, 0, -1])) #add previous vector values 
+                                    canon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
+                                    canon_arr[0, 1].append((single_unit, canon_arr[0, 0, -1])) #add previous vector values 
                         
                             if '/' in rot and '+' not in rot: #along j axis or xz plane 
                                 deg = rot.split('/')[-1] 
@@ -390,8 +376,8 @@ class Protein:
                                     canon_arr[0, 1].append((single_unit,0)) #y is zero 
                                 else: #if values exist 
                                     canon_arr[0, 0].append((single_unit, vec[0]+canon_arr[0, 0, -1]))  
-                                    anon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
-                                    anon_arr[0, 1].append((single_unit, canon_arr[0, 0, -1]))
+                                    canon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
+                                    canon_arr[0, 1].append((single_unit, canon_arr[0, 0, -1]))
                         
                             if 'c' in rot and '+' not in rot: #along the i axis or yz plane 
                                 deg = rot.split('_')[-1] 
@@ -402,23 +388,23 @@ class Protein:
                                     canon_arr[0, 0].append((single_unit,0)) #x is zero 
                                 else: #if values exist 
                                     canon_arr[0, 1].append((single_unit, vec[0]+canon_arr[0, 0, -1])) 
-                                    anon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
-                                    anon_arr[0, 0].append((single_unit, canon_arr[0, 0, -1])) 
+                                    canon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
+                                    canon_arr[0, 0].append((single_unit, canon_arr[0, 0, -1])) 
 
                             elif '+' in rot: #if we have a string seperated by + signs meaning multiple rotations 
                                 rotations = rot.split('+') #create a list of possible rotations 
                                 plane = ''
                                 if '_' in rotations[0]:
-                                    deg = int(rotations[0],split('_')[-1])
+                                    deg = int(rotations[0].split('_')[-1])
                                     vec = pro.rot_imag(uL, deg)
                                     wi = [(vec[0], vec[1], 0)] #set xy values
                                 if '/' in rotations[0]:
-                                    deg = rotations[0],split('/')[-1]
+                                    deg = rotations[0].split('/')[-1]
                                     vec = pro.rot_imag(uL, deg)
                                     #the result is always tuple of 2 indecies 0 and 1  
                                     wi = [(vec[0], 0, vec[1])] #set xz values
                                 if 'c' in rotations[0]:
-                                    deg = rotations[0],split('c')[-1]
+                                    deg = rotations[0].split('c')[-1]
                                     vec = pro.rot_imag(uL, deg)
                                     wi = [(0, vec[0], vec[1])] #set zy values
                                 #first generate the scalar components and assign appropriately, then call the function 
@@ -613,7 +599,7 @@ class Protein:
                                     wi = [(v1[0], v1[1], 0),(v2[0],v2[1],0),(v3[0],v3[1],0)] #set xy values
                                 
                                 if '/' in rotations[0]: #along the xz plane 
-                                    deg = rotations[0],split('/')[-1]
+                                    deg = rotations[0].split('/')[-1]
                                     vecs = pro.rot_imag(uL, uN, n = deg, dir=direction) 
                                     v1 = vecs[0]
                                     v2 = vecs[1]
@@ -622,7 +608,7 @@ class Protein:
                                     #the result is always tuple of 2 indecies 0 and 1  
                                     wi = [(v1[0],v1, 0)]
                                 if 'c' in rotations[0]: #along the yz plane 
-                                    deg = rotations[0],split('c')[-1]
+                                    deg = rotations[0].split('c')[-1]
                                     vecs = pro.rot_imag(uL, uN, n = deg, dir=direction) 
                                     v1 = vecs[0]
                                     v2 = vecs[1]
@@ -643,7 +629,7 @@ class Protein:
                                         w3 = pro.rot_quart('xy', n=deg, w=wi[2])
                                         wf1.append(w1)
                                         wf2.append(tuple(sum(x) for x in zip(w1,w2)))
-                                        wf3.append(tuple(sum(x) for x in zuo(w2, w3)))
+                                        wf3.append(tuple(sum(x) for x in zip(w2, w3)))
                                     if '/' in rots and not wf and not wf2 and not wf3:
                                         deg = rots.split('_')[-1]
                                         w1 = pro.rot_quart('xz', n=deg, w=wi[0])
@@ -651,7 +637,7 @@ class Protein:
                                         w3 = pro.rot_quart('xz', n=deg, w=wi[2])
                                         wf1.append(w1)
                                         wf2.append(tuple(sum(x) for x in zip(w1,w2)))
-                                        wf3.append(tuple(sum(x) for x in zuo(w2, w3)))
+                                        wf3.append(tuple(sum(x) for x in zip(w2, w3)))
                                     if 'c' in rots and not wf and not wf2 and not wf3: 
                                         deg = rots.split('_')[-1]
                                         w1 = pro.rot_quart('yz', n=deg, w=wi[0])
