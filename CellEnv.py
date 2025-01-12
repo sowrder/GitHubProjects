@@ -314,57 +314,6 @@ pro.filter(TBP_ar)
 
 pro.domain_index(TBP_ar, 158, 337)
 
-revmod(33) 
-
-'''
-Disordered TBP region 
-
-
-Defined TBP region 
-
-(b'ESS', 26) (Index: 26) from dimensions (0, 3)
-(b'GIV', 26) (Index: 26) from dimensions (2, 1)
-(b'QLQNI', 27) (Index: 27) from dimensions (0, 3)
-(b'VSTVNL', 28) (Index: 28) from dimensions (2, 1)
-(b'CKLDL', 29) (Index: 29) from dimensions (0, 4)
-(b'KTIALR', 30) (Index: 30) from dimensions (0, 4)
-(b'ARNAEY', 31) (Index: 31) from dimensions (0, 4)
-(b'KRFA', 32) (Index: 32) from dimensions (0, 4)
-(b'AVIMRI', 33) (Index: 33) from dimensions (2, 1)
-(b'REP', 34) (Index: 34) from dimensions (2, 1)
-(b'PRTT', 34) (Index: 34) from dimensions (2, 1)
-(b'ALIFSS', 35) (Index: 35) from dimensions (0, 4)
-(b'KMVCT', 36) (Index: 36) from dimensions (0, 4)
-(b'AKSEE', 37) (Index: 37) from dimensions (0, 4)
-(b'QSRLAA', 38) (Index: 38) from dimensions (0, 4)
-(b'RKYARV', 39) (Index: 39) from dimensions (2, 1)
-(b'VQKL', 40) (Index: 40) from dimensions (0, 5)
-(b'AKFLD', 41) (Index: 41) from dimensions (0, 5)
-(b'FKIQNM', 42) (Index: 42) from dimensions (0, 5)
-(b'GSCDV', 43) (Index: 43) from dimensions (2, 1)
-(b'KFP', 44) (Index: 44) from dimensions (2, 2)
-(b'PIRL', 44) (Index: 44) from dimensions (2, 2)
-(b'LVLT', 45) (Index: 45) from dimensions (0, 5)
-(b'HQQFSS', 46) (Index: 46) from dimensions (0, 5)
-(b'ELF', 47) (Index: 47) from dimensions (0, 5)
-(b'YEP', 47) (Index: 47) from dimensions (2, 2)
-(b'GLIYR', 48) (Index: 48) from dimensions (1, 0)
-(b'GLIYR', 48) (Index: 48) from dimensions (2, 2)
-(b'MIK', 49) (Index: 49) from dimensions (0, 5)
-(b'PRI', 49) (Index: 49) from dimensions (2, 2)
-(b'VLLIFV', 50) (Index: 50) from dimensions (1, 1)
-(b'KVVL', 51) (Index: 51) from dimensions (0, 5)
-(b'AKVR', 52) (Index: 52) from dimensions (0, 6)
-(b'AEIYEA', 53) (Index: 53) from dimensions (0, 6)
-(b'FENIY', 54) (Index: 54) from dimensions (1, 1)
-(b'ILK', 55) (Index: 55) from dimensions (0, 6)
-(b'GFR', 55) (Index: 55) from dimensions (2, 2)
-(b'KTT', 56) (Index: 56) from dimensions (2, 2)
-
-'''
-
-
-
 Protein_functions = ['chapp', 'kinase', 'phosphtase', 'receptor', 'ligand', 'transporter', 'polymerase', 'protease', 'DNA_repair', 'TF']
 Enzyme = ['generator', 'slicer', 'processor']
 TF = ['core', 'primary', 'secondary', 'tertiary']  #these ranks are somewhat arbitrarily decided depending on need 
