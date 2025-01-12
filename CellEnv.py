@@ -4,13 +4,10 @@ import string as string
 import numpy as num
 from numpy import array as tensor #deal with multi dimensional values
 import ChroDatabase_Search as s
-from pathlib import Path 
-from rdkit import Chem 
-from rdkit.Chem import Draw 
 import re 
 import Proarray as pro 
 
-os.chdir('/Users/ismailnashwan/Desktop/GeneDatabase_Project/GeneSeq/Temp_Seq')
+
 
 #assume a concentration of basic functional proteins already exists, but requires maintenance 
 
@@ -244,47 +241,40 @@ class Gene:
     the protien object gains an attribute self.active which grants it access to attributes of the class as desired 
     this attribute is gained conditionally, usually through chaperoneing or some other folding inducing event. 
 
-    Implementation of protiens - 
-    The protien sequence is passed as a string which creates a padded raw array for the protien containing the alpha helix, beta sheet, and string groups 
-    the fold method is passed onto the protien to initalize the inital domain according to multiple dictionaries 
+    the protiens complicated structure is linearized through the combination of imaginary rotation and quarternions, where any 
+    specefic sequence has with it 3 specific xyz coordinates that reflect the position of it in the protien array space 
+    this space must be initalized in the exact way defined by the dictionary, conditions will be employed to regulate how this may happen. 
 
-    the first dictionary is through an index function in combination with unitProt (extremely nice and helpful)
-    Unit pro provides the sequences (which will be generated from ribosomes in this case) as well as the domain active regions 
-    these regions are defined by passing the region index to domain_index, this is for implementation purposes and defines which items 
-    in the string comprise the protien active domains, which is quite useful. 
+    In general, there are 3 main arguments that designate the plane for the class object 
+
+    '_' which defines rotation along the k axis (perpendicular to xy)
+    '/' defining rotation along the j axis (perppendicular to xz)
+    'c' defining rotation along the i axis (perpendicular to yz)
+
+    for any single rotation in space, then the string and corresponding n degrees are passed depending on dictionary domains 
+    i.e '/45' , since this is a single rotation along one plane, then we simply use i and break down components with 
+    rot_img(s1, n), then we sum the real component (in this case) to x, and the complex component to y, with the previous coordinates summed. 
+    defining sqrt(2)/2 as a, our point would look like [[str, ua+x],[str,ua+y],[str, z]]
+    notably, the points themselves represent the position, wheras drawing lines between the dots will reflect the sequence length between. 
 
 
+    if '/45+_45', then we use rot_imag values as the arguments for rot_quart, since /45 assigns 
+    x and y components, we also include a 0 z component that can be used to define the vector quarternion. 
 
-    defining states - 
-    The second dictionary contains implemented information regarding the protien, specifically how to create an active protien object
-    array from the defined components through domain_index.
+    for every + passed, we pass the rotated vectors list, defining a condition based on the string used.
 
-    the protien name, such as CREB or Helicase, defines the access to the implemented states. 
-    the values are a list of dictionaries containing states T0, T1, and T2
+    To define a surface in plane or rotated, we do a very similar thing. imag_rot takes care of defining the direction of the surface 
+    with the dir argument, where we pass the length of a unit L (based on some integer prioir to #) as s2 and the count of L as s1 
+    these correspond to the horizontal and vertical component respectively, with a third reversed vertical component. 
 
-    the T keys are dictionaries coontaining the postiional information of states, where the different 
-    states reflect different changes to the inital protien structure in 1T0, or 2T0 if the protien has multiple 
-    resting states.
+    After all rotations are complete for a surface (that is, after returning the list of 9 coordinates)
+    the vectors are summed in order with each other, where we define 
+    p4 = the previous point coordinate 
+    p1 = w0 + p4
+    p2 = w1 + p1
+    p3 = w3 + p2 
 
-    T0 is defined as the resting state, it's a key which  has a list of a boolean variable at index 0 
-    this defines the 0th state  gained through fold which initalizes the protien domain 
-
-    the first dictionary argument, that is 1T0 or index 1,is the proper domain structure of the alpha 
-    helicies, strings, and domains, based on their index along the assigned domains, and is a directionally
-    orientated array that shows the directions of the different domain units 
-    the direction appension is defined as follows, alongside an integer in a tuple which represents the unit position/s 
-    
-    |, -| : vert up or reverse sequence vert 
-    ->,<- : orient units horizontally or in reverse horizontally 
-    /, -/ : diagonal up right or down left 
-    \\, -\\ : diagonal up left or downright 
-    (*n, *n) : define counter and clockwise rotation with n, where n = 1 is a 180 turn in array according 
-    to orientation, if aligned vertically, then unit is appended to a position in the reverse coordinate, with 
-    it's direction being reflected as such 
-    = : anti parallel alignment using second unit (evens beta)
-    =- : anti parallel alignment using first unit  (odds beta)
-    stack - use units to make a 2d array seperated by | 
-
+    after which the coordinates are returned in the order of 0-3 from 1-4 as a 4 item list 
 
     base dictionary format : 
 
@@ -296,11 +286,12 @@ class Gene:
     {'T2': {'0T2': {a: [()], b:[()], s:[()]}}}
 
     }}
-
-
 '''
 
-
+Tstates ={'TBP': {'T0':[False, 
+    {'a':[(range(0,7),'_45'), (range(7,12),'c25'), (range(20,25), '/45+c25+_45')] ,
+    'b':[(range(12,18), '4#!_45'), (range(30,41), '5#/45+_45')] ,
+    's':[(range(19,20), '_45+/45')]}]}}
 
 
 #defining TF2D through F 
@@ -308,60 +299,425 @@ class Gene:
 TBP = 'MDQNNSLPPYAQGLASPQGAMTPGIPIFSPMMPYGTGLTPQPIQNTNSLSILEEQQRQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQAVAAAAVQQSTSQQATQGTSGQAPQLFHSQTLTTAPLPGTTPLYPSPMTPMTPITPATPASESSGIVPQLQNIVSTVNLGCKLDLKTIALRARNAEYNPKRFAAVIMRIREPRTTALIFSSGKMVCTGAKSEEQSRLAARKYARVVQKLGFPAKFLDFKIQNMVGSCDVKFPIRLEGLVLTHQQFSSYEPELFPGLIYRMIKPRIVLLIFVSGKVVLTGAKVRAEIYEAFENIYPILKGFRKTT'
 
 TBP_ar = pro.pro_array(TBP)
-TBP_ar = tensor(TBP_ar, dtype=object)
-
-pro.filter(TBP_ar)
+test = pro.filter(TBP_ar)
 
 pro.domain_index(TBP_ar, 158, 337)
+
+revmod(33) 
+
+
 
 Protein_functions = ['chapp', 'kinase', 'phosphtase', 'receptor', 'ligand', 'transporter', 'polymerase', 'protease', 'DNA_repair', 'TF']
 Enzyme = ['generator', 'slicer', 'processor']
 TF = ['core', 'primary', 'secondary', 'tertiary']  #these ranks are somewhat arbitrarily decided depending on need 
 
 
+#string combiner for especially large strings 
+
+def comb_strings(array, indices, target_length):
+    concatenated_strings = []
+    current_string = ""
+    
+    # Decode the byte strings in the 'seq' field
+    selected_strings = [str(array[i]['seq'], 'utf-8') for i in indices if i < len(array)]  # Ensure index is valid
+    
+    for string in selected_strings:
+        current_string += string
+        
+        # When the length of the current concatenated string reaches or exceeds the target length
+        if len(current_string) >= target_length:
+            # If the string is longer than required, truncate it to the target length
+            concatenated_strings.append(current_string[:target_length])
+            current_string = current_string[target_length:]  # Remaining part will be used for next iteration
+    
+    # If there's a remaining part in the current_string, it's discarded since it's incomplete
+    return concatenated_strings
+
+
+
 class Protein:
    
     def __init__(self, units_aa, protien):
-        self.parr = pro_array(units_aa)  #create raw array of protein using beta and alpha helicies 
+        self.parr = pro.pro_array(units_aa)  #create raw array of protein using beta and alpha helicies 
         self.states = Tstates[f'{protien}'] #find the protien key in T states for implemented protiens 
+        self.canon = []
         if self.states:
             pass
         else: 
             return NotImplemented 
         
-    def fold(self):Mn'h[ig]
-
-        if self.states[0]['T0'][0]: #check if zeroth variable is True 
-
-            canon_arr =  tensor([[].[].[]]) #initalize x,y,z coordinates (shape 1,1, 3 )
-
-            for aaseq, idx in pro.filter(self.parr): #first iterate over array tuple values 
-
-                for struct, condition in enumerate(p åﬂ3.states[0]['T9'][1]['0T0']): #then iterate over canon state key 
-
-                    for ui, rot in condition: #and finally iterate through the list values for each key 
-                        range = list(ui):
-                        domain_str = ''
-                        domain_item = []
-                        if idx in range and 'c' in rot: #zy plane, zcos, ysin 
-                            domain_str += ''.join(aaseq)
-                            deg = int(rot.split('c')[-1]) 
-                            
-                        r = len(domain_str)
-
-                        elif  idx in range and '/' in rot: #xy plane, xcos, ysin 
-                            pass
-                        elif idx in range '_' in rot: #xz plane, xcos, zsin 
-                            pass
-
-
-
-        else: 
-            return 'This protien is not ready for folding '
-
+#Later, this may implement actual physics by making each string item an object with different attributes that are 
+#reflected through folding, turnining in that case would be calculated based on molecular interactions of sequences, too much work rn. 
+    def fold(self):
+        
+        # Initialize a list to hold x, y, z coordinates
+        canon_arr = [[], [], []]  # Holds the x, y, z coordinates
+        Surface_arrays = [] #list of generated surfaces that contain the string sequences, seperate from the array 
+        self.filtered = pro.filter(self.parr)
+        # Check if the zeroth variable in states is True
+        if self.states[0]['T0'][0]:
+            # Iterate over array tuple values
+            for aaseq, idx in pro.filter(self.parr):
+                # Iterate over canon state key
+                for struct, condition in enumerate(self.states[0]['T0'][1]['0T0']):
+                    # Iterate through the list values for each key
+                    for ui, rot in condition:
+                        if '#' not in rot: #if the dictionary structure is simply a line (beta, helix, or string sequence) 
             
-for aaseq, idx in pro.filter(TBP_ar):
-    print(idx) 
+                            ui_range = list(ui)  # Convert `ui` to a list
+                            matches = [seq.decode('utf-8') for seq, idx in self.parray if idx in ui_range] #get matching indecies from array in order 
+                            single_unit= ''.join(matches)  # Combine all `aaseq` values in the range
+                            uL = len(single_unit) 
+                        
+                            if '_' in rot and '+' not in rot: #if only a single rotation along xy 
+                                deg = rot.split('_')[-1] 
+                                vec = pro.rot_imag(uL, deg) #rotate scaled length 
+                                if not canon_arr: #if this is empty 
+                                    canon_arr[0, 0].append((single_unit,vec[0])) #x is real 
+                                    canon_arr[0, 1].append((single_unit,vec[1]))  #y is imaginary 
+                                    canon_arr[0, 2].append((single_unit,0)) #z is zero (k axis rotation) 
+                                else: #if values exist 
+                                    canon_arr[0, 0].append((single_unit, vec[0]+canon_arr[0, 0, -1])) 
+                                    anon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
+                                    anon_arr[0, 1].append((single_unit, canon_arr[0, 0, -1])) #add previous vector values 
+                        
+                            if '/' in rot and '+' not in rot: #along j axis or xz plane 
+                                deg = rot.split('/')[-1] 
+                                vec = pro.rot_imag(uL, deg) 
+                                if not canon_arr: #if this is empty 
+                                    canon_arr[0, 0].append((single_unit,vec[0])) #x is real 
+                                    canon_arr[0, 2].append((single_unit,vec[1])) #z is imaginary 
+                                    canon_arr[0, 1].append((single_unit,0)) #y is zero 
+                                else: #if values exist 
+                                    canon_arr[0, 0].append((single_unit, vec[0]+canon_arr[0, 0, -1]))  
+                                    anon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
+                                    anon_arr[0, 1].append((single_unit, canon_arr[0, 0, -1]))
+                        
+                            if 'c' in rot and '+' not in rot: #along the i axis or yz plane 
+                                deg = rot.split('_')[-1] 
+                                vec = pro.rot_imag(uL, deg) #rotate scaled length 
+                                if not canon_arr: #if this is empty 
+                                    canon_arr[0, 1].append((single_unit,vec[0])) #y is real 
+                                    canon_arr[0, 2].append((single_unit,vec[1])) #z is imaginary 
+                                    canon_arr[0, 0].append((single_unit,0)) #x is zero 
+                                else: #if values exist 
+                                    canon_arr[0, 1].append((single_unit, vec[0]+canon_arr[0, 0, -1])) 
+                                    anon_arr[0, 2].append((single_unit, vec[1]+canon_arr[0, 1, -1])) 
+                                    anon_arr[0, 0].append((single_unit, canon_arr[0, 0, -1])) 
+
+                            elif '+' in rot: #if we have a string seperated by + signs meaning multiple rotations 
+                                rotations = rot.split('+') #create a list of possible rotations 
+                                plane = ''
+                                if '_' in rotations[0]:
+                                    deg = int(rotations[0],split('_')[-1])
+                                    vec = pro.rot_imag(uL, deg)
+                                    wi = [(vec[0], vec[1], 0)] #set xy values
+                                if '/' in rotations[0]:
+                                    deg = rotations[0],split('/')[-1]
+                                    vec = pro.rot_imag(uL, deg)
+                                    #the result is always tuple of 2 indecies 0 and 1  
+                                    wi = [(vec[0], 0, vec[1])] #set xz values
+                                if 'c' in rotations[0]:
+                                    deg = rotations[0],split('c')[-1]
+                                    vec = pro.rot_imag(uL, deg)
+                                    wi = [(0, vec[0], vec[1])] #set zy values
+                                #first generate the scalar components and assign appropriately, then call the function 
+                            
+                                wf = [] #create list to keep track of rotations and rotate previous item for each time 
+                                for rots in rotations[1:]: #all items except the first 
+                                    if '_' in rot and wf: #if the list is empty, then use the inital w list 
+                                        deg = int(rot.split('_')[-1])
+                                        w = pro.rot_quart('xy', n=deg, w= wi)
+                                        wf.append((w.x, w.y, w.z)) #extract quarternion components into list, w is always zero so discard  
+                                
+                                    elif 'c' in rot and not wf:  #if not, then use the last element in the list 
+                                            deg = int(rot.split('_')[-1])
+                                            w = pro.rot_quart('yz', n=deg, w=wf[-1])
+                                            wf.append((w.x, w.y, w.z))
+                                
+                                    elif '/' in rot and wf:
+                                        deg = int(rot.split('/')[-1])
+                                        w = pro.rot_quart('xz', n=deg, w= wi)
+                                        wf.append((w.x, w.y, w.z)) #extract quarternion components into list, w is always zero so discard  
+                                
+                                    elif '_' in rot and not wf:
+                                        deg = int(rot.split('_')[-1])
+                                        w = pro.rot_quart('xy', n=deg, w=wf[-1])
+                                        wf.append((w.x, w.y, w.z))
+                                
+                                    elif '/' in rot and wf:
+                                        deg = int(rot.split('_')[-1])
+                                        w = pro.rot_quart('xz', n=deg, w= wi)
+                                        wf.append((w.x, w.y, w.z)) #extract quarternion components into list, w is always zero so discard  
+                                
+                                    elif '/' in rot and not wf:
+                                        deg = int(rot.split('_')[-1])
+                                        w = pro.rot_quart('xy', n=deg, w=wf[-1]) 
+                                        wf.append((w.x, w.y, w.z))
+                                #after rotation, add the final point components to the previous vector if it exists 
+                                final_p = wf[-1]
+                                if not canon_arr: #if this is empty i.e this is the first position 
+                                    canon_arr[0, 0].append((single_unit, final_p[0])) 
+                                    canon_arr[0, 1].append((single_unit, final_p[1])) 
+                                    canon_arr[0, 2].append((single_unit, final_p[2])) 
+                                else: #use the previous coordinates along the array 
+                                    canon_arr[0, 0].append((single_unit, final_p[0]+canon_arr[0, 0, -1])) 
+                                    canon_arr[0, 1].append((single_unit, final_p[1]+canon_arr[0, 1, -1])) 
+                                    canon_arr[0, 2].append((single_unit, final_p[2]+canon_arr[0, 2, -1])) 
+                                #with this then we have taken care of rotating any line any number of times along a different plane each time. 
+                        elif '#' in rot:  
+                            Sarr_x = []
+                            Sarr_y = []
+                            Sarr_z = []
+                            #initalize vertical and horizontal scalars based on value prioir to #      
+                            ul = rot.split('#')[0]
+                            uL = int(ul)             
+                            ui_range = list(ui)  
+                            units = comb_strings(self.filtered, ui_range, uL) #get a string list of fixed string length 
+                            uN = len(units) #the strings length is defined as the vertical component 
+                            Sten = tensor(units, dtype=str)
+                            Srep = Sten.reshape((uN, uL)) #string representation of the surface 
+                            Surface_arrays.append(Srep) #add to list of surfaces 
+                            def_str = 'S' + f'{len(Surface_arrays)}' #defines a surface iteration 
+
+                            if '!' in rot: #if an exclamation point is in the string, this means the intalized direction is CW 
+                                direction = 'CW'
+                                rot.strip('!') #remove exclamation mark to avoid later splitting errors as this occurs right after # 
+                            else:
+                                direction = 'CC'
+                            if '+' not in rot: #if this is only a single plane rotation of a surface 
+                                rotation = rot.split('#')[1:] #any item after the length index (0) 
+                                p_x = 0 
+                                p_y = 0 
+                                p_z = 0 
+                                if '_' in rot: #in the xy plane 
+                                    #surface dimensions are ultimately due to the scalar, so the total area is unchanged 
+                                    deg = int(rot.split('_')[-1])
+                                    #generate 3 points using the 2 scalars  
+                                    S = pro.rot_imag(s1=uN, s2=uL, n=deg, dir=direction)
+                                    if not canon_arr: 
+                                        for tup in S: 
+                                            p_x += tup[0] 
+                                            p_y += tup[1]
+                                            Sarr_x.append((def_str, p_x))
+                                            Sarr_y.append((def_str, p_y)) #add defined components to array 
+                                        for i in range(len(S)): #this is defined as 4 now  
+                                            Sarr_z.append((def_str,0)) #add 4 zeros for each point 
+                                        Sarr_x.append((def_str, 0))
+                                        Sarr_y.append((def_str, 0)) #add the last 2 origin points to the x and y coordinate arrays 
+                                        canon_arr[0, 0].append(Sarr_x)
+                                        canon_arr[0, 1].append(Sarr_y)
+                                        canon_arr[0, 2].append(Sarr_z)
+                                    elif canon_arr: 
+                                        #get the components from the last vector 
+                                        p_x = canon_arr[0,0,-1]
+                                        p_y = canon_arr[0,1,-1]
+                                        p_z = canon_arr[0,2,-1]
+                                        s4 = (p_x, p_y, p_z)
+                                        #sum the vectors in order from S0 to S2 in order 
+                                        s1 = tuple(sum(x) for x in zip(S[0], s4))
+                                        s2 = tuple(sum(x) for x in zip(S[1], s1))
+                                        s3 = tuple(sum(x) for x in zip(S[2], s2))
+                                        pts = [s1,s2,s3,s4] 
+                                        for idx, tup in enumerate(pts):
+                                            for x,y,z in tup:
+                                        #full the surface array then add it to the the canon array 
+                                                Sarr_x.append((def_str, x))
+                                                Sarr_y.append((def_str, y))
+                                                Sarr_z.append((def_str, z))
+                                        canon_arr[0, 0].append(Sarr_x)
+                                        canon_arr[0, 1].append(Sarr_y)
+                                        canon_arr[0, 2].append(Sarr_z)
+
+                                elif '/' in rot: #in the xz plane  
+                                    deg = int(rot.split('/')[-1])  
+                                    S = pro.rot_imag(s1=uN, s2=uL, n=deg, dir=direction)
+                                    if not canon_arr: 
+                                        for tup in S: 
+                                            p_x += tup[0] 
+                                            p_z += tup[1]
+                                            Sarr_x.append((def_str, p_x))
+                                            Sarr_z.append((def_str, p_z)) 
+                                        for i in range(len(S)):  
+                                            Sarr_y.append((def_str,0)) 
+                                        Sarr_x.append((def_str, 0))
+                                        Sarr_z.append((def_str, 0)) 
+                                        canon_arr[0, 0].append(Sarr_x)
+                                        canon_arr[0, 1].append(Sarr_y)
+                                        canon_arr[0, 2].append(Sarr_z)
+                                    else:  
+                                        p_x = canon_arr[0,0,-1]
+                                        p_y = canon_arr[0,1,-1]
+                                        p_z = canon_arr[0,2,-1]
+                                        s4 = (p_x, p_y, p_z) 
+                                        s1 = tuple(sum(x) for x in zip(S[0], s4))
+                                        s2 = tuple(sum(x) for x in zip(S[1], s1))
+                                        s3 = tuple(sum(x) for x in zip(S[2], s2))
+                                        pts = [s1,s2,s3,s4] 
+                                        for idx, tup in enumerate(pts):
+                                            for x,y,z in tup:
+                                                Sarr_x.append((def_str, x))
+                                                Sarr_y.append((def_str, y))
+                                                Sarr_z.append((def_str, z))
+                                        canon_arr[0, 0].append(Sarr_x)
+                                        canon_arr[0, 1].append(Sarr_y)
+                                        canon_arr[0, 2].append(Sarr_z)
+
+                                elif 'c' in rot: #in the yz plane 
+                                    deg = int(rot.split('c')[-1])
+                                    #generate 3 points using the 2 scalars  
+                                    S = pro.rot_imag(s1=uN, s2=uL, n=deg, dir=direction)
+                                    if not canon_arr: 
+                                        for tup in S: 
+                                            p_y += tup[0] 
+                                            p_z += tup[1]
+                                            Sarr_y.append((def_str, p_x))
+                                            Sarr_z.append((def_str, p_y)) #add defined components to array 
+                                        for i in range(len(S)): #this is defined as 4 now  
+                                            Sarr_x.append((def_str,0)) #add 4 zeros for each point 
+                                        Sarr_y.append((def_str, 0))
+                                        Sarr_z.append((def_str, 0)) #add the last 2 origin points to the x and y coordinate arrays 
+                                        canon_arr[0, 0].append(Sarr_x)
+                                        canon_arr[0, 1].append(Sarr_y)
+                                        canon_arr[0, 2].append(Sarr_z)
+                                    else: 
+                                        #get the components from the last vector 
+                                        p_x = canon_arr[0,0,-1]
+                                        p_y = canon_arr[0,1,-1]
+                                        p_z = canon_arr[0,2,-1]
+                                        s4 = (p_x, p_y, p_z)
+                                        #sum the vectors in order from S0 to S2 in order 
+                                        s1 = tuple(sum(x) for x in zip(S[0], s4))
+                                        s2 = tuple(sum(x) for x in zip(S[1], s1))
+                                        s3 = tuple(sum(x) for x in zip(S[2], s2))
+                                        pts = [s1,s2,s3,s4] 
+                                        for idx, tup in enumerate(pts):
+                                            for x,y,z in tup:
+                                                Sarr_x.append((def_str, x))
+                                                Sarr_y.append((def_str, y))
+                                                Sarr_z.append((def_str, z))
+                                        canon_arr[0, 0].append(Sarr_x)
+                                        canon_arr[0, 1].append(Sarr_y)
+                                        canon_arr[0, 2].append(Sarr_z)
+
+                            #The only difference is that we now have 3 points to pass instead of 1 
+                            elif '+' in rot: #apply quarternion rotation similar to the single lines 
+                                rotations = rot.split('+') #create a list of possible rotations 
+                                plane = ''
+                                if '_' in rotations[0]:  #alomg the xy plane  
+                                    deg = int(rotations[0].split('_')[-1]) 
+                                    vecs = pro.rot_imag(uL, uN, n = deg, dir=direction) 
+                                    v1 = vecs[0]
+                                    v2 = vecs[1]
+                                    v3 = vecs[2]
+                                    wi = [(v1[0], v1[1], 0),(v2[0],v2[1],0),(v3[0],v3[1],0)] #set xy values
+                                
+                                if '/' in rotations[0]: #along the xz plane 
+                                    deg = rotations[0],split('/')[-1]
+                                    vecs = pro.rot_imag(uL, uN, n = deg, dir=direction) 
+                                    v1 = vecs[0]
+                                    v2 = vecs[1]
+                                    v3 = vecs[2]
+                                    wi = [(v1[0], 0, v1[1]),(v2[0],0,v2[1]),(v3[0],0,v3[1])]
+                                    #the result is always tuple of 2 indecies 0 and 1  
+                                    wi = [(v1[0],v1, 0)]
+                                if 'c' in rotations[0]: #along the yz plane 
+                                    deg = rotations[0],split('c')[-1]
+                                    vecs = pro.rot_imag(uL, uN, n = deg, dir=direction) 
+                                    v1 = vecs[0]
+                                    v2 = vecs[1]
+                                    v3 = vecs[2]
+                                    wi = [(0, v1[0], v1[1]),(0,v2[0],v2[1]),(0,v3[0],v3[1])] 
+                                
+                                #store each components rotation in a seperate list 
+                                wf1 = []
+                                wf2 = []
+                                wf3 = []
+                                #iterate over the possible rotations of the surface and apply each 
+                                for rots in rotations: 
+                                    #if all lists are empty, add components based on the rotation by summing the rotated components with each other 
+                                    if '_' in rots and not wf1 and not wf2 and not wf3:  
+                                        deg = rots.split('_')[-1]
+                                        w1 = pro.rot_quart('xy', n=deg, w=wi[0])
+                                        w2 = pro.rot_quart('xy', n=deg, w=wi[1])
+                                        w3 = pro.rot_quart('xy', n=deg, w=wi[2])
+                                        wf1.append(w1)
+                                        wf2.append(tuple(sum(x) for x in zip(w1,w2)))
+                                        wf3.append(tuple(sum(x) for x in zuo(w2, w3)))
+                                    if '/' in rots and not wf and not wf2 and not wf3:
+                                        deg = rots.split('_')[-1]
+                                        w1 = pro.rot_quart('xz', n=deg, w=wi[0])
+                                        w2 = pro.rot_quart('xz', n=deg, w=wi[1])
+                                        w3 = pro.rot_quart('xz', n=deg, w=wi[2])
+                                        wf1.append(w1)
+                                        wf2.append(tuple(sum(x) for x in zip(w1,w2)))
+                                        wf3.append(tuple(sum(x) for x in zuo(w2, w3)))
+                                    if 'c' in rots and not wf and not wf2 and not wf3: 
+                                        deg = rots.split('_')[-1]
+                                        w1 = pro.rot_quart('yz', n=deg, w=wi[0])
+                                        w2 = pro.rot_quart('yz', n=deg, w=wi[1])
+                                        w3 = pro.rot_quart('yz', n=deg, w=wi[2])
+                                        wf1.append(w1)
+                                        wf2.append(tuple(sum(x) for x in zip(w1,w2)))
+                                        wf3.append(tuple(sum(x) for x in zip(w2, w3)))
+                                    #if the lists are not empty, perform rotation on the last rotated components iteratively 
+                                    elif '_' in rots and wf1 and wf2 and wf3: 
+                                        w1 = pro.rot_quart('xy', n=deg, w=wf1[-1])
+                                        w2 = pro.rot_quart('xy', n=deg, w=wf2[-1])
+                                        w3 = pro.rot_quart('xy', n=deg, w=wf3[-1])
+                                        wf1.append(w1)
+                                        wf2.append(tuple(sum(x) for x in zip(w1,w2)))
+                                        wf3.append(tuple(sum(x) for x in zip(w2, w3)))
+                                    elif '/' in rots and wf1 and wf2 and wf3: 
+                                        w1 = pro.rot_quart('xz', n=deg, w=wf1[-1])
+                                        w2 = pro.rot_quart('xz', n=deg, w=wf2[-1])
+                                        w3 = pro.rot_quart('xz', n=deg, w=wf3[-1])
+                                        wf1.append(w1)
+                                        wf2.append(tuple(sum(x) for x in zip(w1,w2)))
+                                        wf3.append(tuple(sum(x) for x in zip(w2, w3)))
+                                    elif 'c' in rots and wf1 and wf2 and wf3: 
+                                        w1 = pro.rot_quart('yz', n=deg, w=wf1[-1])
+                                        w2 = pro.rot_quart('yz', n=deg, w=wf2[-1])
+                                        w3 = pro.rot_quart('yz', n=deg, w=wf3[-1])
+                                        wf1.append(w1)
+                                        wf2.append(tuple(sum(x) for x in zip(w1,w2)))
+                                        wf3.append(tuple(sum(x) for x in zip(w2, w3)))
+                                #extract the rotated tuple values for the surfac points after filling wf1,wf2  and wf3 
+                                s1 = wf1[-1]
+                                s2 = wf2[-1]
+                                s3 = wf3[-1]
+                                s4 = (0,0,0)
+                                #add the previous vector or the origin to every tupule to connect the structure 
+                                if not canon_arr:
+                                    pass
+                                elif canon_arr: 
+                                    s4 = (canon_arr[0,0,-1],canon_arr[0,1,-1],canon_arr[0,2,-1])
+                                    pts = [s1,s2,s3,s4]
+                                for s in pts[:3]: #exclude the last tuple as to not add it to itself  
+                                    for x,y,z in s: 
+                                        x += s4[0]
+                                        y += s4[1]
+                                        z += s4[2]
+                                        Sarr_x.append((def_str,x))
+                                        Sarr_y.append((def_str, y))                         
+                                        Sarr_z.append((def_str, z))
+                                canon_arr[0,0].append(Sarr_x)
+                                canon_arr[0,1].append(Sarr_y)
+                                canon_arr[0,2].append(Sarr_z)
+        
+        #set the protiens canon array and surfaces representation 
+        self.T0 = canon_arr 
+        self.surfaces = Surface_arrays 
+        return self.T0, self.surfaces                      
+
+test1 = Protein(TBP, 'TBP')
+test2 = test1.fold
+test2
+
+
+                            
+
+
 
 class Psubunit(Protein):
     pass
