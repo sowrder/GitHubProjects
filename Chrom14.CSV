@@ -1,0 +1,2188 @@
+"NCBI RefSeq Annotation GCF_000001405.40-RS_2024_08"
+Accession,Start,Stop,Gene symbol,Strand,NCBI Gene ID,Name
+NC_000014.9,16024658,16025641,DUX4L48,plus,107105251,double homeobox 4 like 48 (pseudogene)
+NC_000014.9,16028061,16028716,PCMTD1P6,plus,107105255,protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 1 pseudogene 6
+NC_000014.9,16029944,16030886,DUX4L49,plus,107105252,double homeobox 4 like 49 (pseudogene)
+NC_000014.9,16047787,16049736,CDC27P6,minus,649620,cell division cycle 27 pseudogene 6
+NC_000014.9,16051029,16056779,LOC107987204,minus,107987204,uncharacterized LOC107987204
+NC_000014.9,16054578,16056431,LOC110467536,plus,110467536,"RNA, 18S ribosomal pseudogene"
+NC_000014.9,16057472,16057622,RNA5-8SP,plus,110467518,"RNA, 5.8S ribosomal pseudogene"
+NC_000014.9,18343038,18343144,RNU6-458P,plus,106481324,"RNA, U6 small nuclear 458, pseudogene"
+NC_000014.9,18418715,18419246,BNIP3P6,plus,100129777,BCL2 interacting protein 3 pseudogene 6
+NC_000014.9,18601117,18602097,OR11H12,plus,440153,olfactory receptor family 11 subfamily H member 12
+NC_000014.9,18622486,18626968,ARHGAP42P5,minus,100128514,ARHGAP42 pseudogene 5
+NC_000014.9,18630536,18633634,LINC02297,minus,642426,long intergenic non-protein coding RNA 2297
+NC_000014.9,18631388,18648750,LOC100420172,plus,100420172,fatty acyl-CoA reductase 2 pseudogene
+NC_000014.9,18634118,18637315,USP10P2,minus,780778,USP10 pseudogene 2
+NC_000014.9,18645045,18646221,SSBP3P4,minus,100132698,SSBP3 pseudogene 4
+NC_000014.9,18645991,18646505,LOC100422529,plus,100422529,pleckstrin homology domain containing B2 pseudogene
+NC_000014.9,18692011,18692465,RPL22P20,plus,100128664,ribosomal protein L22 pseudogene 20
+NC_000014.9,18698022,18700120,NEK2P3,minus,100158258,NEK2 pseudogene 3
+NC_000014.9,18709490,18712643,NF1P10,minus,106480348,neurofibromin 1 pseudogene 10
+NC_000014.9,18888467,18890566,NEK2P1,minus,326302,NEK2 pseudogene 1
+NC_000014.9,18901326,18909674,NF1P7,minus,100158257,neurofibromin 1 pseudogene 7
+NC_000014.9,18912656,18916955,MED15P6,minus,100996438,mediator complex subunit 15 pseudogene 6
+NC_000014.9,18967434,19003752,POTEM,plus,641455,POTE ankyrin domain family member M
+NC_000014.9,18976748,18980793,LOC100508046,minus,100508046,uncharacterized LOC100508046
+NC_000014.9,18978847,18978953,RNU6-1239P,plus,106481571,"RNA, U6 small nuclear 1239, pseudogene"
+NC_000014.9,18998860,19000587,ACTBP10,plus,446207,ACTB pseudogene 10
+NC_000014.9,19026521,19028189,GRAMD4P4,minus,106480248,GRAM domain containing 4 pseudogene 4
+NC_000014.9,19062377,19107497,DUXAP9,plus,503638,double homeobox A pseudogene 9
+NC_000014.9,19083134,19093337,BMS1P18,minus,414763,BMS1 pseudogene 18
+NC_000014.9,19126530,19128974,LNCRNA-ATB,plus,114004396,lncRNA activated by TGF-beta
+NC_000014.9,19130635,19154333,NBEAP5,plus,100418903,neurobeachin pseudogene 5
+NC_000014.9,19131345,19132957,LOC727980,minus,727980,translocase of outer mitochondrial membrane 40 homolog (yeast) pseudogene
+NC_000014.9,19160556,19161071,LOC100420095,plus,100420095,uncharacterized LOC100420095
+NC_000014.9,19180291,19181271,OR11H13P,plus,440159,olfactory receptor family 11 subfamily H member 13 pseudogene
+NC_000014.9,19199763,19200279,LOC100421684,minus,100421684,tetratricopeptide repeat domain 34 pseudogene
+NC_000014.9,19228725,19229503,CDRT15P13,minus,642669,CDRT15 pseudogene 13
+NC_000014.9,19238523,19239041,LOC100420097,minus,100420097,uncharacterized LOC100420097
+NC_000014.9,19245664,19269381,NBEAP6,minus,100418904,neurobeachin pseudogene 6
+NC_000014.9,19267048,19268660,TOMM40P1,plus,642661,TOMM40 pseudogene 1
+NC_000014.9,19268803,19384288,LINC01297-DUXAP10-NBEAP6,minus,115801414,LINC01297-DUXAP10-NBEAP6 readthrough
+NC_000014.9,19294785,19337674,DUXAP10,minus,503639,double homeobox A pseudogene 10
+NC_000014.9,19306690,19316914,BMS1P17,plus,101101776,BMS1 pseudogene 17
+NC_000014.9,19344329,19384288,LINC01297,minus,115694671,long intergenic non-protein coding RNA 1297
+NC_000014.9,19371817,19373496,GRAMD4P3,plus,100631248,GRAM domain containing 4 pseudogene 3
+NC_000014.9,19402486,19434341,POTEG,minus,404785,POTE ankyrin domain family member G
+NC_000014.9,19421026,19424584,LOC101929572,plus,101929572,uncharacterized LOC101929572
+NC_000014.9,19422815,19422921,RNU6-1268P,minus,106480654,"RNA, U6 small nuclear 1268, pseudogene"
+NC_000014.9,19455675,19481876,LOC124903277,minus,124903277,uncharacterized LOC124903277
+NC_000014.9,19485315,19489687,MED15P1,plus,326615,mediator complex subunit 15 pseudogene 1
+NC_000014.9,19492279,19501728,NF1P4,plus,100419029,neurofibromin 1 pseudogene 4
+NC_000014.9,19612189,19619479,NF1P11,plus,106481736,neurofibromin 1 pseudogene 11
+NC_000014.9,19628891,19630898,LOC107984133,plus,107984133,serine/threonine-protein kinase Nek2-like
+NC_000014.9,19666308,19683669,LOC100420171,minus,100420171,fatty acyl-CoA reductase 2 pseudogene
+NC_000014.9,19668545,19669052,LOC100422528,minus,100422528,pleckstrin homology domain containing B2 pseudogene
+NC_000014.9,19668829,19670000,SSBP3P5,plus,400174,SSBP3 pseudogene 5
+NC_000014.9,19677750,19680942,USP10P1,plus,780779,USP10 pseudogene 1
+NC_000014.9,19688100,19691396,ARHGAP42P4,plus,254398,ARHGAP42 pseudogene 4
+NC_000014.9,19712936,19713883,OR11H2,minus,79334,olfactory receptor family 11 subfamily H member 2
+NC_000014.9,19733345,19734292,OR11K2P,minus,401742,olfactory receptor family 11 subfamily K member 2 pseudogene
+NC_000014.9,19743571,19752334,OR4Q3,plus,441669,olfactory receptor family 4 subfamily Q member 3
+NC_000014.9,19759910,19760788,OR4H12P,plus,161271,olfactory receptor family 4 subfamily H member 12 pseudogene
+NC_000014.9,19763907,19764007,LOC124903431,minus,124903431,small nucleolar RNA U13
+NC_000014.9,19773504,19783696,OR4M1,plus,441670,olfactory receptor family 4 subfamily M member 1
+NC_000014.9,19796254,19797418,OR4N1P,plus,79322,olfactory receptor family 4 subfamily N member 1 pseudogene
+NC_000014.9,19803770,19830253,OR4N2,plus,390429,olfactory receptor family 4 subfamily N member 2
+NC_000014.9,19847267,19848329,OR4K6P,plus,79314,olfactory receptor family 4 subfamily K member 6 pseudogene
+NC_000014.9,19868197,19869173,OR4K3,minus,283617,olfactory receptor family 4 subfamily K member 3 (gene/pseudogene)
+NC_000014.9,19875142,19883932,OR4K2,plus,390431,olfactory receptor family 4 subfamily K member 2
+NC_000014.9,19902461,19948734,LOC124903278,minus,124903278,uncharacterized LOC124903278
+NC_000014.9,19905712,19906644,OR4K4P,plus,79318,olfactory receptor family 4 subfamily K member 4 pseudogene
+NC_000014.9,19907999,19908645,LOC100421751,minus,100421751,ATPase Na+/K+ transporting subunit beta 3 pseudogene
+NC_000014.9,19920263,19936757,OR4K1,plus,79544,olfactory receptor family 4 subfamily K member 1
+NC_000014.9,19920607,19921578,OR4K5,plus,79317,olfactory receptor family 4 subfamily K member 5
+NC_000014.9,19956547,19957554,OR4K16P,plus,81126,olfactory receptor family 4 subfamily K member 16 pseudogene
+NC_000014.9,19975591,19976565,OR4K15,plus,81127,olfactory receptor family 4 subfamily K member 15
+NC_000014.9,20002163,20003105,OR4Q2,plus,390432,olfactory receptor family 4 subfamily Q member 2 (gene/pseudogene)
+NC_000014.9,20014143,20019307,OR4K14,minus,122740,olfactory receptor family 4 subfamily K member 14
+NC_000014.9,20029399,20036038,OR4K13,minus,390433,olfactory receptor family 4 subfamily K member 13
+NC_000014.9,20043916,20044855,OR4U1P,plus,390434,olfactory receptor family 4 subfamily U member 1 pseudogene
+NC_000014.9,20060045,20060983,OR4L1,plus,122742,olfactory receptor family 4 subfamily L member 1
+NC_000014.9,20090130,20090227,RNA5SP380,plus,100873636,"RNA, 5S ribosomal pseudogene 380"
+NC_000014.9,20093356,20094276,OR4T1P,plus,390435,olfactory receptor family 4 subfamily T member 1 pseudogene
+NC_000014.9,20110739,20122199,OR4K17,plus,390436,olfactory receptor family 4 subfamily K member 17
+NC_000014.9,20138820,20145471,OR4N5,plus,390437,olfactory receptor family 4 subfamily N member 5
+NC_000014.9,20149235,20149872,PSMB7P1,plus,100422289,PSMB7 pseudogene 1
+NC_000014.9,20173632,20173813,GTF2IP22,minus,106480347,general transcription factor IIi pseudogene 22
+NC_000014.9,20179127,20180135,OR11G1P,plus,390438,olfactory receptor family 11 subfamily G member 1 pseudogene
+NC_000014.9,20183925,20184298,OR11P1P,minus,282795,olfactory receptor family 11 subfamily P member 1 pseudogene
+NC_000014.9,20190896,20201075,OR11G2,plus,390439,olfactory receptor family 11 subfamily G member 2
+NC_000014.9,20209298,20210196,OR11H5P,plus,390440,olfactory receptor family 11 subfamily H member 5 pseudogene
+NC_000014.9,20223710,20224702,OR11H6,plus,122748,olfactory receptor family 11 subfamily H member 6
+NC_000014.9,20228981,20230749,OR11H7,plus,390441,olfactory receptor family 11 subfamily H member 7 (gene/pseudogene)
+NC_000014.9,20239286,20244349,OR11H4,plus,390442,olfactory receptor family 11 subfamily H member 4
+NC_000014.9,20256385,20268895,LOC124903279,minus,124903279,uncharacterized LOC124903279
+NC_000014.9,20286227,20305951,TTC5,minus,91875,tetratricopeptide repeat domain 5
+NC_000014.9,20311370,20333279,CCNB1IP1,minus,57820,cyclin B1 interacting protein 1
+NC_000014.9,20323179,20323326,SNORA79B,minus,109616976,"small nucleolar RNA, H/ACA box 79B"
+NC_000014.9,20326441,20326539,SNORD126,minus,100113391,"small nucleolar RNA, C/D box 126"
+NC_000014.9,20343071,20343411,RPPH1,minus,85495,ribonuclease P RNA component H1
+NC_000014.9,20343635,20357904,PARP2,plus,10038,poly(ADP-ribose) polymerase 2
+NC_000014.9,20365667,20413501,TEP1,minus,7011,telomerase associated protein 1
+NC_000014.9,20414987,20415098,RNA5SP382,plus,100873637,"RNA, 5S ribosomal pseudogene 382"
+NC_000014.9,20425852,20436166,KLHL33,minus,123103,kelch like family member 33
+NC_000014.9,20438504,20439449,LOC100422510,plus,100422510,solute carrier family 12 member 3 pseudogene
+NC_000014.9,20446401,20454812,OSGEP,minus,55644,O-sialoglycoprotein endopeptidase
+NC_000014.9,20455226,20457767,APEX1,plus,328,apurinic/apyrimidinic endodeoxyribonuclease 1
+NC_000014.9,20457681,20461434,PIP4P1,minus,90809,"phosphatidylinositol-4,5-bisphosphate 4-phosphatase 1"
+NC_000014.9,20469406,20477089,PNP,plus,4860,purine nucleoside phosphorylase
+NC_000014.9,20504233,20513884,RNASE10,plus,338879,ribonuclease A family member 10 (inactive)
+NC_000014.9,20524089,20525407,PTCD2P1,minus,100131302,pentatricopeptide repeat domain 2 pseudogene 1
+NC_000014.9,20527937,20529025,SETP1,minus,100133314,SET pseudogene 1
+NC_000014.9,20556093,20561047,RNASE9,minus,390443,ribonuclease A family member 9 (inactive)
+NC_000014.9,20582892,20590257,RNASE11,minus,122651,ribonuclease A family member 11 (inactive)
+NC_000014.9,20588224,20607221,RNASE11-AS1,plus,254028,RNASE11 and RNASE12 antisense RNA 1
+NC_000014.9,20590073,20591376,RNASE12,minus,493901,ribonuclease A family member 12 (inactive)
+NC_000014.9,20609336,20609407,TRP-AGG2-5,minus,7217,tRNA-Pro (anticodon AGG) 2-5
+NC_000014.9,20609814,20610627,LOC124903280,plus,124903280,uncharacterized LOC124903280
+NC_000014.9,20610132,20610213,TRL-AAG2-3,plus,7207,tRNA-Leu (anticodon AAG) 2-3
+NC_000014.9,20613401,20613472,TRP-AGG2-6,minus,7218,tRNA-Pro (anticodon AGG) 2-6
+NC_000014.9,20613790,20613862,TRT-TGT3-1,minus,7237,tRNA-Thr (anticodon TGT) 3-1
+NC_000014.9,20616644,20616991,RPS26P9,minus,446209,ribosomal protein S26 pseudogene 9
+NC_000014.9,20625370,20625451,TRL-TAG2-1,plus,100189151,tRNA-Leu (anticodon TAG) 2-1
+NC_000014.9,20631160,20631232,TRT-TGT4-1,minus,100189419,tRNA-Thr (anticodon TGT) 4-1
+NC_000014.9,20633006,20633077,TRP-TGG1-1,plus,100189286,tRNA-Pro (anticodon TGG) 1-1
+NC_000014.9,20640696,20641691,OR6S1,minus,341799,olfactory receptor family 6 subfamily S member 1
+NC_000014.9,20653099,20653192,TRY-GTA5-3,minus,100189424,tRNA-Tyr (anticodon GTA) 5-3
+NC_000014.9,20653312,20662413,LOC124903281,plus,124903281,uncharacterized LOC124903281
+NC_000014.9,20657464,20657557,TRY-GTA4-1,minus,100189405,tRNA-Tyr (anticodon GTA) 4-1
+NC_000014.9,20659958,20660051,TRY-GTA7-1,minus,100009601,tRNA-Tyr (anticodon GTA) 7-1
+NC_000014.9,20663192,20663285,TRY-GTA5-4,minus,100009602,tRNA-Tyr (anticodon GTA) 5-4
+NC_000014.9,20677019,20677100,TRL-TAG4-1,minus,100189441,tRNA-Leu (anticodon TAG) 4-1
+NC_000014.9,20681690,20681762,TRT-TGT5-1,plus,100189263,tRNA-Thr (anticodon TGT) 5-1
+NC_000014.9,20683273,20683361,TRY-GTA5-5,plus,100189001,tRNA-Tyr (anticodon GTA) 5-5
+NC_000014.9,20684016,20684087,TRP-TGG3-2,plus,100189088,tRNA-Pro (anticodon TGG) 3-2
+NC_000014.9,20684177,20694186,ANG,plus,283,angiogenin
+NC_000014.9,20684560,20701216,RNASE4,plus,6038,ribonuclease A family member 4
+NC_000014.9,20693480,20706941,EGILA,minus,116435281,EGFR interacting lncRNA
+NC_000014.9,20709793,20715723,LOC124903282,minus,124903282,uncharacterized LOC124903282
+NC_000014.9,20720815,20723341,RANBP20P,minus,326627,RAN binding protein 20 pseudogene
+NC_000014.9,20725952,20800529,LOC107984671,minus,107984671,uncharacterized LOC107984671
+NC_000014.9,20734559,20735351,EDDM3DP,plus,100128220,"epididymal protein 3D, pseudogene"
+NC_000014.9,20735946,20748380,EDDM3A,plus,10876,epididymal protein 3A
+NC_000014.9,20768404,20770948,EDDM3B,plus,64184,epididymal protein 3B
+NC_000014.9,20781070,20782467,RNASE6,plus,6039,ribonuclease A family member 6
+NC_000014.9,20791448,20809901,LOC105370397,plus,105370397,uncharacterized LOC105370397
+NC_000014.9,20801228,20802844,RNASE1,minus,6035,"ribonuclease A family member 1, pancreatic"
+NC_000014.9,20870235,20936823,LOC100507513,minus,100507513,uncharacterized LOC100507513
+NC_000014.9,20891385,20892348,RNASE3,plus,6037,ribonuclease A family member 3
+NC_000014.9,20919341,20920176,RNASE2CP,plus,643332,"ribonuclease A family member 2C, pseudogene"
+NC_000014.9,20955487,20956436,RNASE2,plus,6036,ribonuclease A family member 2
+NC_000014.9,20963579,20963867,RN7SL189P,plus,106480973,"RNA, 7SL, cytoplasmic 189, pseudogene"
+NC_000014.9,20983089,20983565,LOC100130571,minus,100130571,coiled-coil domain containing 107 pseudogene
+NC_000014.9,20989980,20997035,METTL17,plus,64745,methyltransferase like 17
+NC_000014.9,20995837,20999163,LOC101929718,minus,101929718,uncharacterized LOC101929718
+NC_000014.9,20999293,21001871,SLC39A2,plus,29986,solute carrier family 39 member 2
+NC_000014.9,21016763,21070872,NDRG2,minus,57447,NDRG family member 2
+NC_000014.9,21023314,21023386,MIR6717,minus,102465428,microRNA 6717
+NC_000014.9,21024299,21036352,TPPP2,plus,122664,tubulin polymerization promoting protein family member 2
+NC_000014.9,21032818,21034807,RNASE13,minus,440163,ribonuclease A family member 13 (inactive)
+NC_000014.9,21042362,21044233,RNASE7,plus,84659,ribonuclease A family member 7
+NC_000014.9,21046397,21048695,LOC105370398,minus,105370398,uncharacterized LOC105370398
+NC_000014.9,21057822,21058455,RNASE8,plus,122665,ribonuclease A family member 8
+NC_000014.9,21061264,21090248,ARHGEF40,plus,55701,Rho guanine nucleotide exchange factor 40
+NC_000014.9,21090077,21104722,ZNF219,minus,51222,zinc finger protein 219
+NC_000014.9,21098836,21103724,TMEM253,plus,643382,transmembrane protein 253
+NC_000014.9,21110912,21113214,CKAP2P1,minus,100420763,cytoskeleton associated protein 2 pseudogene 1
+NC_000014.9,21113639,21113745,RNU6-252P,minus,106480564,"RNA, U6 small nuclear 252, pseudogene"
+NC_000014.9,21118348,21124925,LOC112268132,minus,112268132,histone demethylase UTY-like
+NC_000014.9,21135383,21135876,LOC105378175,minus,105378175,uncharacterized LOC105378175
+NC_000014.9,21154865,21156063,OR5AU1,minus,390445,olfactory receptor family 5 subfamily AU member 1
+NC_000014.9,21162422,21163807,SMARCE1P3,plus,401744,"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily e, member 1 pseudogene 3"
+NC_000014.9,21184341,21184960,LOC100129923,minus,100129923,myoneurin pseudogene
+NC_000014.9,21200079,21206900,LINC00641,minus,283624,long intergenic non-protein coding RNA 641
+NC_000014.9,21209147,21269442,HNRNPC,minus,3183,heterogeneous nuclear ribonucleoprotein C
+NC_000014.9,21280083,21351301,RPGRIP1,plus,57096,RPGR interacting protein 1
+NC_000014.9,21291239,21291583,MRPS17P6,plus,359759,mitochondrial ribosomal protein S17 pseudogene 6
+NC_000014.9,21351476,21384019,SUPT16H,minus,11198,"SPT16 homolog, facilitates chromatin remodeling subunit"
+NC_000014.9,21384273,21391806,LOC107984643,plus,107984643,uncharacterized LOC107984643
+NC_000014.9,21385199,21456123,CHD8,minus,57680,chromodomain helicase DNA binding protein 8
+NC_000014.9,21392151,21392253,SNORD9,minus,692053,"small nucleolar RNA, C/D box 9"
+NC_000014.9,21397293,21397401,SNORD8,minus,319103,"small nucleolar RNA, C/D box 8"
+NC_000014.9,21398888,21399227,UBA52P2,plus,7313,ubiquitin A-52 residue ribosomal protein fusion product 1 pseudogene 2
+NC_000014.9,21419600,21420407,EIF4EBP1P1,plus,326295,eukaryotic translation initiation factor 4E binding protein 1 pseudogene 1
+NC_000014.9,21429508,21429806,RN7SL650P,minus,106480523,"RNA, 7SL, cytoplasmic 650, pseudogene"
+NC_000014.9,21456397,21465870,LOC124903283,plus,124903283,uncharacterized LOC124903283
+NC_000014.9,21459020,21476959,RAB2B,minus,84932,"RAB2B, member RAS oncogene family"
+NC_000014.9,21477195,21499170,TOX4,plus,9878,TOX high mobility group box family member 4
+NC_000014.9,21498138,21511340,METTL3,minus,56339,"methyltransferase 3, N6-adenosine-methyltransferase complex catalytic subunit"
+NC_000014.9,21521080,21537121,SALL2,minus,6297,spalt like transcription factor 2
+NC_000014.9,21563757,21566331,RBBP4P5,plus,100288451,RBBP4 pseudogene 5
+NC_000014.9,21568520,21580076,OR10G3,minus,26533,olfactory receptor family 10 subfamily G member 3
+NC_000014.9,21585089,21586426,ACTR3P1,minus,100288580,ACTR3 pseudogene 1
+NC_000014.9,21601720,21602914,OR10G1P,minus,26540,olfactory receptor family 10 subfamily G member 1 pseudogene
+NC_000014.9,21611773,21612444,UBE2NP1,minus,100288613,ubiquitin conjugating enzyme E2 N pseudogene 1
+NC_000014.9,21621904,22552132,TRA,plus,6955,T cell receptor alpha locus
+NC_000014.9,21621904,21622567,TRAV1-1,plus,28693,T cell receptor alpha variable 1-1
+NC_000014.9,21633836,21634940,OR10G2,minus,26534,olfactory receptor family 10 subfamily G member 2
+NC_000014.9,21642973,21643586,TRAV1-2,plus,28692,T cell receptor alpha variable 1-2
+NC_000014.9,21647717,21650405,ARL6IP1P1,minus,100288702,ADP ribosylation factor like GTPase 6 interacting protein 1 pseudogene 1
+NC_000014.9,21653835,21667642,OR4E2,plus,26686,olfactory receptor family 4 subfamily E member 2
+NC_000014.9,21667886,21673818,OR4E1,minus,26687,olfactory receptor family 4 subfamily E member 1
+NC_000014.9,21712331,21712843,TRAV2,plus,28691,T cell receptor alpha variable 2
+NC_000014.9,21723889,21724321,TRAV3,plus,28690,T cell receptor alpha variable 3
+NC_000014.9,21736219,21736982,TRAV4,plus,28689,T cell receptor alpha variable 4
+NC_000014.9,21749190,21749705,TRAV5,plus,28688,T cell receptor alpha variable 5
+NC_000014.9,21750212,21751630,RPL4P1,plus,650808,ribosomal protein L4 pseudogene 1
+NC_000014.9,21768553,21769080,TRAV6,plus,6956,T cell receptor alpha variable 6
+NC_000014.9,21782993,21783503,TRAV7,plus,28686,T cell receptor alpha variable 7
+NC_000014.9,21797419,21797886,TRAV8-1,plus,28685,T cell receptor alpha variable 8-1
+NC_000014.9,21811502,21811977,TRAV9-1,plus,28678,T cell receptor alpha variable 9-1
+NC_000014.9,21825508,21826075,TRAV10,plus,28676,T cell receptor alpha variable 10
+NC_000014.9,21829539,21830070,TRAV11,plus,28675,T cell receptor alpha variable 11 (pseudogene)
+NC_000014.9,21841243,21841774,TRAV12-1,plus,28674,T cell receptor alpha variable 12-1
+NC_000014.9,21846762,21847221,TRAV8-2,plus,28684,T cell receptor alpha variable 8-2
+NC_000014.9,21852558,21853006,TRAV8-3,plus,28683,T cell receptor alpha variable 8-3
+NC_000014.9,21868862,21869365,TRAV13-1,plus,28671,T cell receptor alpha variable 13-1
+NC_000014.9,21887959,21888502,TRAV12-2,plus,28673,T cell receptor alpha variable 12-2
+NC_000014.9,21894561,21895030,TRAV8-4,plus,28682,T cell receptor alpha variable 8-4
+NC_000014.9,21903077,21904598,TRAV8-5,plus,28681,T cell receptor alpha variable 8-5 (pseudogene)
+NC_000014.9,21918258,21918756,TRAV13-2,plus,28670,T cell receptor alpha variable 13-2
+NC_000014.9,21924138,21924651,TRAV14DV4,plus,28669,T cell receptor alpha variable 14/delta variable 4
+NC_000014.9,21941184,21941657,TRAV9-2,plus,28677,T cell receptor alpha variable 9-2
+NC_000014.9,21950127,21950654,TRAV15,plus,28668,T cell receptor alpha variable 15 (pseudogene)
+NC_000014.9,21965507,21966061,TRAV12-3,plus,28672,T cell receptor alpha variable 12-3
+NC_000014.9,21978679,21979120,TRAV8-6,plus,28680,T cell receptor alpha variable 8-6
+NC_000014.9,21990496,21990938,TRAV16,plus,28667,T cell receptor alpha variable 16
+NC_000014.9,21997686,21998168,TRAV17,plus,28666,T cell receptor alpha variable 17
+NC_000014.9,22003211,22003673,TRAV18,plus,28665,T cell receptor alpha variable 18
+NC_000014.9,22007629,22008181,TRAV19,plus,28664,T cell receptor alpha variable 19
+NC_000014.9,22011876,22014962,LOC100419912,plus,100419912,spalt like transcription factor 4 pseudogene
+NC_000014.9,22040663,22041153,TRAV20,plus,28663,T cell receptor alpha variable 20
+NC_000014.9,22052521,22053056,TRAV21,plus,28662,T cell receptor alpha variable 21
+NC_000014.9,22070690,22071208,TRAV22,plus,28661,T cell receptor alpha variable 22
+NC_000014.9,22086452,22086961,TRAV23DV6,plus,28660,T cell receptor alpha variable 23/delta variable 6
+NC_000014.9,22096050,22096619,TRDV1,plus,28518,T cell receptor delta variable 1
+NC_000014.9,22105343,22105846,TRAV24,plus,28659,T cell receptor alpha variable 24
+NC_000014.9,22112423,22113031,TRAV25,plus,28658,T cell receptor alpha variable 25
+NC_000014.9,22123527,22124285,TRAV26-1,plus,28657,T cell receptor alpha variable 26-1
+NC_000014.9,22132553,22133034,TRAV8-7,plus,28679,T cell receptor alpha variable 8-7 (pseudogene)
+NC_000014.9,22148092,22148633,TRAV27,plus,28655,T cell receptor alpha variable 27
+NC_000014.9,22155079,22155638,TRAV28,plus,28654,T cell receptor alpha variable 28 (pseudogene)
+NC_000014.9,22163349,22163870,TRAV29DV5,plus,28653,T cell receptor alpha variable 29/delta variable 5
+NC_000014.9,22166850,22173381,LOC124903284,minus,124903284,uncharacterized LOC124903284
+NC_000014.9,22168429,22168988,TRAV30,plus,28652,T cell receptor alpha variable 30
+NC_000014.9,22177273,22177864,TRAV31,plus,28651,T cell receptor alpha variable 31 (pseudogene)
+NC_000014.9,22185562,22186061,TRAV32,plus,28650,T cell receptor alpha variable 32 (pseudogene)
+NC_000014.9,22190158,22190714,TRAV33,plus,28649,T cell receptor alpha variable 33 (pseudogene)
+NC_000014.9,22202583,22203368,TRAV26-2,plus,28656,T cell receptor alpha variable 26-2
+NC_000014.9,22207534,22208129,TRAV34,plus,28648,T cell receptor alpha variable 34
+NC_000014.9,22221896,22222475,TRAV35,plus,28647,T cell receptor alpha variable 35
+NC_000014.9,22226762,22227254,TRAV36DV7,plus,28646,T cell receptor alpha variable 36/delta variable 7
+NC_000014.9,22265749,22267173,TRAV37,plus,28645,T cell receptor alpha variable 37 (pseudogene)
+NC_000014.9,22271971,22272563,TRAV38-1,plus,28644,T cell receptor alpha variable 38-1
+NC_000014.9,22281151,22281748,TRAV38-2DV8,plus,28643,T cell receptor alpha variable 38-2/delta variable 8
+NC_000014.9,22287069,22290733,LOC107984649,minus,107984649,uncharacterized LOC107984649
+NC_000014.9,22304054,22304553,TRAV39,plus,28642,T cell receptor alpha variable 39
+NC_000014.9,22314490,22314919,TRAV40,plus,28641,T cell receptor alpha variable 40
+NC_000014.9,22320188,22320691,TRAV41,plus,28640,T cell receptor alpha variable 41
+NC_000014.9,22332925,22333435,LOC100420343,minus,100420343,translin associated factor X pseudogene
+NC_000014.9,22379405,22482959,TRD-AS1,minus,105370401,TRD antisense RNA 1
+NC_000014.9,22422546,22466577,TRD,plus,6964,T cell receptor delta locus
+NC_000014.9,22422546,22423042,TRDV2,plus,28517,T cell receptor delta variable 2
+NC_000014.9,22438547,22438554,TRDD1,plus,28525,T cell receptor delta diversity 1
+NC_000014.9,22439007,22439015,TRDD2,plus,28524,T cell receptor delta diversity 2
+NC_000014.9,22449113,22449125,TRDD3,plus,28523,T cell receptor delta diversity 3
+NC_000014.9,22450089,22450139,TRDJ1,plus,28522,T cell receptor delta joining 1
+NC_000014.9,22455249,22455296,TRDJ4,plus,28519,T cell receptor delta joining 4
+NC_000014.9,22456689,22456742,TRDJ2,plus,28521,T cell receptor delta joining 2
+NC_000014.9,22459098,22459156,TRDJ3,plus,28520,T cell receptor delta joining 3
+NC_000014.9,22462932,22466577,TRDC,plus,28526,T cell receptor delta constant
+NC_000014.9,22469041,22469614,TRDV3,minus,28516,T cell receptor delta variable 3
+NC_000014.9,22475316,22475375,TRAJ61,plus,28694,T cell receptor alpha joining 61 (non-functional)
+NC_000014.9,22476306,22476362,TRAJ60,plus,28695,T cell receptor alpha joining 60 (pseudogene)
+NC_000014.9,22476553,22476606,TRAJ59,plus,28696,T cell receptor alpha joining 59 (non-functional)
+NC_000014.9,22477707,22477769,TRAJ58,plus,28697,T cell receptor alpha joining 58 (non-functional)
+NC_000014.9,22478872,22478934,TRAJ57,plus,28698,T cell receptor alpha joining 57
+NC_000014.9,22479521,22479582,TRAJ56,plus,28699,T cell receptor alpha joining 56
+NC_000014.9,22481697,22481753,TRAJ55,plus,28700,T cell receptor alpha joining 55 (pseudogene)
+NC_000014.9,22482287,22482346,TRAJ54,plus,28701,T cell receptor alpha joining 54
+NC_000014.9,22483004,22483069,TRAJ53,plus,28702,T cell receptor alpha joining 53
+NC_000014.9,22486228,22486296,TRAJ52,plus,28703,T cell receptor alpha joining 52
+NC_000014.9,22487183,22487245,TRAJ51,plus,28704,T cell receptor alpha joining 51 (pseudogene)
+NC_000014.9,22488593,22488652,TRAJ50,plus,28705,T cell receptor alpha joining 50
+NC_000014.9,22489488,22489543,TRAJ49,plus,28706,T cell receptor alpha joining 49
+NC_000014.9,22490491,22490553,TRAJ48,plus,28707,T cell receptor alpha joining 48
+NC_000014.9,22492851,22492907,TRAJ47,plus,28708,T cell receptor alpha joining 47
+NC_000014.9,22493403,22493465,TRAJ46,plus,28709,T cell receptor alpha joining 46
+NC_000014.9,22493925,22493990,TRAJ45,plus,28710,T cell receptor alpha joining 45
+NC_000014.9,22494821,22494883,TRAJ44,plus,28711,T cell receptor alpha joining 44
+NC_000014.9,22495913,22495966,TRAJ43,plus,28712,T cell receptor alpha joining 43
+NC_000014.9,22496887,22496952,TRAJ42,plus,28713,T cell receptor alpha joining 42
+NC_000014.9,22497657,22497718,TRAJ41,plus,28714,T cell receptor alpha joining 41
+NC_000014.9,22499689,22499749,TRAJ40,plus,28715,T cell receptor alpha joining 40
+NC_000014.9,22501601,22501663,TRAJ39,plus,28716,T cell receptor alpha joining 39
+NC_000014.9,22502231,22502292,TRAJ38,plus,28717,T cell receptor alpha joining 38
+NC_000014.9,22503750,22503811,TRAJ37,plus,28718,T cell receptor alpha joining 37
+NC_000014.9,22505110,22505168,TRAJ36,plus,28719,T cell receptor alpha joining 36
+NC_000014.9,22506644,22506702,TRAJ35,plus,28720,T cell receptor alpha joining 35 (non-functional)
+NC_000014.9,22507666,22507723,TRAJ34,plus,28721,T cell receptor alpha joining 34
+NC_000014.9,22508602,22508658,TRAJ33,plus,28722,T cell receptor alpha joining 33
+NC_000014.9,22509341,22509406,TRAJ32,plus,28723,T cell receptor alpha joining 32
+NC_000014.9,22510968,22511024,TRAJ31,plus,28724,T cell receptor alpha joining 31
+NC_000014.9,22512852,22512908,TRAJ30,plus,28725,T cell receptor alpha joining 30
+NC_000014.9,22513939,22513998,TRAJ29,plus,28726,T cell receptor alpha joining 29
+NC_000014.9,22515623,22515688,TRAJ28,plus,28727,T cell receptor alpha joining 28
+NC_000014.9,22516273,22516331,TRAJ27,plus,28728,T cell receptor alpha joining 27
+NC_000014.9,22518446,22518505,TRAJ26,plus,28729,T cell receptor alpha joining 26
+NC_000014.9,22518812,22518871,TRAJ25,plus,28730,T cell receptor alpha joining 25 (non-functional)
+NC_000014.9,22519969,22520031,TRAJ24,plus,28731,T cell receptor alpha joining 24
+NC_000014.9,22520416,22520478,TRAJ23,plus,28732,T cell receptor alpha joining 23
+NC_000014.9,22522040,22522102,TRAJ22,plus,28733,T cell receptor alpha joining 22
+NC_000014.9,22523600,22523654,TRAJ21,plus,28734,T cell receptor alpha joining 21
+NC_000014.9,22524325,22524381,TRAJ20,plus,28735,T cell receptor alpha joining 20
+NC_000014.9,22525263,22525322,TRAJ19,plus,28736,T cell receptor alpha joining 19 (non-functional)
+NC_000014.9,22525650,22525715,TRAJ18,plus,28737,T cell receptor alpha joining 18
+NC_000014.9,22526844,22526906,TRAJ17,plus,28738,T cell receptor alpha joining 17
+NC_000014.9,22528527,22528586,TRAJ16,plus,28739,T cell receptor alpha joining 16
+NC_000014.9,22529629,22529688,TRAJ15,plus,28740,T cell receptor alpha joining 15
+NC_000014.9,22530327,22530378,TRAJ14,plus,28741,T cell receptor alpha joining 14
+NC_000014.9,22531076,22531138,TRAJ13,plus,28742,T cell receptor alpha joining 13
+NC_000014.9,22531939,22531998,TRAJ12,plus,28743,T cell receptor alpha joining 12
+NC_000014.9,22532502,22532561,TRAJ11,plus,28744,T cell receptor alpha joining 11
+NC_000014.9,22533497,22533560,TRAJ10,plus,28745,T cell receptor alpha joining 10
+NC_000014.9,22535554,22535614,TRAJ9,plus,28746,T cell receptor alpha joining 9
+NC_000014.9,22536145,22536204,TRAJ8,plus,28747,T cell receptor alpha joining 8
+NC_000014.9,22537622,22537680,TRAJ7,plus,28748,T cell receptor alpha joining 7
+NC_000014.9,22539073,22539134,TRAJ6,plus,28749,T cell receptor alpha joining 6
+NC_000014.9,22540247,22540306,TRAJ5,plus,28750,T cell receptor alpha joining 5
+NC_000014.9,22542199,22542261,TRAJ4,plus,28751,T cell receptor alpha joining 4
+NC_000014.9,22543179,22543240,TRAJ3,plus,28752,T cell receptor alpha joining 3
+NC_000014.9,22544071,22544136,TRAJ2,plus,28753,T cell receptor alpha joining 2 (non-functional)
+NC_000014.9,22545037,22545098,TRAJ1,plus,28754,T cell receptor alpha joining 1 (non-functional)
+NC_000014.9,22547506,22552132,TRAC,plus,28755,T cell receptor alpha constant
+NC_000014.9,22556311,22557062,LINC02332,minus,105370400,long intergenic non-protein coding RNA 2332
+NC_000014.9,22556566,22561436,LOC105370399,plus,105370399,uncharacterized LOC105370399
+NC_000014.9,22564907,22589224,DAD1,minus,1603,defender against cell death 1
+NC_000014.9,22598300,22612963,ABHD4,plus,63874,"abhydrolase domain containing 4, N-acyl phospholipase B"
+NC_000014.9,22630929,22644352,OR6J1,minus,79549,olfactory receptor family 6 subfamily J member 1
+NC_000014.9,22694052,22694577,RPL26P2,minus,326297,ribosomal protein L26 pseudogene 2
+NC_000014.9,22702144,22703069,OR6E1P,plus,79323,olfactory receptor family 6 subfamily E member 1 pseudogene
+NC_000014.9,22704220,22766562,OXA1L-DT,minus,105370404,OXA1L divergent transcript
+NC_000014.9,22723476,22726683,LOC100421646,minus,100421646,von Willebrand factor A domain containing 5B2 pseudogene
+NC_000014.9,22756761,22756829,LOC124900351,minus,124900351,small nucleolar RNA SNORD41
+NC_000014.9,22766688,22773042,OXA1L,plus,5018,OXA1L mitochondrial inner membrane protein
+NC_000014.9,22773222,22819791,SLC7A7,minus,9056,solute carrier family 7 member 7
+NC_000014.9,22829887,22835037,MRPL52,plus,122704,mitochondrial ribosomal protein L52
+NC_000014.9,22836585,22847758,MMP14,plus,4323,matrix metallopeptidase 14
+NC_000014.9,22871740,22881713,LRP10,plus,26020,LDL receptor related protein 10
+NC_000014.9,22883222,22887678,REM2,plus,161253,RRAD and GEM like GTPase 2
+NC_000014.9,22893204,22919149,RBM23,minus,55147,RNA binding motif protein 23
+NC_000014.9,22919456,22923407,PRMT5-AS1,plus,100505758,PRMT5 antisense RNA 1
+NC_000014.9,22920529,22929376,PRMT5,minus,10419,protein arginine methyltransferase 5
+NC_000014.9,22924301,22926902,LOC124903285,plus,124903285,uncharacterized LOC124903285
+NC_000014.9,22929609,22954692,PRMT5-DT,plus,101926933,PRMT5 divergent transcript
+NC_000014.9,22929701,22929773,TRR-ACG1-3,plus,100189243,tRNA-Arg (anticodon ACG) 1-3
+NC_000014.9,22946228,22957090,HAUS4,minus,54930,HAUS augmin like complex subunit 4
+NC_000014.9,22956950,22957029,MIR4707,minus,100616424,microRNA 4707
+NC_000014.9,22971177,22982551,AJUBA,minus,84962,ajuba LIM protein
+NC_000014.9,22977827,22979221,LOC124903287,plus,124903287,uncharacterized LOC124903287
+NC_000014.9,22984324,22998430,AJUBA-DT,plus,107984660,AJUBA divergent transcript
+NC_000014.9,22985894,23010143,C14orf93,minus,60686,chromosome 14 open reading frame 93
+NC_000014.9,23002426,23008984,LOC124903286,plus,124903286,uncharacterized LOC124903286
+NC_000014.9,23025851,23035220,PSMB5,minus,5693,proteasome 20S subunit beta 5
+NC_000014.9,23042212,23044060,PSMB11,plus,122706,proteasome subunit beta 11
+NC_000014.9,23047067,23057520,CDH24,minus,64403,cadherin 24
+NC_000014.9,23057660,23058649,LOC105370705,plus,105370705,collagen alpha-2(I) chain-like
+NC_000014.9,23058564,23095614,ACIN1,minus,22985,apoptotic chromatin condensation inducer 1
+NC_000014.9,23078266,23082214,LOC124903288,plus,124903288,uncharacterized LOC124903288
+NC_000014.9,23095505,23100456,C14orf119,plus,55017,chromosome 14 open reading frame 119
+NC_000014.9,23099062,23104989,CIROP,minus,100128908,ciliated left-right organizer metallopeptidase
+NC_000014.9,23117306,23119255,CEBPE,minus,1053,CCAAT enhancer binding protein epsilon
+NC_000014.9,23125295,23183660,SLC7A8,minus,23428,solute carrier family 7 member 8
+NC_000014.9,23156309,23156414,RNU6-1138P,minus,106480641,"RNA, U6 small nuclear 1138, pseudogene"
+NC_000014.9,23185336,23273477,RNF212B,plus,100507650,ring finger protein 212B
+NC_000014.9,23194882,23214092,LOC105370406,minus,105370406,uncharacterized LOC105370406
+NC_000014.9,23229768,23230132,RPL39P2,minus,326306,ribosomal protein L39 pseudogene 2
+NC_000014.9,23259460,23259566,RNU6-1046P,minus,106480026,"RNA, U6 small nuclear 1046, pseudogene"
+NC_000014.9,23263101,23263787,HMGN2P1,minus,319132,high mobility group nucleosomal binding domain 2 pseudogene 1
+NC_000014.9,23272422,23286132,HOMEZ,minus,57594,homeobox and leucine zipper encoding
+NC_000014.9,23294524,23295800,H3P37,plus,664611,H3 histone pseudogene 37
+NC_000014.9,23295652,23302859,PPP1R3E,minus,90673,protein phosphatase 1 regulatory subunit 3E
+NC_000014.9,23306833,23326163,BCL2L2-PABPN1,plus,100529063,BCL2L2-PABPN1 readthrough
+NC_000014.9,23306833,23311751,BCL2L2,plus,599,BCL2 like 2
+NC_000014.9,23321457,23326163,PABPN1,plus,8106,poly(A) binding protein nuclear 1
+NC_000014.9,23346311,23352887,SLC22A17,minus,51310,solute carrier family 22 member 17
+NC_000014.9,23356406,23365172,EFS,minus,10278,embryonal Fyn-associated substrate
+NC_000014.9,23372809,23376403,IL25,plus,64806,interleukin 25
+NC_000014.9,23376771,23379772,CMTM5,plus,116173,CKLF like MARVEL transmembrane domain containing 5
+NC_000014.9,23381987,23408273,MYH6,minus,4624,myosin heavy chain 6
+NC_000014.9,23388596,23388666,MIR208A,minus,406990,microRNA 208a
+NC_000014.9,23412740,23435660,MYH7,minus,4625,myosin heavy chain 7
+NC_000014.9,23415450,23417595,MHRT,plus,104564225,myosin heavy chain associated RNA transcript
+NC_000014.9,23417987,23418063,MIR208B,minus,100126336,microRNA 208b
+NC_000014.9,23469703,23478826,NGDN,plus,25983,neuroguidin
+NC_000014.9,23511760,23560271,THTPA,plus,79178,thiamine triphosphatase
+NC_000014.9,23520857,23555952,ZFHX2,minus,85446,zinc finger homeobox 2
+NC_000014.9,23530014,23532372,LOC124903289,plus,124903289,uncharacterized LOC124903289
+NC_000014.9,23559567,23567791,AP1G2,minus,8906,adaptor related protein complex 1 subunit gamma 2
+NC_000014.9,23561097,23568076,AP1G2-AS1,plus,102724814,AP1G2 antisense RNA 1
+NC_000014.9,23568038,23578790,JPH4,minus,84502,junctophilin 4
+NC_000014.9,23630115,23645639,DHRS2,plus,10202,dehydrogenase/reductase 2
+NC_000014.9,23661309,23664406,LOC105370407,plus,105370407,uncharacterized LOC105370407
+NC_000014.9,23692731,23698934,LOC105370408,plus,105370408,uncharacterized LOC105370408
+NC_000014.9,23699471,23704397,LOC105370410,plus,105370410,uncharacterized LOC105370410
+NC_000014.9,23699797,23729765,LOC105370409,minus,105370409,uncharacterized LOC105370409
+NC_000014.9,23749106,23751329,BRD7P1,plus,100288948,bromodomain containing 7 pseudogene 1
+NC_000014.9,23768200,23769022,SUZ12P2,plus,100421539,SUZ12 pseudogene 2
+NC_000014.9,23791930,23792236,RN7SKP205,plus,106479186,RN7SK pseudogene 205
+NC_000014.9,23827193,23827374,LOC728667,minus,728667,dehydrogenase/reductase 4 like 2 pseudogene
+NC_000014.9,23838723,23933941,LINC00596,minus,102724845,long intergenic non-protein coding RNA 596
+NC_000014.9,23927914,23930014,LOC105370411,minus,105370411,uncharacterized LOC105370411
+NC_000014.9,23938731,23955112,DHRS4-AS1,minus,55449,DHRS4 antisense RNA 1
+NC_000014.9,23953770,23969279,DHRS4,plus,10901,dehydrogenase/reductase 4
+NC_000014.9,23964882,23967071,LOC124903290,minus,124903290,uncharacterized LOC124903290
+NC_000014.9,23969874,24006408,DHRS4L2,plus,317749,dehydrogenase/reductase 4 like 2
+NC_000014.9,24007084,24051377,DHRS4L1,plus,728635,dehydrogenase/reductase 4 like 1 (pseudogene)
+NC_000014.9,24052009,24069729,CARMIL3,plus,90668,capping protein regulator and myosin 1 linker 3
+NC_000014.9,24066784,24068189,LOC105370412,minus,105370412,uncharacterized LOC105370412
+NC_000014.9,24070949,24078087,CPNE6,plus,9362,copine 6
+NC_000014.9,24078662,24114949,NRL,minus,4901,neural retina leucine zipper
+NC_000014.9,24094171,24104125,PCK2,plus,5106,"phosphoenolpyruvate carboxykinase 2, mitochondrial"
+NC_000014.9,24114777,24125242,DCAF11,plus,80344,DDB1 and CUL4 associated factor 11
+NC_000014.9,24130659,24132847,FITM1,plus,161247,fat storage inducing transmembrane protein 1
+NC_000014.9,24136194,24138962,PSME1,plus,5720,proteasome activator subunit 1
+NC_000014.9,24138965,24141591,EMC9,minus,51016,ER membrane protein complex subunit 9
+NC_000014.9,24143365,24146610,PSME2,minus,5721,proteasome activator subunit 2
+NC_000014.9,24143489,24143565,MIR7703,minus,102465801,microRNA 7703
+NC_000014.9,24146875,24160655,RNF31,plus,55072,ring finger protein 31
+NC_000014.9,24158603,24158722,RNA5SP383,plus,100873638,"RNA, 5S ribosomal pseudogene 383"
+NC_000014.9,24161265,24166565,IRF9,plus,10379,interferon regulatory factor 9
+NC_000014.9,24172080,24180923,REC8,plus,9985,REC8 meiotic recombination protein
+NC_000014.9,24180219,24188816,IPO4,minus,79711,importin 4
+NC_000014.9,24189149,24195441,TM9SF1,minus,10548,transmembrane 9 superfamily member 1
+NC_000014.9,24205696,24208248,TSSK4,plus,283629,testis specific serine kinase 4
+NC_000014.9,24209615,24213488,CHMP4A,minus,29082,charged multivesicular body protein 4A
+NC_000014.9,24213943,24232367,NEDD8-MDP1,minus,100528064,NEDD8-MDP1 readthrough
+NC_000014.9,24213943,24216066,MDP1,minus,145553,magnesium dependent phosphatase 1
+NC_000014.9,24216857,24232367,NEDD8,minus,4738,NEDD8 ubiquitin like modifier
+NC_000014.9,24232622,24239242,GMPR2,plus,51292,guanosine monophosphate reductase 2
+NC_000014.9,24239640,24242674,TINF2,minus,26277,TERF1 interacting nuclear factor 2
+NC_000014.9,24249114,24263177,TGM1,minus,7051,transglutaminase 1
+NC_000014.9,24265538,24271627,RABGGTA,minus,5875,Rab geranylgeranyltransferase subunit alpha
+NC_000014.9,24271203,24309124,NOP9,plus,161424,NOP9 nucleolar protein
+NC_000014.9,24290598,24299780,DHRS1,minus,115817,dehydrogenase/reductase 1
+NC_000014.9,24305187,24311435,CIDEB,minus,27141,cell death inducing DFFA like effector b
+NC_000014.9,24310140,24312038,LTB4R2,plus,56413,leukotriene B4 receptor 2
+NC_000014.9,24311502,24318036,LTB4R,plus,1241,leukotriene B4 receptor
+NC_000014.9,24318359,24335071,ADCY4,minus,196883,adenylate cyclase 4
+NC_000014.9,24336025,24339991,RIPK3,minus,11035,receptor interacting serine/threonine kinase 3
+NC_000014.9,24352057,24352157,LOC124903413,minus,124903413,uncharacterized LOC124903413
+NC_000014.9,24365516,24369385,LOC124903291,minus,124903291,uncharacterized LOC124903291
+NC_000014.9,24366911,24379604,NFATC4,plus,4776,nuclear factor of activated T cells 4
+NC_000014.9,24383921,24389409,LOC124903292,minus,124903292,uncharacterized LOC124903292
+NC_000014.9,24399003,24419283,NYNRIN,plus,57523,NYN domain and retroviral integrase containing
+NC_000014.9,24423165,24441843,KHNYN,plus,23351,KH and NYN domain containing
+NC_000014.9,24426545,24429668,CBLN3,minus,643866,cerebellin 3 precursor
+NC_000014.9,24439766,24442843,SDR39U1,minus,56948,short chain dehydrogenase/reductase family 39U member 1
+NC_000014.9,24442953,24502197,LOC101927045,plus,101927045,uncharacterized LOC101927045
+NC_000014.9,24505353,24508265,CMA1,minus,1215,chymase 1
+NC_000014.9,24573518,24576250,CTSG,minus,1511,cathepsin G
+NC_000014.9,24606480,24609685,GZMH,minus,2999,granzyme H
+NC_000014.9,24630954,24634190,GZMB,minus,3002,granzyme B
+NC_000014.9,24633102,24645580,LOC105370413,plus,105370413,uncharacterized LOC105370413
+NC_000014.9,24809454,25050147,STXBP6,minus,29091,syntaxin binding protein 6
+NC_000014.9,24818358,24827981,LOC124903293,plus,124903293,uncharacterized LOC124903293
+NC_000014.9,24860810,24866350,LOC124903294,plus,124903294,uncharacterized LOC124903294
+NC_000014.9,25050344,25052590,LOC124903295,plus,124903295,uncharacterized LOC124903295
+NC_000014.9,25124486,25156263,LINC02286,minus,105370414,long intergenic non-protein coding RNA 2286
+NC_000014.9,25246558,25262931,LOC105370415,plus,105370415,uncharacterized LOC105370415
+NC_000014.9,25266253,25267446,HMGN2P6,minus,643872,high mobility group nucleosomal binding domain 2 pseudogene 6
+NC_000014.9,25351295,25444310,LOC112268135,plus,112268135,uncharacterized LOC112268135
+NC_000014.9,25357765,25358768,OR7K1P,plus,81114,olfactory receptor family 7 subfamily K member 1 pseudogene
+NC_000014.9,25424911,25432241,LOC401767,minus,401767,glycerol-3-phosphate acyltransferase 4 pseudogene
+NC_000014.9,25806648,25806712,LOC124900350,minus,124900350,small nucleolar RNA SNORD37
+NC_000014.9,25833008,25838532,LINC02306,minus,107984700,long intergenic non-protein coding RNA 2306
+NC_000014.9,26207962,26208728,CYB5AP5,plus,100289051,cytochrome b5 type A pseudogene 5
+NC_000014.9,26382234,26397324,LOC105370418,minus,105370418,uncharacterized LOC105370418
+NC_000014.9,26443090,26598033,NOVA1,minus,4857,NOVA alternative splicing regulator 1
+NC_000014.9,26598647,26806467,NOVA1-DT,plus,102725045,NOVA1 divergent transcript
+NC_000014.9,26775495,26822120,LINC02294,minus,101927062,long intergenic non-protein coding RNA 2294
+NC_000014.9,26809348,26820703,LINC02293,plus,102724890,long intergenic non-protein coding RNA 2293
+NC_000014.9,26831395,26872779,LOC124903296,minus,124903296,uncharacterized LOC124903296
+NC_000014.9,26873133,26914743,MIR4307HG,plus,101927081,MIR4307 host gene
+NC_000014.9,26908642,26908725,MIR4307,plus,100423019,microRNA 4307
+NC_000014.9,26925466,26926253,UNGP2,minus,57005,uracil-DNA glycosylase pseudogene 2
+NC_000014.9,26950953,26971075,LOC105370419,plus,105370419,uncharacterized LOC105370419
+NC_000014.9,27077236,27207149,LOC105370420,plus,105370420,uncharacterized LOC105370420
+NC_000014.9,27213591,27220784,LOC105370421,minus,105370421,uncharacterized LOC105370421
+NC_000014.9,27258686,27259192,RPS27AP4,minus,326323,RPS27A pseudogene 4
+NC_000014.9,27321826,27673221,MIR3171HG,minus,728755,MIR3171 host gene
+NC_000014.9,27612588,27639636,LINC00645,plus,100505967,long intergenic non-protein coding RNA 645
+NC_000014.9,27633205,27633278,MIR3171,minus,100422830,microRNA 3171
+NC_000014.9,28264410,28265974,BNIP3P1,plus,319138,BCL2 interacting protein 3 pseudogene 1
+NC_000014.9,28489905,28490392,RPL26P3,plus,326298,ribosomal protein L26 pseudogene 3
+NC_000014.9,28578111,28606110,LOC107984684,plus,107984684,uncharacterized LOC107984684
+NC_000014.9,28588907,28613657,LINC02300,minus,105370422,long intergenic non-protein coding RNA 2300
+NC_000014.9,28593773,28593916,EIF4A1P12,plus,100462830,eukaryotic translation initiation factor 4A1 pseudogene 12
+NC_000014.9,28672982,28673841,BTF3P2,minus,283631,BTF3 pseudogene 2
+NC_000014.9,28725242,28765319,FOXG1-AS1,minus,103695363,FOXG1 antisense RNA 1
+NC_000014.9,28766787,28770277,FOXG1,plus,2290,forkhead box G1
+NC_000014.9,28772704,28794794,LINC01551,plus,387978,long intergenic non-protein coding RNA 1551
+NC_000014.9,28783491,28785787,LINC02282,minus,105370424,long intergenic non-protein coding RNA 2282
+NC_000014.9,28800084,28830153,LINC02281,minus,105370423,long intergenic non-protein coding RNA 2281
+NC_000014.9,28830235,28968396,LINC02327,plus,102724917,long intergenic non-protein coding RNA 2327
+NC_000014.9,28857384,28858701,LOC100420424,minus,100420424,"Vac14, PIKFYVE complex component pseudogene"
+NC_000014.9,28971289,29187907,LOC107984685,plus,107984685,uncharacterized LOC107984685
+NC_000014.9,28975649,29065055,LINC02326,minus,105370425,long intergenic non-protein coding RNA 2326
+NC_000014.9,28982303,28982410,RNU6-864P,minus,106481776,"RNA, U6 small nuclear 864, pseudogene"
+NC_000014.9,29210986,29392054,LOC102724934,minus,102724934,uncharacterized LOC102724934
+NC_000014.9,29476784,29476912,RNU11-5P,plus,106479563,"RNA, U11 small nuclear 5, pseudogene"
+NC_000014.9,29576479,29927847,PRKD1,minus,5587,protein kinase D1
+NC_000014.9,29591115,29597476,LOC124903297,minus,124903297,uncharacterized LOC124903297
+NC_000014.9,29811916,29812018,RNU6-1234P,plus,106480106,"RNA, U6 small nuclear 1234, pseudogene"
+NC_000014.9,29928127,29936050,LOC105370429,plus,105370429,uncharacterized LOC105370429
+NC_000014.9,30055161,30055988,RPS6P24,plus,100128358,ribosomal protein S6 pseudogene 24
+NC_000014.9,30378180,30474537,LOC112267868,minus,112267868,uncharacterized LOC112267868
+NC_000014.9,30379187,30383621,LOC105370430,plus,105370430,uncharacterized LOC105370430
+NC_000014.9,30437992,30577357,G2E3-AS1,minus,105370431,G2E3 antisense RNA 1
+NC_000014.9,30503440,30513194,LOC105370432,plus,105370432,uncharacterized LOC105370432
+NC_000014.9,30541750,30542188,SYF2P1,minus,317778,SYF2 pre-mRNA splicing factor pseudogene 1
+NC_000014.9,30559158,30620064,G2E3,plus,55632,G2/M-phase specific E3 ubiquitin protein ligase
+NC_000014.9,30622254,30735850,SCFD1,plus,23256,sec1 family domain containing 1
+NC_000014.9,30682862,30683650,UBE2CP1,minus,326105,ubiquitin conjugating enzyme E2 C pseudogene 1
+NC_000014.9,30791098,30791489,RPL12P5,plus,319142,ribosomal protein L12 pseudogene 5
+NC_000014.9,30821391,30821882,RPL27P1,plus,326299,ribosomal protein L27 pseudogene 1
+NC_000014.9,30874559,30895615,COCH,plus,1690,cochlin
+NC_000014.9,30876179,30889808,LOC100506071,minus,100506071,uncharacterized LOC100506071
+NC_000014.9,30893804,31026379,STRN3,minus,29966,striatin 3
+NC_000014.9,30964279,30964644,HIGD1AP17,plus,100874477,HIG1 hypoxia inducible domain family member 1A pseudogene 17
+NC_000014.9,31014646,31014742,MIR624,minus,693209,microRNA 624
+NC_000014.9,31018172,31018837,LOC100913082,plus,100913082,intraflagellar transport 20 homolog (Chlamydomonas) pseudogene
+NC_000014.9,31025106,31096450,AP4S1,plus,11154,adaptor related protein complex 4 subunit sigma 1
+NC_000014.9,31100117,31207793,HECTD1,minus,25831,HECT domain E3 ubiquitin protein ligase 1
+NC_000014.9,31111553,31112283,RPL21P5,minus,641613,ribosomal protein L21 pseudogene 5
+NC_000014.9,31142939,31143048,RNU6-541P,plus,106481352,"RNA, U6 small nuclear 541, pseudogene"
+NC_000014.9,31286111,31288364,NARS1P1,plus,319127,asparaginyl-tRNA synthetase 1 pseudogene 1
+NC_000014.9,31291788,31420550,HEATR5A,minus,25938,HEAT repeat containing 5A
+NC_000014.9,31306520,31306600,LOC124903438,plus,124903438,uncharacterized LOC124903438
+NC_000014.9,31320121,31320688,ATP5MC1P2,minus,319137,ATP synthase membrane subunit c locus 1 pseudogene 2
+NC_000014.9,31420758,31452883,HEATR5A-DT,plus,101927124,HEATR5A divergent transcript
+NC_000014.9,31446036,31457506,DTD2,minus,112487,D-aminoacyl-tRNA deacylase 2
+NC_000014.9,31462379,31463404,RPL9P4,minus,644223,ribosomal protein L9 pseudogene 4
+NC_000014.9,31482875,31488039,GPR33,minus,2856,G protein-coupled receptor 33
+NC_000014.9,31489964,31558096,LOC105370438,plus,105370438,uncharacterized LOC105370438
+NC_000014.9,31553499,31561331,NUBPL-DT,minus,105370437,NUBPL divergent transcript
+NC_000014.9,31561404,31861224,NUBPL,plus,80224,"NUBP iron-sulfur cluster assembly factor, mitochondrial"
+NC_000014.9,31662039,31662143,RNU6-602P,minus,106481371,"RNA, U6 small nuclear 602, pseudogene"
+NC_000014.9,31686692,31686798,RNU6-455P,minus,106479767,"RNA, U6 small nuclear 455, pseudogene"
+NC_000014.9,31944853,31950294,LINC02313,plus,105370439,long intergenic non-protein coding RNA 2313
+NC_000014.9,31964560,31964714,ZFAND2AP2,plus,127379733,ZFAND2A pseudogene 2
+NC_000014.9,32042606,32057380,LOC105370440,plus,105370440,uncharacterized LOC105370440
+NC_000014.9,32075419,32076699,ARHGAP5-AS1,minus,84837,ARHGAP5 antisense RNA 1 (head to head)
+NC_000014.9,32077304,32159728,ARHGAP5,plus,394,Rho GTPase activating protein 5
+NC_000014.9,32202045,32202151,RNU6-7,plus,101954275,"RNA, U6 small nuclear 7"
+NC_000014.9,32203163,32203269,RNU6-8,minus,101954278,"RNA, U6 small nuclear 8"
+NC_000014.9,32241334,32243293,LOC100533787,minus,100533787,HERV-FRD provirus ancestral Env polyprotein pseudogene
+NC_000014.9,32271345,32272303,KIAA1143P1,minus,644295,KIAA1143 pseudogene 1
+NC_000014.9,32329298,32837684,AKAP6,plus,9472,A-kinase anchoring protein 6
+NC_000014.9,32442341,32442639,RN7SL660P,plus,106479463,"RNA, 7SL, cytoplasmic 660, pseudogene"
+NC_000014.9,32484093,32485122,MTCO1P2,minus,326603,MT-CO1 pseudogene 2
+NC_000014.9,32656517,32660505,LOC124903298,minus,124903298,uncharacterized LOC124903298
+NC_000014.9,32934785,33804173,NPAS3,plus,64067,neuronal PAS domain protein 3
+NC_000014.9,33515768,33534632,LOC124903299,minus,124903299,uncharacterized LOC124903299
+NC_000014.9,33627118,33640187,LOC124903300,minus,124903300,uncharacterized LOC124903300
+NC_000014.9,33708937,33709113,SNORA89,plus,106635522,"small nucleolar RNA, H/ACA box 89"
+NC_000014.9,33924227,33951074,EGLN3,minus,112399,egl-9 family hypoxia inducible factor 3
+NC_000014.9,33958871,34203728,LOC102724945,minus,102724945,uncharacterized LOC102724945
+NC_000014.9,33959082,33964149,LOC105370446,plus,105370446,uncharacterized LOC105370446
+NC_000014.9,34039981,34062362,EGLN3-AS1,plus,105370445,EGLN3 antisense RNA 1
+NC_000014.9,34095841,34099032,LOC105370444,minus,105370444,uncharacterized LOC105370444
+NC_000014.9,34416767,34417566,LOC100421787,minus,100421787,sulfotransferase family 1C member 2 pseudogene
+NC_000014.9,34432788,34462240,SPTSSA,minus,171546,serine palmitoyltransferase small subunit A
+NC_000014.9,34485966,34486492,RPL23AP71,plus,644384,ribosomal protein L23a pseudogene 71
+NC_000014.9,34515938,34539701,EAPP,minus,55837,E2F associated phosphoprotein
+NC_000014.9,34539749,34541706,LOC105370447,plus,105370447,uncharacterized LOC105370447
+NC_000014.9,34541234,34543454,LOC112268123,minus,112268123,uncharacterized LOC112268123
+NC_000014.9,34544089,34557252,LOC105370449,minus,105370449,uncharacterized LOC105370449
+NC_000014.9,34546714,34546877,RNU1-27P,plus,26865,"RNA, U1 small nuclear 27, pseudogene"
+NC_000014.9,34556226,34556389,RNU1-28P,minus,26866,"RNA, U1 small nuclear 28, pseudogene"
+NC_000014.9,34561093,34630148,SNX6,minus,58533,sorting nexin 6
+NC_000014.9,34568617,34569169,RPS19P3,minus,728953,ribosomal protein S19 pseudogene 3
+NC_000014.9,34675891,34675994,RNU6-1261P,plus,106480116,"RNA, U6 small nuclear 1261, pseudogene"
+NC_000014.9,34692884,34701340,LOC107984628,minus,107984628,uncharacterized LOC107984628
+NC_000014.9,34694155,34694693,RPL23AP8,plus,641614,ribosomal protein L23a pseudogene 8
+NC_000014.9,34709113,34714593,CFL2,minus,1073,cofilin 2
+NC_000014.9,34740291,34740904,RPL12P6,minus,440176,ribosomal protein L12 pseudogene 6
+NC_000014.9,34752731,34875360,BAZ1A,minus,11177,bromodomain adjacent to zinc finger domain 1A
+NC_000014.9,34845301,34845360,RNU7-41P,minus,100147828,"RNA, U7 small nuclear 41 pseudogene"
+NC_000014.9,34874191,34876463,BAZ1A-AS1,plus,112268124,BAZ1A antisense RNA 1
+NC_000014.9,34916480,34982566,SRP54-AS1,minus,100506157,SRP54 antisense RNA 1
+NC_000014.9,34939922,34940496,IGBP1P1,plus,280655,IGBP1 pseudogene 1
+NC_000014.9,34982992,35029567,SRP54,plus,6729,signal recognition particle 54
+NC_000014.9,35044907,35083383,FAM177A1,plus,283635,family with sequence similarity 177 member A1
+NC_000014.9,35081081,35113130,LOC101927178,plus,101927178,uncharacterized LOC101927178
+NC_000014.9,35085472,35122298,PPP2R3C,minus,55012,protein phosphatase 2 regulatory subunit B''gamma
+NC_000014.9,35121839,35317471,PRORP-PSMA6,plus,127814298,PRORP-PSMA6 readthrough
+NC_000014.9,35121839,35277622,PRORP,plus,9692,protein only RNase P catalytic subunit
+NC_000014.9,35144021,35144480,RPL23AP70,minus,100271619,ribosomal protein L23a pseudogene 70
+NC_000014.9,35157688,35159099,SEPTIN7P1,minus,317774,septin 7 pseudogene 1
+NC_000014.9,35219020,35219294,MRPL57P8,minus,359732,mitochondrial ribosomal protein L57 pseudogene 8
+NC_000014.9,35222127,35222765,DPRXP3,plus,503644,divergent-paired related homeobox pseudogene 3
+NC_000014.9,35235114,35235653,RPL7AP3,minus,654370,ribosomal protein L7a pseudogene 3
+NC_000014.9,35262433,35263132,RPL9P3,plus,641616,ribosomal protein L9 pseudogene 3
+NC_000014.9,35278558,35317493,PSMA6,plus,5687,proteasome 20S subunit alpha 6
+NC_000014.9,35388048,35389143,RPLP0P3,minus,122589,ribosomal protein lateral stalk subunit P0 pseudogene 3
+NC_000014.9,35401513,35404749,NFKBIA,minus,4792,NFKB inhibitor alpha
+NC_000014.9,35429750,35431326,DNAJC8P1,plus,319111,DNAJC8 pseudogene 1
+NC_000014.9,35445302,35447868,LOC124903301,minus,124903301,uncharacterized LOC124903301
+NC_000014.9,35468247,35469400,RPS3AP4,plus,100132142,RPS3A pseudogene 4
+NC_000014.9,35475008,35482866,LOC107984681,plus,107984681,uncharacterized LOC107984681
+NC_000014.9,35475922,35483404,LOC105370450,minus,105370450,uncharacterized LOC105370450
+NC_000014.9,35511767,35513135,KRT18P6,minus,122592,keratin 18 pseudogene 6
+NC_000014.9,35534164,35537054,INSM2,plus,84684,INSM transcriptional repressor 2
+NC_000014.9,35538356,35809295,RALGAPA1,minus,253959,Ral GTPase activating protein catalytic subunit alpha 1
+NC_000014.9,35756327,35756463,LOC124900348,plus,124900348,uncharacterized LOC124900348
+NC_000014.9,35762800,35762931,SNORA101B,minus,107399303,"small nucleolar RNA, H/ACA box 101B"
+NC_000014.9,35765811,35767155,QRSL1P3,plus,100422374,QRSL1 pseudogene 3
+NC_000014.9,35786859,35786962,LOC124903425,minus,124903425,small nucleolar RNA U13
+NC_000014.9,35819758,35820614,NUTF2P2,plus,326613,nuclear transport factor 2 pseudogene 2
+NC_000014.9,35826338,35871963,BRMS1L,plus,84312,BRMS1 like transcriptional repressor
+NC_000014.9,35880956,35881719,LOC644584,plus,644584,EWS RNA binding protein 1 pseudogene
+NC_000014.9,36046132,36067729,LOC105370452,minus,105370452,uncharacterized LOC105370452
+NC_000014.9,36053826,36055391,ILF2P2,minus,644616,interleukin enhancer binding factor 2 pseudogene 2
+NC_000014.9,36070427,36165288,LINC00609,plus,101101773,long intergenic non-protein coding RNA 609
+NC_000014.9,36134890,36176722,PTCSC3,minus,100886964,papillary thyroid carcinoma susceptibility candidate 3
+NC_000014.9,36231555,36231774,RN7SKP21,minus,106480839,RN7SK pseudogene 21
+NC_000014.9,36269068,36273282,LOC124903302,minus,124903302,uncharacterized LOC124903302
+NC_000014.9,36273283,36289751,LOC107984003,plus,107984003,uncharacterized LOC107984003
+NC_000014.9,36298564,36320637,MBIP,minus,51562,MAP3K12 binding inhibitory protein 1
+NC_000014.9,36371318,36372369,DPPA3P2,plus,400206,DPPA3 pseudogene 2
+NC_000014.9,36405214,36405274,RNU7-93P,plus,106480813,"RNA, U7 small nuclear 93 pseudogene"
+NC_000014.9,36473288,36519556,SFTA3,minus,253970,surfactant associated 3
+NC_000014.9,36516397,36520232,NKX2-1,minus,7080,NK2 homeobox 1
+NC_000014.9,36519278,36523016,NKX2-1-AS1,plus,100506237,NKX2-1 antisense RNA 1
+NC_000014.9,36524689,36572246,LOC105370453,plus,105370453,uncharacterized LOC105370453
+NC_000014.9,36533827,36534353,PHKBP2,minus,5259,phosphorylase kinase regulatory subunit beta pseudogene 2
+NC_000014.9,36577403,36578035,RPL29P3,minus,729042,ribosomal protein L29 pseudogene 3
+NC_000014.9,36580004,36582614,NKX2-8,minus,26257,NK2 homeobox 8
+NC_000014.9,36593908,36594147,RN7SKP257,minus,106479210,RN7SK pseudogene 257
+NC_000014.9,36653792,36658749,LOC105370455,minus,105370455,uncharacterized LOC105370455
+NC_000014.9,36657568,36679362,PAX9,plus,5083,paired box 9
+NC_000014.9,36677921,37172606,SLC25A21,minus,89874,solute carrier family 25 member 21
+NC_000014.9,36848942,36852305,LOC107984668,plus,107984668,uncharacterized LOC107984668
+NC_000014.9,36952309,36952391,MIR4503,minus,100616280,microRNA 4503
+NC_000014.9,37172026,37173794,SLC25A21-AS1,plus,100129794,SLC25A21 antisense RNA 1
+NC_000014.9,37187219,37187314,RNU6-273P,plus,106480566,"RNA, U6 small nuclear 273, pseudogene"
+NC_000014.9,37197937,37552361,MIPOL1,plus,145282,mirror-image polydactyly 1
+NC_000014.9,37384432,37388850,LOC107984702,minus,107984702,uncharacterized LOC107984702
+NC_000014.9,37434469,37434573,RNU6-886P,minus,106479958,"RNA, U6 small nuclear 886, pseudogene"
+NC_000014.9,37589552,37595249,FOXA1,minus,3169,forkhead box A1
+NC_000014.9,37595629,37842717,TTC6,plus,319089,tetratricopeptide repeat domain 6
+NC_000014.9,37827798,37827904,RNU6-1277P,minus,106480123,"RNA, U6 small nuclear 1277, pseudogene"
+NC_000014.9,37896060,37902124,LINC00517,minus,400208,long intergenic non-protein coding RNA 517
+NC_000014.9,38003111,38039615,LOC105370456,minus,105370456,uncharacterized LOC105370456
+NC_000014.9,38207215,38209287,LOC124903303,minus,124903303,uncharacterized LOC124903303
+NC_000014.9,38207904,38213067,SSTR1,plus,6751,somatostatin receptor 1
+NC_000014.9,38254000,38256093,CLEC14A,minus,161198,C-type lectin domain containing 14A
+NC_000014.9,38256045,38311930,LOC112268136,plus,112268136,uncharacterized LOC112268136
+NC_000014.9,38371218,38386634,LOC124903304,plus,124903304,uncharacterized LOC124903304
+NC_000014.9,38605265,38606101,LOC100422334,plus,100422334,general transcription factor IIH subunit 3 pseudogene
+NC_000014.9,38726964,38728761,KRT8P1,plus,338017,keratin 8 pseudogene 1
+NC_000014.9,38749339,38916882,LINC00639,minus,283547,long intergenic non-protein coding RNA 639
+NC_000014.9,38878730,38919201,LOC105370457,plus,105370457,uncharacterized LOC105370457
+NC_000014.9,38951673,38973826,LOC102723516,plus,102723516,uncharacterized LOC102723516
+NC_000014.9,38973528,38974030,RIPPLY3P1,minus,100421053,RIPPLY3 pseudogene 1
+NC_000014.9,39031919,39103235,SEC23A,minus,10484,"SEC23 homolog A, COPII coat complex component"
+NC_000014.9,39103140,39103812,SEC23A-AS1,plus,105370458,SEC23A antisense RNA 1
+NC_000014.9,39108195,39108928,PPIAP4,plus,122552,peptidylprolyl isomerase A pseudogene 4
+NC_000014.9,39109823,39114829,LOC105370459,minus,105370459,uncharacterized LOC105370459
+NC_000014.9,39114323,39136973,GEMIN2,plus,8487,gem nuclear organelle associated protein 2
+NC_000014.9,39147814,39170333,TRAPPC6B,minus,122553,trafficking protein particle complex subunit 6B
+NC_000014.9,39157122,39157916,RPL7AP2,plus,652978,ribosomal protein L7a pseudogene 2
+NC_000014.9,39174875,39175880,PNN-AS1,minus,123466206,PNN antisense RNA 1
+NC_000014.9,39175254,39183220,PNN,plus,5411,"pinin, desmosome associated protein"
+NC_000014.9,39199871,39212740,LOC100313942,plus,100313942,transmembrane protein 92 pseudogene
+NC_000014.9,39215064,39217159,YTHDF2P1,plus,400209,YTH domain family member 2 pseudogene 1
+NC_000014.9,39233915,39388522,MIA2,plus,4253,MIA SH3 domain ER export factor 2
+NC_000014.9,39265703,39267061,MIA2-AS1,minus,100288846,MIA2 antisense RNA 1
+NC_000014.9,39370279,39370756,GLRX5P3,minus,118568802,GLRX5 pseudogene 3
+NC_000014.9,39384517,39387128,COILP1,minus,317784,coilin pseudogene 1
+NC_000014.9,39397684,39432433,FBXO33,minus,254170,F-box protein 33
+NC_000014.9,39432349,39865998,LOC105370461,plus,105370461,uncharacterized LOC105370461
+NC_000014.9,39474840,39513918,LOC105370460,plus,105370460,uncharacterized LOC105370460
+NC_000014.9,39483517,39493518,LOC112267899,plus,112267899,uncharacterized LOC112267899
+NC_000014.9,40217829,40265317,LOC105370464,plus,105370464,uncharacterized LOC105370464
+NC_000014.9,40231007,40348577,LOC105370463,minus,105370463,uncharacterized LOC105370463
+NC_000014.9,40318362,40390514,LOC105370462,plus,105370462,uncharacterized LOC105370462
+NC_000014.9,40399166,40445475,LOC105370465,plus,105370465,uncharacterized LOC105370465
+NC_000014.9,40576121,40629962,LOC105370466,minus,105370466,uncharacterized LOC105370466
+NC_000014.9,40699225,40886077,LOC105370467,plus,105370467,uncharacterized LOC105370467
+NC_000014.9,40954711,41141048,LINC02315,plus,644919,long intergenic non-protein coding RNA 2315
+NC_000014.9,41296410,41298686,LOC100533628,plus,100533628,WD repeat domain 75 pseudogene
+NC_000014.9,41583645,41593338,LRFN5-DT,minus,105370469,LRFN5 divergent transcript
+NC_000014.9,41594462,41594591,LOC124900349,plus,124900349,small nucleolar RNA SNORA31
+NC_000014.9,41606876,41904549,LRFN5,plus,145581,leucine rich repeat and fibronectin type III domain containing 5
+NC_000014.9,41742551,41743452,FKBP1BP1,plus,107984636,FKBP prolyl isomerase 1B pseudogene 1
+NC_000014.9,41911605,41936455,LOC124903305,plus,124903305,uncharacterized LOC124903305
+NC_000014.9,42105878,42106177,OR10V7P,minus,403225,olfactory receptor family 10 subfamily V member 7 pseudogene
+NC_000014.9,42608868,42609565,LOC100420765,plus,100420765,leucine rich pentatricopeptide repeat containing pseudogene
+NC_000014.9,42807117,42808021,YWHAQP1,minus,319121,YWHAQ pseudogene 1
+NC_000014.9,43026394,43027066,LOC124903306,plus,124903306,uncharacterized LOC124903306
+NC_000014.9,43274968,43275849,TUBBP3,plus,326106,tubulin beta pseudogene 3
+NC_000014.9,43300268,43300909,HNRNPUP1,plus,319134,heterogeneous nuclear ribonucleoprotein U pseudogene 1
+NC_000014.9,43308645,43316986,LOC105370470,plus,105370470,uncharacterized LOC105370470
+NC_000014.9,43316986,43335865,LOC124903307,plus,124903307,uncharacterized LOC124903307
+NC_000014.9,43540643,43541627,KRT8P2,minus,390472,keratin 8 pseudogene 2
+NC_000014.9,43595179,43596122,ARHGAP16P,plus,319102,"Rho GTPase activating protein 16, pseudogene"
+NC_000014.9,43990532,44386061,LINC02307,minus,105370471,long intergenic non-protein coding RNA 2307
+NC_000014.9,44077336,44077882,EIF4BP1,minus,319118,eukaryotic translation initiation factor 4B pseudogene 1
+NC_000014.9,44119418,44120869,LOC645086,minus,645086,chromosome 11 open reading frame 58 pseudogene
+NC_000014.9,44290600,44291773,YWHAZP1,minus,319120,tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein zeta pseudogene 1
+NC_000014.9,44392531,44481886,LINC02277,minus,107984027,long intergenic non-protein coding RNA 2277
+NC_000014.9,44504149,44507283,FSCB,minus,84075,fibrous sheath CABYR binding protein
+NC_000014.9,44507409,44538513,LOC105370473,plus,105370473,uncharacterized LOC105370473
+NC_000014.9,44566913,44566998,LOC124903432,minus,124903432,uncharacterized LOC124903432
+NC_000014.9,44586819,44595734,LOC105370472,minus,105370472,uncharacterized LOC105370472
+NC_000014.9,44763157,44799126,LINC02302,minus,101927351,long intergenic non-protein coding RNA 2302
+NC_000014.9,44859958,44866240,DOCK11P1,minus,100132537,dedicator of cytokinesis 11 pseudogene 1
+NC_000014.9,44886839,44887803,LOC401770,minus,401770,DET1 and DDB1 associated 1 pseudogene
+NC_000014.9,44888453,44889053,RRAGAP1,minus,100462776,Ras related GTP binding A pseudogene 1
+NC_000014.9,44897275,44907257,C14orf28,plus,122525,chromosome 14 open reading frame 28
+NC_000014.9,44898908,44911917,LOC101927418,minus,101927418,uncharacterized LOC101927418
+NC_000014.9,44924324,44961947,KLHL28,minus,54813,kelch like family member 28
+NC_000014.9,44962190,45074431,TOGARAM1,plus,23116,TOG array regulator of axonemal microtubules 1
+NC_000014.9,45083048,45084026,PRPF39-DT,minus,105370474,PRPF39 divergent transcript
+NC_000014.9,45084116,45116282,PRPF39,plus,55015,pre-mRNA processing factor 39
+NC_000014.9,45088243,45088308,LOC124903416,plus,124903416,small nucleolar RNA SNORD58
+NC_000014.9,45110875,45110975,SNORD127,plus,100113389,"small nucleolar RNA, C/D box 127"
+NC_000014.9,45115599,45134481,FKBP3,minus,2287,FKBP prolyl isomerase 3
+NC_000014.9,45135930,45200890,FANCM,plus,57697,FA complementation group M
+NC_000014.9,45203190,45253202,MIS18BP1,minus,55320,MIS18 binding protein 1
+NC_000014.9,45253291,45269709,LOC107984674,plus,107984674,uncharacterized LOC107984674
+NC_000014.9,45274359,45274477,RNU6-552P,minus,106481356,"RNA, U6 small nuclear 552, pseudogene"
+NC_000014.9,45289930,45290481,DNAJC19P9,plus,644589,DnaJ heat shock protein family (Hsp40) member C19 pseudogene 9
+NC_000014.9,45366149,45389286,LOC105370475,plus,105370475,uncharacterized LOC105370475
+NC_000014.9,45403353,45569847,LOC105370476,plus,105370476,uncharacterized LOC105370476
+NC_000014.9,45509251,45516994,LOC124903308,plus,124903308,uncharacterized LOC124903308
+NC_000014.9,45688993,45696980,LOC107984644,plus,107984644,uncharacterized LOC107984644
+NC_000014.9,45706258,45715602,LINC02303,minus,105370479,long intergenic non-protein coding RNA 2303
+NC_000014.9,45743633,45774009,LOC105370478,plus,105370478,uncharacterized LOC105370478
+NC_000014.9,45855391,45857042,LOC105378177,plus,105378177,uncharacterized LOC105378177
+NC_000014.9,46064159,46501903,LINC00871,plus,100506412,long intergenic non-protein coding RNA 871
+NC_000014.9,46487021,46585653,LOC124903309,minus,124903309,uncharacterized LOC124903309
+NC_000014.9,46578519,46582813,LOC105370480,plus,105370480,uncharacterized LOC105370480
+NC_000014.9,46595624,46660349,LOC105370481,minus,105370481,uncharacterized LOC105370481
+NC_000014.9,46651010,46651781,RPL10L,minus,140801,ribosomal protein L10 like
+NC_000014.9,46839623,47675605,MDGA2,minus,161357,MAM domain containing glycosylphosphatidylinositol anchor 2
+NC_000014.9,46996379,46997805,RPA2P1,plus,326628,replication protein A2 pseudogene 1
+NC_000014.9,47200549,47201126,RPL13AP2,minus,326278,ribosomal protein L13a pseudogene 2
+NC_000014.9,47444071,47444524,RPS15AP3,minus,326317,ribosomal protein S15a pseudogene 3
+NC_000014.9,47760995,47761104,MIR548Y,minus,100500919,microRNA 548y
+NC_000014.9,47764953,47795014,LINC00648,minus,100506433,long intergenic non-protein coding RNA 648
+NC_000014.9,47794443,47795754,LOC100420098,plus,100420098,kinesin family member 20B pseudogene
+NC_000014.9,48045481,48046219,LOC100418768,plus,100418768,ataxin 3 pseudogene
+NC_000014.9,48194123,48228216,LOC101927483,plus,101927483,uncharacterized LOC101927483
+NC_000014.9,48233527,48253174,LOC105370482,minus,105370482,uncharacterized LOC105370482
+NC_000014.9,48262432,48268080,LOC124903310,minus,124903310,uncharacterized LOC124903310
+NC_000014.9,48341226,48341332,RNU6-297P,minus,106479699,"RNA, U6 small nuclear 297, pseudogene"
+NC_000014.9,48379105,48385348,LOC124903311,minus,124903311,uncharacterized LOC124903311
+NC_000014.9,48393999,49288023,LOC105378178,minus,105378178,uncharacterized LOC105378178
+NC_000014.9,48398309,48399375,LOC100422641,plus,100422641,"STT3A, subunit of the oligosaccharyltransferase complex (catalytic) pseudogene"
+NC_000014.9,48489897,48490467,RPL18P1,plus,326291,ribosomal protein L18 pseudogene 1
+NC_000014.9,49373912,49374534,ATP5MC2P2,plus,319119,ATP5MC2 pseudogene 2
+NC_000014.9,49521098,49550651,LOC107984701,minus,107984701,uncharacterized LOC107984701
+NC_000014.9,49552633,49552748,RNA5SP384,plus,100873639,"RNA, 5S ribosomal pseudogene 384"
+NC_000014.9,49570988,49598710,RPS29,minus,6235,ribosomal protein S29
+NC_000014.9,49577355,49577842,RPL32P29,minus,729215,ribosomal protein L32 pseudogene 29
+NC_000014.9,49586580,49586878,RN7SL1,plus,6029,RNA component of signal recognition particle 7SL1
+NC_000014.9,49598940,49614672,LRR1,plus,122769,leucine rich repeat protein 1
+NC_000014.9,49599673,49600913,RHOQP1,plus,319093,ras homolog family member Q pseudogene 1
+NC_000014.9,49618530,49620626,RPL36AL,minus,6166,ribosomal protein L36a like
+NC_000014.9,49620799,49623481,MGAT2,plus,4247,"alpha-1,6-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase"
+NC_000014.9,49625174,49635244,DNAAF2,minus,55172,dynein axonemal assembly factor 2
+NC_000014.9,49643555,49688214,POLE2,minus,5427,"DNA polymerase epsilon 2, accessory subunit"
+NC_000014.9,49676613,49678509,STK16P1,plus,326107,serine/threonine kinase 16 pseudogene 1
+NC_000014.9,49684544,49684665,RNU6ATAC30P,plus,106481868,"RNA, U6atac small nuclear 30, pseudogene"
+NC_000014.9,49693120,49753150,KLHDC1,plus,122773,kelch domain containing 1
+NC_000014.9,49768153,49786385,KLHDC2,plus,23588,kelch domain containing 2
+NC_000014.9,49782083,49852788,NEMF,minus,9147,nuclear export mediator factor
+NC_000014.9,49839725,49839827,RNU6-539P,plus,106481351,"RNA, U6 small nuclear 539, pseudogene"
+NC_000014.9,49853616,49853914,RN7SL3,minus,378707,RNA component of signal recognition particle 7SL3
+NC_000014.9,49859894,49868170,LOC105378179,minus,105378179,uncharacterized LOC105378179
+NC_000014.9,49862551,49862849,RN7SL2,minus,378706,RNA component of signal recognition particle 7SL2
+NC_000014.9,49893082,49897054,ARF6,plus,382,ADP ribosylation factor 6
+NC_000014.9,49901850,49901950,RNU6-189P,minus,106479650,"RNA, U6 small nuclear 189, pseudogene"
+NC_000014.9,49919861,49963032,LOC100506446,minus,100506446,uncharacterized LOC100506446
+NC_000014.9,49966399,49966511,MIR6076,plus,102464828,microRNA 6076
+NC_000014.9,49971639,49991513,LOC105370485,plus,105370485,uncharacterized LOC105370485
+NC_000014.9,49981669,50007520,LINC01588,minus,283551,long intergenic non-protein coding RNA 1588
+NC_000014.9,50007313,50105043,LINC01599,minus,196913,long intergenic non-protein coding RNA 1599
+NC_000014.9,50050289,50051686,PDLIM1P1,plus,326616,PDZ and LIM domain 1 pseudogene 1
+NC_000014.9,50053236,50053597,RPS15AP2,plus,326316,ribosomal protein S15a pseudogene 2
+NC_000014.9,50068568,50068828,RN7SKP193,plus,106479181,RN7SK pseudogene 193
+NC_000014.9,50102716,50116572,VCPKMT,minus,79609,valosin containing protein lysine methyltransferase
+NC_000014.9,50117130,50231882,SOS2,minus,6655,SOS Ras/Rho guanine nucleotide exchange factor 2
+NC_000014.9,50242434,50312229,L2HGDH,minus,79944,L-2-hydroxyglutarate dehydrogenase
+NC_000014.9,50299855,50299946,MIR4504,minus,100616261,microRNA 4504
+NC_000014.9,50311516,50327957,DMAC2L,plus,27109,distal membrane arm assembly component 2 like
+NC_000014.9,50326265,50397298,CDKL1,minus,8814,cyclin dependent kinase like 1
+NC_000014.9,50418521,50561126,MAP4K5,minus,11183,mitogen-activated protein kinase kinase kinase kinase 5
+NC_000014.9,50471769,50472438,LOC100419913,plus,100419913,zinc finger protein 678 pseudogene
+NC_000014.9,50512272,50519569,LOC124903312,minus,124903312,uncharacterized LOC124903312
+NC_000014.9,50533082,50633068,ATL1,plus,51062,atlastin GTPase 1
+NC_000014.9,50571774,50572173,SNRPGP1,minus,326272,small nuclear ribonucleoprotein polypeptide G pseudogene 1
+NC_000014.9,50633580,50668306,SAV1,minus,60485,salvador family WW domain containing protein 1
+NC_000014.9,50637691,50637981,RN7SL452P,minus,106479387,"RNA, 7SL, cytoplasmic 452, pseudogene"
+NC_000014.9,50703817,50705542,ZFP64P1,minus,319123,ZFP64 zinc finger protein pseudogene 1
+NC_000014.9,50719763,50831503,NIN,minus,51199,ninein
+NC_000014.9,50743464,50746076,LOC124903313,plus,124903313,uncharacterized LOC124903313
+NC_000014.9,50821797,50823509,LOC105370489,plus,105370489,uncharacterized LOC105370489
+NC_000014.9,50844625,50844712,LOC124903423,plus,124903423,small nucleolar RNA U83B
+NC_000014.9,50872053,50904970,ABHD12B,plus,145447,abhydrolase domain containing 12B
+NC_000014.9,50905217,50944483,PYGL,minus,5836,glycogen phosphorylase L
+NC_000014.9,50917657,50917851,MRPL57P9,plus,359733,mitochondrial ribosomal protein L57 pseudogene 9
+NC_000014.9,50940801,50942590,LOC124903314,minus,124903314,uncharacterized LOC124903314
+NC_000014.9,50946290,50962327,LOC400212,minus,400212,uncharacterized LOC400212
+NC_000014.9,50975266,51095105,TRIM9,minus,114088,tripartite motif containing 9
+NC_000014.9,51240247,51257655,TMX1,plus,81542,thioredoxin related transmembrane protein 1
+NC_000014.9,51244090,51244224,LOC124900346,plus,124900346,small nucleolar RNA SNORA70
+NC_000014.9,51287431,51296502,LOC124903315,plus,124903315,uncharacterized LOC124903315
+NC_000014.9,51304311,51328385,LINC00519,minus,161342,long intergenic non-protein coding RNA 519
+NC_000014.9,51333393,51365557,LINC00640,plus,283553,long intergenic non-protein coding RNA 640
+NC_000014.9,51333399,51340112,LOC124900595,minus,124900595,uncharacterized LOC124900595
+NC_000014.9,51340117,51348521,LOC105370495,minus,105370495,uncharacterized LOC105370495
+NC_000014.9,51392129,51397135,LINC02310,minus,105370496,long intergenic non-protein coding RNA 2310
+NC_000014.9,51396431,51730727,FRMD6,plus,122786,FERM domain containing 6
+NC_000014.9,51436150,51439313,SETP2,plus,326277,SET pseudogene 2
+NC_000014.9,51454512,51599952,FRMD6-AS2,minus,100874185,FRMD6 antisense RNA 2
+NC_000014.9,51522864,51522967,RNU6-1291P,plus,106481588,"RNA, U6 small nuclear 1291, pseudogene"
+NC_000014.9,51604839,51604900,LOC124903415,minus,124903415,uncharacterized LOC124903415
+NC_000014.9,51649516,51651744,FRMD6-AS1,minus,145438,FRMD6 antisense RNA 1
+NC_000014.9,51692752,51692861,RNA5SP385,plus,100873640,"RNA, 5S ribosomal pseudogene 385"
+NC_000014.9,51724103,51724208,RNU6-301P,plus,106481274,"RNA, U6 small nuclear 301, pseudogene"
+NC_000014.9,51756991,51757986,OR7E105P,plus,81116,olfactory receptor family 7 subfamily E member 105 pseudogene
+NC_000014.9,51763048,51764074,OR7E106P,minus,81115,olfactory receptor family 7 subfamily E member 106 pseudogene
+NC_000014.9,51765816,51825019,LOC101927598,plus,101927598,uncharacterized LOC101927598
+NC_000014.9,51771788,51772096,OR7E159P,minus,403299,olfactory receptor family 7 subfamily E member 159 pseudogene
+NC_000014.9,51826174,51969795,GNG2,plus,54331,G protein subunit gamma 2
+NC_000014.9,51916145,51918571,LOC102723604,minus,102723604,uncharacterized LOC102723604
+NC_000014.9,51982526,51990584,LOC105370497,minus,105370497,uncharacterized LOC105370497
+NC_000014.9,51989546,52010694,RTRAF,plus,51637,"RNA transcription, translation and transport factor"
+NC_000014.9,52004809,52069059,NID2,minus,22795,nidogen 2
+NC_000014.9,52069236,52074147,LOC105378180,plus,105378180,uncharacterized LOC105378180
+NC_000014.9,52111119,52125497,LINC02319,minus,105370498,long intergenic non-protein coding RNA 2319
+NC_000014.9,52117601,52118174,COX5AP2,plus,319087,cytochrome c oxidase subunit 5A pseudogene 2
+NC_000014.9,52267698,52280914,PTGDR,plus,5729,prostaglandin D2 receptor
+NC_000014.9,52286768,52289434,LOC100131689,plus,100131689,pumilio domain-containing protein KIAA0020-like
+NC_000014.9,52314312,52328598,PTGER2,plus,5732,prostaglandin E receptor 2
+NC_000014.9,52430596,52552505,TXNDC16,minus,57544,thioredoxin domain containing 16
+NC_000014.9,52552836,52637713,GPR137C,plus,283554,G protein-coupled receptor 137C
+NC_000014.9,52639915,52695558,ERO1A,minus,30001,endoplasmic reticulum oxidoreductase 1 alpha
+NC_000014.9,52707200,52728590,PSMC6,plus,5706,"proteasome 26S subunit, ATPase 6"
+NC_000014.9,52730166,52774989,STYX,plus,6815,serine/threonine/tyrosine interacting protein
+NC_000014.9,52775193,52791607,GNPNAT1,minus,64841,glucosamine-phosphate N-acetyltransferase 1
+NC_000014.9,52791788,52930234,LOC105370500,plus,105370500,uncharacterized LOC105370500
+NC_000014.9,52798674,52799090,LOC100288978,minus,100288978,COP9 signalosome subunit 9 pseudogene
+NC_000014.9,52857273,52951050,FERMT2,minus,10979,FERM domain containing kindlin 2
+NC_000014.9,53011929,53012401,NDUFB3P3,plus,93996,NADH:ubiquinone oxidoreductase subunit B3 pseudogene 3
+NC_000014.9,53036755,53153323,DDHD1,minus,80821,DDHD domain containing 1
+NC_000014.9,53153354,53157528,DDHD1-DT,plus,101927620,DDHD1 divergent transcript
+NC_000014.9,53169014,53242470,LOC105370502,plus,105370502,uncharacterized LOC105370502
+NC_000014.9,53320652,53722793,LOC105370504,plus,105370504,uncharacterized LOC105370504
+NC_000014.9,53597981,53612382,LOC124903316,minus,124903316,uncharacterized LOC124903316
+NC_000014.9,53612798,53613381,RPS3AP46,plus,100271596,RPS3A pseudogene 46
+NC_000014.9,53684997,53850826,LINC02331,minus,105370503,long intergenic non-protein coding RNA 2331
+NC_000014.9,53872836,53916912,LOC107984676,minus,107984676,uncharacterized LOC107984676
+NC_000014.9,53948427,53948484,MIR5580,minus,100847076,microRNA 5580
+NC_000014.9,53949736,53956891,BMP4,minus,652,bone morphogenetic protein 4
+NC_000014.9,53954182,53962356,LOC124903317,plus,124903317,uncharacterized LOC124903317
+NC_000014.9,53990931,53992023,ATP5F1CP1,minus,645560,ATP synthase F1 subunit gamma pseudogene 1
+NC_000014.9,54043880,54188454,LOC105370507,minus,105370507,uncharacterized LOC105370507
+NC_000014.9,54114811,54116076,LOC105370505,plus,105370505,uncharacterized LOC105370505
+NC_000014.9,54397007,54420218,CDKN3,plus,1033,cyclin dependent kinase inhibitor 3
+NC_000014.9,54423561,54441374,CNIH1,minus,10175,cornichon family member 1
+NC_000014.9,54474485,54488980,GMFB,minus,2764,glia maturation factor beta
+NC_000014.9,54509906,54539292,CGRRF1,plus,10668,cell growth regulator with ring finger domain 1
+NC_000014.9,54565316,54793315,SAMD4A,plus,23034,sterile alpha motif domain containing 4A
+NC_000014.9,54604047,54668654,LOC112268133,plus,112268133,uncharacterized LOC112268133
+NC_000014.9,54683694,54687910,SAMD4A-AS1,minus,729451,SAMD4A antisense RNA 1
+NC_000014.9,54842017,54902826,GCH1,minus,2643,GTP cyclohydrolase 1
+NC_000014.9,54859215,54859330,RNU6ATAC9P,plus,106479547,"RNA, U6atac small nuclear 9, pseudogene"
+NC_000014.9,54878113,54878193,MIR4308,minus,100422984,microRNA 4308
+NC_000014.9,54884807,54886244,FDPSP3,minus,2227,farnesyl diphosphate synthase pseudogene 3
+NC_000014.9,54938949,55027099,WDHD1,minus,11169,WD repeat and HMG-box DNA binding protein 1
+NC_000014.9,55004755,55005763,RPSAP13,minus,3923,ribosomal protein SA pseudogene 13
+NC_000014.9,55027236,55049489,SOCS4,plus,122809,suppressor of cytokine signaling 4
+NC_000014.9,55051647,55070194,MAPK1IP1L,plus,93487,mitogen-activated protein kinase 1 interacting protein 1 like
+NC_000014.9,55084732,55103329,LOC124903318,minus,124903318,uncharacterized LOC124903318
+NC_000014.9,55122850,55125467,LOC124903319,plus,124903319,uncharacterized LOC124903319
+NC_000014.9,55129252,55145430,LGALS3,plus,3958,galectin 3
+NC_000014.9,55148135,55191585,DLGAP5,minus,9787,DLG associated protein 5
+NC_000014.9,55191673,55196037,LOC105370508,plus,105370508,uncharacterized LOC105370508
+NC_000014.9,55199661,55216946,LOC107984708,plus,107984708,uncharacterized LOC107984708
+NC_000014.9,55229193,55229936,UBE2L1,plus,283556,ubiquitin conjugating enzyme E2 L1 (pseudogene)
+NC_000014.9,55240447,55241134,COX5AP1,minus,9385,cytochrome c oxidase subunit 5A pseudogene 1
+NC_000014.9,55262231,55272078,FBXO34-AS1,minus,105370509,FBXO34 antisense RNA 1
+NC_000014.9,55271421,55443049,FBXO34,plus,55030,F-box protein 34
+NC_000014.9,55282296,55282643,RPL34P28,minus,100271500,ribosomal protein L34 pseudogene 28
+NC_000014.9,55298608,55299496,CHMP4BP1,plus,100307126,charged multivesicular body protein 4B pseudogene 1
+NC_000014.9,55366391,55411830,ATG14,minus,22863,autophagy related 14
+NC_000014.9,55394315,55395327,HMGN1P1,minus,319131,high mobility group nucleosome binding domain 1 pseudogene 1
+NC_000014.9,55413540,55414102,RPL21P6,minus,652975,ribosomal protein L21 pseudogene 6
+NC_000014.9,55414210,55440616,TBPL2,minus,387332,TATA-box binding protein like 2
+NC_000014.9,55543376,55544231,RPL7AP4,plus,652985,ribosomal protein L7a pseudogene 4
+NC_000014.9,55546559,55550363,ABI1P1,plus,326268,abl interactor 1 pseudogene 1
+NC_000014.9,55576157,55580092,KTN1-AS1,minus,100129075,KTN1 antisense RNA 1
+NC_000014.9,55580207,55684584,KTN1,plus,3895,kinectin 1
+NC_000014.9,55715501,55721735,LOC124903320,plus,124903320,uncharacterized LOC124903320
+NC_000014.9,55766161,55767717,RPL13AP3,plus,645683,ribosomal protein L13a pseudogene 3
+NC_000014.9,55781135,55796674,LINC00520,minus,645687,long intergenic non-protein coding RNA 520
+NC_000014.9,55899411,55900801,LOC105370511,minus,105370511,uncharacterized LOC105370511
+NC_000014.9,55943446,55962970,LOC102723670,plus,102723670,uncharacterized LOC102723670
+NC_000014.9,56004688,56047538,LOC105370512,plus,105370512,uncharacterized LOC105370512
+NC_000014.9,56095829,56109852,LOC105370513,minus,105370513,uncharacterized LOC105370513
+NC_000014.9,56118411,56301524,PELI2,plus,57161,pellino E3 ubiquitin protein ligase family member 2
+NC_000014.9,56310989,56427032,LINC02284,plus,102723699,long intergenic non-protein coding RNA 2284
+NC_000014.9,56514331,56551309,LOC101927690,plus,101927690,uncharacterized LOC101927690
+NC_000014.9,56579525,56663165,TMEM260,plus,54916,transmembrane protein 260
+NC_000014.9,56683377,56683773,RPL36AP1,minus,100131379,ribosomal protein L36a pseudogene 1
+NC_000014.9,56696003,56696174,LOC124903433,minus,124903433,uncharacterized LOC124903433
+NC_000014.9,56794717,56795480,LOC124903322,plus,124903322,uncharacterized LOC124903322
+NC_000014.9,56799905,56810479,OTX2,minus,5015,orthodenticle homeobox 2
+NC_000014.9,56812006,56931308,OTX2-AS1,plus,100309464,OTX2 antisense RNA 1 (head to head)
+NC_000014.9,56824375,56824656,RN7SL461P,minus,106481844,"RNA, 7SL, cytoplasmic 461, pseudogene"
+NC_000014.9,56824986,56825092,RNU6-1204P,plus,106481560,"RNA, U6 small nuclear 1204, pseudogene"
+NC_000014.9,56953824,57017684,LOC124903323,minus,124903323,uncharacterized LOC124903323
+NC_000014.9,56978383,56979676,RPL3P3,plus,645798,ribosomal protein L3 pseudogene 3
+NC_000014.9,57033238,57056051,LOC124903324,minus,124903324,uncharacterized LOC124903324
+NC_000014.9,57040848,57042701,LOC440180,plus,440180,zinc finger CCHC-type containing 7 pseudogene
+NC_000014.9,57200507,57268905,EXOC5,minus,10640,exocyst complex component 5
+NC_000014.9,57268971,57298742,AP5M1,plus,55745,adaptor related protein complex 5 subunit mu 1
+NC_000014.9,57390586,57415906,NAA30,plus,122830,"N-alpha-acetyltransferase 30, NatC catalytic subunit"
+NC_000014.9,57469300,57493857,CCDC198,minus,55195,coiled-coil domain containing 198
+NC_000014.9,57491035,57578280,LOC105370519,plus,105370519,uncharacterized LOC105370519
+NC_000014.9,57563920,57983181,SLC35F4,minus,341880,solute carrier family 35 member F4
+NC_000014.9,57578333,57583763,LOC105370518,plus,105370518,uncharacterized LOC105370518
+NC_000014.9,57629829,57630492,LOC401777,plus,401777,serine and arginine rich splicing factor 10 pseudogene
+NC_000014.9,57837354,57837660,RN7SKP99,minus,106479138,RN7SK pseudogene 99
+NC_000014.9,58000761,58152213,ARMH4,minus,145407,armadillo like helical domain containing 4
+NC_000014.9,58100985,58101572,LOC100420347,plus,100420347,polycomb group ring finger 3 pseudogene
+NC_000014.9,58141240,58141760,UBA52P3,plus,122837,ubiquitin A-52 residue ribosomal protein fusion product 1 pseudogene 3
+NC_000014.9,58179771,58180064,RN7SL598P,plus,106481759,"RNA, 7SL, cytoplasmic 598, pseudogene"
+NC_000014.9,58200149,58235636,ACTR10,plus,55860,actin related protein 10
+NC_000014.9,58239895,58239967,TRK-CTT1-1,minus,100189107,tRNA-Lys (anticodon CTT) 1-1
+NC_000014.9,58244843,58272004,PSMA3,plus,5684,proteasome 20S subunit alpha 3
+NC_000014.9,58265365,58298137,PSMA3-AS1,minus,379025,PSMA3 antisense RNA 1
+NC_000014.9,58284709,58285833,HMGB1P14,plus,319130,high mobility group box 1 pseudogene 14
+NC_000014.9,58288033,58289153,LINC00216,plus,55451,long intergenic non-protein coding RNA 216
+NC_000014.9,58292293,58292388,RNU6-341P,minus,106481287,"RNA, U6 small nuclear 341, pseudogene"
+NC_000014.9,58298555,58373876,ARID4A,plus,5926,AT-rich interaction domain 4A
+NC_000014.9,58370023,58395705,TOMM20L-DT,minus,105370522,TOMM20L divergent transcript
+NC_000014.9,58395930,58417080,TOMM20L,plus,387990,translocase of outer mitochondrial membrane 20 like
+NC_000014.9,58408494,58427531,TIMM9,minus,26520,translocase of inner mitochondrial membrane 9
+NC_000014.9,58427400,58562090,KIAA0586,plus,9786,KIAA0586
+NC_000014.9,58463884,58464421,HSBP1P1,plus,326296,heat shock factor binding protein 1 pseudogene 1
+NC_000014.9,58520934,58522746,HNRNPCP1,plus,319133,heterogeneous nuclear ribonucleoprotein C pseudogene 1
+NC_000014.9,58564058,58564738,RPL9P5,plus,100129179,ribosomal protein L9 pseudogene 5
+NC_000014.9,58634061,58648321,DACT1,plus,51339,dishevelled binding antagonist of beta catenin 1
+NC_000014.9,58748953,58750153,LOC102723725,plus,102723725,uncharacterized LOC102723725
+NC_000014.9,58794630,58795071,RPL31P4,plus,729646,ribosomal protein L31 pseudogene 4
+NC_000014.9,58827482,58828516,LOC440181,minus,440181,transmembrane protein 98 pseudogene
+NC_000014.9,58828288,59017328,LINC01500,plus,102723742,long intergenic non-protein coding RNA 1500
+NC_000014.9,58913871,58918056,LOC124903325,plus,124903325,uncharacterized LOC124903325
+NC_000014.9,59064673,59071575,LOC107984692,minus,107984692,uncharacterized LOC107984692
+NC_000014.9,59135123,59136451,AKR1B1P5,minus,390482,aldo-keto reductase family 1 member B1 pseudogene 5
+NC_000014.9,59158144,59184247,LOC107984642,plus,107984642,uncharacterized LOC107984642
+NC_000014.9,59181571,59182144,PPIAP5,plus,122842,peptidylprolyl isomerase A pseudogene 5
+NC_000014.9,59188667,59371405,DAAM1,plus,23002,dishevelled associated activator of morphogenesis 1
+NC_000014.9,59452783,59465380,GPR135,minus,64582,G protein-coupled receptor 135
+NC_000014.9,59465478,59505273,L3HYPDH,minus,112849,trans-L-3-hydroxyproline dehydratase
+NC_000014.9,59484517,59505410,JKAMP,plus,51528,JNK1/MAPK8 associated membrane protein
+NC_000014.9,59487835,59492051,LOC124903326,plus,124903326,uncharacterized LOC124903326
+NC_000014.9,59505067,59576812,CCDC175,minus,729665,coiled-coil domain containing 175
+NC_000014.9,59595976,59870776,RTN1,minus,6252,reticulon 1
+NC_000014.9,59646962,59647020,MIR5586,minus,100847088,microRNA 5586
+NC_000014.9,59919713,60066817,LRRC9,plus,341883,leucine rich repeat containing 9
+NC_000014.9,59969093,60091746,PCNX4-DT,minus,105370524,PCNX4 divergent transcript
+NC_000014.9,60091911,60148221,PCNX4,plus,64430,pecanex 4
+NC_000014.9,60144119,60169889,DHRS7,minus,51635,dehydrogenase/reductase 7
+NC_000014.9,60159011,60161425,SCOCP1,plus,317767,short coiled-coil protein pseudogene 1
+NC_000014.9,60179324,60180133,PSMA3P1,plus,326617,proteasome subunit alpha 3 pseudogene 1
+NC_000014.9,60212453,60212934,RPL17P2,minus,652974,ribosomal protein L17 pseudogene 2
+NC_000014.9,60240126,60245636,LOC101927702,minus,101927702,uncharacterized LOC101927702
+NC_000014.9,60245750,60299087,PPM1A,plus,5494,"protein phosphatase, Mg2+/Mn2+ dependent 1A"
+NC_000014.9,60323196,60323907,LINC02322,plus,101927729,long intergenic non-protein coding RNA 2322
+NC_000014.9,60397707,60400514,RMB8AP1,plus,112846,RBM8A pseudogene 1
+NC_000014.9,60398823,60400013,GNRHR2P1,minus,404718,GNRHR2 pseudogene 1
+NC_000014.9,60435956,60515544,C14orf39,minus,317761,chromosome 14 open reading frame 39
+NC_000014.9,60494994,60496992,SALL4P7,minus,390483,spalt like transcription factor 4 pseudogene 7
+NC_000014.9,60509146,60512850,SIX6,plus,4990,SIX homeobox 6
+NC_000014.9,60544394,60544756,VN1R59P,plus,100312811,vomeronasal 1 receptor 59 pseudogene
+NC_000014.9,60572008,60572351,RPL37P5,minus,654369,ribosomal protein L37 pseudogene 5
+NC_000014.9,60602106,60602551,RPS15AP4,minus,654371,ribosomal protein S15a pseudogene 4
+NC_000014.9,60639216,60640416,SALRNA1,plus,104548971,senescence associated long non-coding RNA 1
+NC_000014.9,60643421,60649477,SIX1,minus,6495,SIX homeobox 1
+NC_000014.9,60648648,60648711,MIR9718,plus,113218481,microRNA 9718
+NC_000014.9,60709539,60724351,SIX4,minus,51804,SIX homeobox 4
+NC_000014.9,60734761,60969965,MNAT1,plus,4331,MNAT1 component of CDK activating kinase
+NC_000014.9,60779865,60781267,MAD2L1P1,plus,326596,mitotic arrest deficient 2 like 1 pseudogene 1
+NC_000014.9,60918982,60920163,SRMP2,minus,326269,SRM pseudogene 2
+NC_000014.9,60971441,60981690,TRMT5,minus,57570,tRNA methyltransferase 5
+NC_000014.9,60974327,60974435,RNU6-398P,plus,106479742,"RNA, U6 small nuclear 398, pseudogene"
+NC_000014.9,60981245,61083733,SLC38A6,plus,145389,solute carrier family 38 member 6
+NC_000014.9,61031227,61049403,LOC101927756,minus,101927756,uncharacterized LOC101927756
+NC_000014.9,61187468,61550976,PRKCH,plus,5583,protein kinase C eta
+NC_000014.9,61277370,61281338,TMEM30B,minus,161291,transmembrane protein 30B
+NC_000014.9,61294700,61322818,PRKCH-AS1,minus,121233923,PRKCH antisense RNA 1
+NC_000014.9,61535373,61545484,LOC105370525,minus,105370525,uncharacterized LOC105370525
+NC_000014.9,61556272,61570653,LINC01303,minus,101927780,long intergenic non-protein coding RNA 1303
+NC_000014.9,61570540,61654713,LINC03033,plus,400221,long intergenic non-protein coding RNA 3033
+NC_000014.9,61681041,61695823,HIF1A-AS1,minus,100750246,HIF1A antisense RNA 1
+NC_000014.9,61695513,61748258,HIF1A,plus,3091,hypoxia inducible factor 1 subunit alpha
+NC_000014.9,61715558,61751097,HIF1A-AS3,minus,105370526,HIF1A antisense RNA 3
+NC_000014.9,61747039,61749089,HIF1A-AS2,minus,100750247,HIF1A antisense RNA 2
+NC_000014.9,61762420,61796428,SNAPC1,plus,6617,small nuclear RNA activating complex polypeptide 1
+NC_000014.9,61812162,62112825,SYT16,plus,83851,synaptotagmin 16
+NC_000014.9,61831739,61832422,COX4I1P1,minus,122867,cytochrome c oxidase subunit 4I1 pseudogene 1
+NC_000014.9,61864211,61866149,MOCS3P1,plus,326305,molybdenum cofactor synthesis 3 pseudogene 1
+NC_000014.9,62117357,62134186,SERTAD4BP,plus,646113,"SERTA domain containing 4B, pseudogene"
+NC_000014.9,62134149,62139973,LINC00644,minus,101954204,long intergenic non-protein coding RNA 644
+NC_000014.9,62150780,62151286,LOC100419079,minus,100419079,tubulin alpha 1c pseudogene
+NC_000014.9,62357909,62507351,LOC105370529,plus,105370529,uncharacterized LOC105370529
+NC_000014.9,62471186,62492624,LOC105370528,minus,105370528,uncharacterized LOC105370528
+NC_000014.9,62604113,62605722,ATP5F1AP4,minus,100129782,ATP synthase F1 subunit alpha pseudogene 4
+NC_000014.9,62699464,63045458,KCNH5,minus,27133,potassium voltage-gated channel subfamily H member 5
+NC_000014.9,63119600,63177709,LOC105370531,minus,105370531,LINE-1 retrotransposable element ORF1 protein-like
+NC_000014.9,63123001,63123935,PARP1P2,plus,145,poly(ADP-ribose) polymerase 1 pseudogene 2
+NC_000014.9,63178370,63179991,LOC105370530,plus,105370530,uncharacterized LOC105370530
+NC_000014.9,63204443,63293508,RHOJ,plus,57381,ras homolog family member J
+NC_000014.9,63312835,63318935,GPHB5,minus,122876,glycoprotein hormone subunit beta 5
+NC_000014.9,63371364,63543377,PPP2R5E,minus,5529,protein phosphatase 2 regulatory subunit B'epsilon
+NC_000014.9,63477774,63477880,LOC124903414,plus,124903414,U6 spliceosomal RNA
+NC_000014.9,63479272,63479413,LOC124900352,plus,124900352,uncharacterized LOC124900352
+NC_000014.9,63542784,63544664,LOC112268140,plus,112268140,loricrin-like
+NC_000014.9,63567912,63568280,RPL31P5,plus,100129928,ribosomal protein L31 pseudogene 5
+NC_000014.9,63593852,63595307,GCATP1,minus,319140,glycine C-acetyltransferase pseudogene 1
+NC_000014.9,63597039,63641871,WDR89,minus,112840,WD repeat domain 89
+NC_000014.9,63601471,63601934,HSPE1P2,plus,326300,heat shock protein family E (Hsp10) member 1 pseudogene 2
+NC_000014.9,63618043,63618144,RNU6-597P,plus,106481905,"RNA, U6 small nuclear 597, pseudogene"
+NC_000014.9,63630678,63630781,RNU6-1162P,plus,106480078,"RNA, U6 small nuclear 1162, pseudogene"
+NC_000014.9,63642061,63665405,LOC105370532,plus,105370532,uncharacterized LOC105370532
+NC_000014.9,63651296,63651499,LOC124903437,minus,124903437,uncharacterized LOC124903437
+NC_000014.9,63659119,63659192,LOC124903439,plus,124903439,uncharacterized LOC124903439
+NC_000014.9,63684216,63728065,SGPP1,minus,81537,sphingosine-1-phosphate phosphatase 1
+NC_000014.9,63690275,63700711,LOC124903327,plus,124903327,uncharacterized LOC124903327
+NC_000014.9,63734675,63736219,EIF2S2P1,plus,319115,eukaryotic translation initiation factor 2 subunit 2 beta pseudogene 1
+NC_000014.9,63736444,63736505,RNU7-116P,plus,106480816,"RNA, U7 small nuclear 116 pseudogene"
+NC_000014.9,63761596,64226449,SYNE2,plus,23224,spectrin repeat containing nuclear envelope protein 2
+NC_000014.9,63792963,63794073,HMGN2P14,plus,100874458,high mobility group nucleosomal binding domain 2 pseudogene14
+NC_000014.9,63808435,63809316,RPS28P1,plus,652980,ribosomal protein S28 pseudogene 1
+NC_000014.9,64095024,64095125,MIR548H1,minus,100313830,microRNA 548h-1
+NC_000014.9,64226707,64338613,ESR2,minus,2100,estrogen receptor 2
+NC_000014.9,64227499,64235187,LOC124903328,plus,124903328,uncharacterized LOC124903328
+NC_000014.9,64345473,64347611,TEX21P,minus,441687,"testis expressed 21, pseudogene"
+NC_000014.9,64388353,64460025,MTHFD1,plus,4522,"methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1"
+NC_000014.9,64449106,64505213,ZBTB25,minus,7597,zinc finger and BTB domain containing 25
+NC_000014.9,64465499,64474503,AKAP5,plus,9495,A-kinase anchoring protein 5
+NC_000014.9,64503716,64533693,ZBTB1,plus,22890,zinc finger and BTB domain containing 1
+NC_000014.9,64514151,64540368,HSPA2-AS1,minus,102723809,HSPA2 and ZBTB1 antisense RNA 1
+NC_000014.9,64535905,64543237,HSPA2,plus,3306,heat shock protein family A (Hsp70) member 2
+NC_000014.9,64549961,64589381,PPP1R36,plus,145376,protein phosphatase 1 regulatory subunit 36
+NC_000014.9,64596892,64601951,NUP50P1,minus,145375,nucleoporin 50 pseudogene 1
+NC_000014.9,64704424,64750249,PLEKHG3,plus,26030,pleckstrin homology and RhoGEF domain containing G3
+NC_000014.9,64746283,64879907,SPTB,minus,6710,"spectrin beta, erythrocytic"
+NC_000014.9,64785626,64785686,MIR7855,minus,102465841,microRNA 7855
+NC_000014.9,64880881,64902128,LOC105370534,minus,105370534,uncharacterized LOC105370534
+NC_000014.9,64909488,64909780,RPPH1-2P,minus,106481202,"ribonuclease P RNA component H1, 2 pseudogene"
+NC_000014.9,64914361,65062655,CHURC1-FNTB,plus,100529261,CHURC1-FNTB readthrough
+NC_000014.9,64914455,64935368,CHURC1,plus,91612,churchill domain containing 1
+NC_000014.9,64939158,64942745,GPX2,minus,2877,glutathione peroxidase 2
+NC_000014.9,64945816,64972336,RAB15,minus,376267,"RAB15, member RAS oncogene family"
+NC_000014.9,64985539,64987113,LOC107984655,minus,107984655,uncharacterized LOC107984655
+NC_000014.9,64986895,65062650,FNTB,plus,2342,"farnesyltransferase, CAAX box, subunit beta"
+NC_000014.9,65006101,65102695,MAX,minus,4149,MYC associated factor X
+NC_000014.9,65044688,65044769,MIR4706,plus,100616490,microRNA 4706
+NC_000014.9,65089918,65094311,LOC100506321,plus,100506321,uncharacterized LOC100506321
+NC_000014.9,65124355,65124542,RNU2-14P,minus,106481638,"RNA, U2 small nuclear 14, pseudogene"
+NC_000014.9,65151459,65158557,LOC124903329,minus,124903329,uncharacterized LOC124903329
+NC_000014.9,65212893,65222347,LINC02324,minus,100128233,long intergenic non-protein coding RNA 2324
+NC_000014.9,65234515,65235101,LOC100420096,minus,100420096,IGF like family receptor 1 pseudogene
+NC_000014.9,65266603,65267732,RPL21P7,minus,145370,ribosomal protein L21 pseudogene 7
+NC_000014.9,65268813,65269579,RPL36AP2,plus,326301,ribosomal protein L36a pseudogene 2
+NC_000014.9,65279221,65281655,PTBP1P,plus,122888,polypyrimidine tract binding protein 1 pseudogene
+NC_000014.9,65335117,65335183,MIR4708,minus,100616176,microRNA 4708
+NC_000014.9,65356842,65744121,FUT8,plus,2530,fucosyltransferase 8
+NC_000014.9,65410592,65412617,FUT8-AS1,minus,645431,FUT8 antisense RNA 1
+NC_000014.9,65467774,65468384,RPL21P8,minus,319145,ribosomal protein L21 pseudogene 8
+NC_000014.9,65471102,65471186,MIR625,plus,693210,microRNA 625
+NC_000014.9,65528830,65529574,EIF1AXP2,minus,106479036,EIF1AX pseudogene 2
+NC_000014.9,65788864,65790730,LOC107984641,plus,107984641,uncharacterized LOC107984641
+NC_000014.9,65878033,65881067,NCOA4P1,minus,326605,nuclear receptor coactivator 4 pseudogene 1
+NC_000014.9,65900774,65901450,FTH1P13,minus,646362,ferritin heavy chain 1 pseudogene 13
+NC_000014.9,66012433,66013928,YBX1P1,minus,50631,Y-box binding protein 1 pseudogene 1
+NC_000014.9,66111631,66128830,LINC02290,plus,105370540,long intergenic non-protein coding RNA 2290
+NC_000014.9,66486371,66498553,CCDC196,plus,440184,coiled-coil domain containing 196
+NC_000014.9,66508147,67735355,GPHN,plus,10243,gephyrin
+NC_000014.9,66722706,66755034,LOC124903332,plus,124903332,uncharacterized LOC124903332
+NC_000014.9,66759108,66761707,LOC107984694,plus,107984694,probable ribosome biogenesis protein RLP24
+NC_000014.9,67072688,67189364,LOC105370538,minus,105370538,uncharacterized LOC105370538
+NC_000014.9,67189440,67228558,GARIN2,plus,161142,golgi associated RAB2 interactor family member 2
+NC_000014.9,67199041,67200552,SF3B4P1,plus,326276,"splicing factor 3b, subunit 4 pseudogene 1"
+NC_000014.9,67228238,67241409,LOC124903330,minus,124903330,uncharacterized LOC124903330
+NC_000014.9,67241435,67336061,PALS1,plus,64398,"protein associated with LIN7 1, MAGUK p55 family member"
+NC_000014.9,67337872,67359804,ATP6V1D,minus,51382,ATPase H+ transporting V1 subunit D
+NC_000014.9,67360328,67386516,EIF2S1,plus,1965,eukaryotic translation initiation factor 2 subunit alpha
+NC_000014.9,67386984,67412165,PLEK2,minus,26499,pleckstrin 2
+NC_000014.9,67441855,67441930,MIR5694,minus,100847064,microRNA 5694
+NC_000014.9,67452325,67468716,LOC105370542,minus,105370542,uncharacterized LOC105370542
+NC_000014.9,67470269,67533850,TMEM229B,minus,161145,transmembrane protein 229B
+NC_000014.9,67533290,67589612,PLEKHH1,plus,57475,"pleckstrin homology, MyTH4 and FERM domain containing H1"
+NC_000014.9,67589306,67600301,PIGH,minus,5283,phosphatidylinositol glycan anchor biosynthesis class H
+NC_000014.9,67610986,67613873,LOC100419668,plus,100419668,protein kinase C eta pseudogene
+NC_000014.9,67615484,67616094,HMGB1P34,plus,100420100,high mobility group box 1 pseudogene 34
+NC_000014.9,67619920,67651708,ARG2,plus,384,arginase 2
+NC_000014.9,67625867,67639713,LOC124903331,minus,124903331,uncharacterized LOC124903331
+NC_000014.9,67647085,67674632,VTI1B,minus,10490,vesicle transport through interaction with t-SNAREs 1B
+NC_000014.9,67652229,67652629,COX7A2P1,minus,319098,cytochrome c oxidase subunit 7A2 pseudogene 1
+NC_000014.9,67657105,67657211,RNA5SP386,minus,100873641,"RNA, 5S ribosomal pseudogene 386"
+NC_000014.9,67676800,67695764,RDH11,minus,51109,retinol dehydrogenase 11
+NC_000014.9,67701886,67734451,RDH12,plus,145226,retinol dehydrogenase 12
+NC_000014.9,67705954,67706252,RN7SL369P,plus,106480694,"RNA, 7SL, cytoplasmic 369, pseudogene"
+NC_000014.9,67714505,67715225,RPL21P9,plus,283562,ribosomal protein L21 pseudogene 9
+NC_000014.9,67728892,67816590,ZFYVE26,minus,23503,zinc finger FYVE-type containing 26
+NC_000014.9,67751228,67751544,RN7SL213P,minus,106480979,"RNA, 7SL, cytoplasmic 213, pseudogene"
+NC_000014.9,67799004,67799806,LOC100421541,plus,100421541,DnaJ heat shock protein family (Hsp40) member C9 pseudogene
+NC_000014.9,67819779,68683096,RAD51B,plus,5890,RAD51 paralog B
+NC_000014.9,68115560,68116114,LOC100420174,plus,100420174,centrosomal protein 170kDa pseudogene
+NC_000014.9,68121248,68167237,LOC105370546,minus,105370546,uncharacterized LOC105370546
+NC_000014.9,68149617,68149908,RN7SL706P,minus,106479480,"RNA, 7SL, cytoplasmic 706, pseudogene"
+NC_000014.9,68236243,68236539,RN7SL108P,minus,106480950,"RNA, 7SL, cytoplasmic 108, pseudogene"
+NC_000014.9,68338668,68339549,RPL7AP5,minus,326309,ribosomal protein L7a pseudogene 5
+NC_000014.9,68395296,68404322,LOC101927971,minus,101927971,uncharacterized LOC101927971
+NC_000014.9,68421492,68422236,PPIAP6,minus,319128,peptidylprolyl isomerase A pseudogene 6
+NC_000014.9,68516307,68537504,LOC124903334,minus,124903334,uncharacterized LOC124903334
+NC_000014.9,68557364,68565250,LOC124903335,minus,124903335,uncharacterized LOC124903335
+NC_000014.9,68605400,68610552,LOC107984016,minus,107984016,uncharacterized LOC107984016
+NC_000014.9,68625527,68628787,LOC100996664,minus,100996664,uncharacterized LOC100996664
+NC_000014.9,68635768,68685440,LOC124903333,minus,124903333,uncharacterized LOC124903333
+NC_000014.9,68693071,68693626,RPL12P7,plus,326275,ribosomal protein L12 pseudogene 7
+NC_000014.9,68728023,68737171,LOC105370547,plus,105370547,uncharacterized LOC105370547
+NC_000014.9,68735922,68736028,RNU6-921P,minus,106479973,"RNA, U6 small nuclear 921, pseudogene"
+NC_000014.9,68773316,68780197,LOC107984709,minus,107984709,uncharacterized LOC107984709
+NC_000014.9,68787655,68796243,ZFP36L1,minus,677,ZFP36 ring finger protein like 1
+NC_000014.9,68861725,68862793,MAGOH3P,plus,90352,"mago homolog 3, pseudogene"
+NC_000014.9,68866659,68870128,BLZF2P,minus,317729,"basic leucine zipper nuclear factor 2, pseudogene"
+NC_000014.9,68874128,68979302,ACTN1,minus,87,actinin alpha 1
+NC_000014.9,68886982,68888183,HMGN1P3,minus,100036574,high mobility group nucleosome binding domain 1 pseudogene 3
+NC_000014.9,68936547,68937235,BANF1P1,plus,317687,BANF1 pseudogene 1
+NC_000014.9,68963464,68968179,LOC124903336,minus,124903336,uncharacterized LOC124903336
+NC_000014.9,68979682,68987463,ACTN1-DT,plus,161159,ACTN1 divergent transcript
+NC_000014.9,69023061,69023345,RPS29P1,minus,122449,ribosomal protein S29 pseudogene 1
+NC_000014.9,69050881,69153197,DCAF5,minus,8816,DDB1 and CUL4 associated factor 5
+NC_000014.9,69083345,69085714,DDX18P1,plus,319099,DEAD-box helicase 18 pseudogene 1
+NC_000014.9,69183018,69260527,GALNT16-AS1,minus,105370550,GALNT16 and EXD2 antisense RNA 1
+NC_000014.9,69191498,69244018,EXD2,plus,55218,exonuclease 3'-5' domain containing 2
+NC_000014.9,69259631,69386337,GALNT16,plus,57452,polypeptide N-acetylgalactosaminyltransferase 16
+NC_000014.9,69297674,69300797,LOC105370549,minus,105370549,uncharacterized LOC105370549
+NC_000014.9,69380128,69398299,ERH,minus,2079,ERH mRNA splicing and mitosis factor
+NC_000014.9,69398384,69462390,SLC39A9,plus,55334,solute carrier family 39 member 9
+NC_000014.9,69467744,69531551,PLEKHD1,plus,400224,pleckstrin homology and coiled-coil domain containing D1
+NC_000014.9,69561000,69561510,RPL24P3,minus,145235,RPL24 pseudogene 3
+NC_000014.9,69569799,69574871,CCDC177,minus,56936,coiled-coil domain containing 177
+NC_000014.9,69611596,69715144,SUSD6,plus,9766,sushi domain containing 6
+NC_000014.9,69766283,69767713,LOC100289511,minus,100289511,uncharacterized LOC100289511
+NC_000014.9,69767142,69772005,SRSF5,plus,6430,serine and arginine rich splicing factor 5
+NC_000014.9,69775416,69797241,SLC10A1,minus,6554,solute carrier family 10 member 1
+NC_000014.9,69804203,69804331,LOC124900353,minus,124900353,small nucleolar RNA SNORA11
+NC_000014.9,69811760,69815967,LOC100506358,plus,100506358,uncharacterized LOC100506358
+NC_000014.9,69879416,70032366,SMOC1,plus,64093,SPARC related modular calcium binding 1
+NC_000014.9,69885282,69886162,RPL7AP6,minus,326310,ribosomal protein L7a pseudogene 6
+NC_000014.9,69978133,69978196,SNORD169,plus,109623479,"small nucleolar RNA, C/D box 169"
+NC_000014.9,70044215,70189405,SLC8A3,minus,6547,solute carrier family 8 member A3
+NC_000014.9,70187108,70232583,LOC646548,plus,646548,ADAM metallopeptidase domain 20 pseudogene
+NC_000014.9,70208216,70223418,LOC107984686,minus,107984686,uncharacterized LOC107984686
+NC_000014.9,70234304,70235638,LOC101928010,plus,101928010,histone deacetylase complex subunit SAP25-like
+NC_000014.9,70238312,70239698,LOC124903338,minus,124903338,uncharacterized LOC124903338
+NC_000014.9,70245753,70247801,ADAM21P1,minus,145241,ADAM metallopeptidase domain 21 pseudogene 1
+NC_000014.9,70254819,70315237,LOC101928046,plus,101928046,uncharacterized LOC101928046
+NC_000014.9,70256362,70257866,LOC105370552,minus,105370552,uncharacterized LOC105370552
+NC_000014.9,70325081,70417090,SYNJ2BP-COX16,minus,100529257,SYNJ2BP-COX16 readthrough
+NC_000014.9,70325081,70359683,COX16,minus,51241,cytochrome c oxidase assembly factor COX16
+NC_000014.9,70345135,70350423,LOC124903340,plus,124903340,uncharacterized LOC124903340
+NC_000014.9,70360904,70361082,RNU2-51P,plus,106480415,"RNA, U2 small nuclear 51, pseudogene"
+NC_000014.9,70366499,70417090,SYNJ2BP,minus,55333,synaptojanin 2 binding protein
+NC_000014.9,70417085,70444481,LOC124903339,plus,124903339,uncharacterized LOC124903339
+NC_000014.9,70452174,70459905,ADAM21,plus,8747,ADAM metallopeptidase domain 21
+NC_000014.9,70468876,70483756,ADAM20P1,minus,317760,ADAM metallopeptidase domain 20 pseudogene 1
+NC_000014.9,70496107,70496210,RNU6-659P,plus,106481390,"RNA, U6 small nuclear 659, pseudogene"
+NC_000014.9,70522358,70579452,ADAM20,minus,8748,ADAM metallopeptidase domain 20
+NC_000014.9,70526346,70538872,LOC105370556,plus,105370556,uncharacterized LOC105370556
+NC_000014.9,70556871,70557494,LOC100420563,plus,100420563,ADAM metallopeptidase domain 20 pseudogene
+NC_000014.9,70583221,70600655,MED6,minus,10001,mediator complex subunit 6
+NC_000014.9,70593911,70594428,DUXAP12,minus,100419081,double homeobox A pseudogene 12
+NC_000014.9,70594502,70595887,KRT18P7,plus,100418877,keratin 18 pseudogene 7
+NC_000014.9,70608798,70641298,TTC9-DT,minus,101928075,TTC9 divergent transcript
+NC_000014.9,70610086,70610379,RN7SL77P,plus,106479252,"RNA, 7SL, cytoplasmic 77, pseudogene"
+NC_000014.9,70641916,70675366,TTC9,plus,23508,tetratricopeptide repeat domain 9
+NC_000014.9,70698698,70712153,LINC01269,plus,103695436,long intergenic non-protein coding RNA 1269
+NC_000014.9,70722526,70809513,MAP3K9,minus,4293,mitogen-activated protein kinase kinase kinase 9
+NC_000014.9,70808784,70816048,MAP3K9-DT,plus,100506411,MAP3K9 divergent transcript
+NC_000014.9,70821873,70823984,LOC124903341,plus,124903341,uncharacterized LOC124903341
+NC_000014.9,70858871,70859425,TMEM183AP4,minus,100287335,TMEM183A pseudogene 4
+NC_000014.9,70907459,71115382,PCNX1,plus,22990,pecanex 1
+NC_000014.9,70932064,70958552,LOC105370557,minus,105370557,uncharacterized LOC105370557
+NC_000014.9,71044375,71044640,GTF3AP2,minus,106480682,general transcription factor IIIA pseudogene 2
+NC_000014.9,71085397,71085876,PTTG1P1,minus,326315,PTTG1 pseudogene 1
+NC_000014.9,71216317,71228231,LOC105370706,minus,105370706,uncharacterized LOC105370706
+NC_000014.9,71286944,71295400,LOC107984654,plus,107984654,uncharacterized LOC107984654
+NC_000014.9,71292724,71321848,SIPA1L1-AS1,minus,102724015,SIPA1L1 antisense RNA 1
+NC_000014.9,71320476,71741209,SIPA1L1,plus,26037,signal induced proliferation associated 1 like 1
+NC_000014.9,71330147,71330806,LOC729941,minus,729941,PDZ domain containing 11 pseudogene
+NC_000014.9,71398337,71398407,SNORD56B,plus,319139,"small nucleolar RNA, C/D box 56B"
+NC_000014.9,71448689,71448958,RN7SL683P,plus,106481109,"RNA, 7SL, cytoplasmic 683, pseudogene"
+NC_000014.9,71487861,71489714,LOC145474,plus,145474,uncharacterized LOC145474
+NC_000014.9,71734925,71739720,LOC124903342,minus,124903342,uncharacterized LOC124903342
+NC_000014.9,71867335,72630029,RGS6,plus,9628,regulator of G protein signaling 6
+NC_000014.9,71931926,71932890,LOC124903404,plus,124903404,translation initiation factor IF-2-like
+NC_000014.9,72144874,72164407,LOC124903343,minus,124903343,uncharacterized LOC124903343
+NC_000014.9,72382376,72419211,LOC105370559,minus,105370559,uncharacterized LOC105370559
+NC_000014.9,72516820,72516898,MIR7843,plus,102465832,microRNA 7843
+NC_000014.9,72609034,72894101,DPF3,minus,8110,double PHD fingers 3
+NC_000014.9,72897371,72908342,LOC107984711,minus,107984711,uncharacterized LOC107984711
+NC_000014.9,72909437,72909523,LOC124903429,minus,124903429,uncharacterized LOC124903429
+NC_000014.9,72926464,72962098,DCAF4,plus,26094,DDB1 and CUL4 associated factor 4
+NC_000014.9,72929565,72929964,RPL36P3,minus,326303,ribosomal protein L36 pseudogene 3
+NC_000014.9,72960594,72962097,LOC100420966,plus,100420966,chromosome 17 open reading frame 98 pseudogene
+NC_000014.9,72962971,72963042,TRC-GCA8-1,plus,100189359,tRNA-Cys (anticodon GCA) 8-1
+NC_000014.9,72963747,72964053,RPS12P1,minus,326312,ribosomal protein S12 pseudogene 1
+NC_000014.9,72969445,73027106,ZFYVE1,minus,53349,zinc finger FYVE-type containing 1
+NC_000014.9,73040619,73040911,RN7SL586P,minus,106481083,"RNA, 7SL, cytoplasmic 586, pseudogene"
+NC_000014.9,73056830,73059453,RBM25-AS1,minus,105370560,RBM25 antisense RNA 1
+NC_000014.9,73058534,73123899,RBM25,plus,58517,RNA binding motif protein 25
+NC_000014.9,73068103,73068740,LOC100422493,minus,100422493,required for meiotic nuclear division 1 homolog (S. cerevisiae) pseudogene
+NC_000014.9,73136417,73223691,PSEN1,plus,5663,presenilin 1
+NC_000014.9,73235805,73274623,PAPLN,plus,89932,"papilin, proteoglycan like sulfated glycoprotein"
+NC_000014.9,73244018,73246001,PAPLN-AS1,minus,101928123,PAPLN antisense RNA 1
+NC_000014.9,73246772,73246879,RNU6-419P,minus,106479751,"RNA, U6 small nuclear 419, pseudogene"
+NC_000014.9,73275216,73458546,NUMB,minus,8650,NUMB endocytic adaptor protein
+NC_000014.9,73460935,73463642,LOC101928143,minus,101928143,uncharacterized LOC101928143
+NC_000014.9,73478484,73633814,HEATR4,minus,399671,HEAT repeat containing 4
+NC_000014.9,73490933,73543796,ACOT1,plus,641371,acyl-CoA thioesterase 1
+NC_000014.9,73490933,73493394,RIOX1,plus,79697,ribosomal oxygenase 1
+NC_000014.9,73530172,73531357,LOC124903344,plus,124903344,uncharacterized LOC124903344
+NC_000014.9,73538975,73539832,NT5CP2,minus,326611,"5',3'-nucleotidase, cytosolic pseudogene 2"
+NC_000014.9,73567620,73575658,ACOT2,plus,10965,acyl-CoA thioesterase 2
+NC_000014.9,73570997,73571652,NT5CP1,minus,326609,"5',3'-nucleotidase, cytosolic pseudogene 1"
+NC_000014.9,73588825,73588897,TRK-TTT14-1,minus,100189514,tRNA-Lys (TTT) 14-1
+NC_000014.9,73591873,73595766,ACOT4,plus,122970,acyl-CoA thioesterase 4
+NC_000014.9,73610945,73619888,ACOT6,plus,641372,acyl-CoA thioesterase 6
+NC_000014.9,73631456,73632121,NDUFB8P1,plus,326606,NADH:ubiquinone oxidoreductase subunit B8 pseudogene 1
+NC_000014.9,73644986,73703732,DNAL1,plus,83544,dynein axonemal light chain 1
+NC_000014.9,73659564,73659660,RNU6-240P,minus,106479673,"RNA, U6 small nuclear 240, pseudogene"
+NC_000014.9,73711783,73714384,PNMA1,minus,9240,PNMA family member 1
+NC_000014.9,73715122,73790285,MIDEAS,minus,91748,mitotic deacetylase associated SANT domain protein
+NC_000014.9,73737266,73747445,LOC124903345,plus,124903345,uncharacterized LOC124903345
+NC_000014.9,73758747,73758819,MIR4505,plus,100616158,microRNA 4505
+NC_000014.9,73787360,73803628,MIDEAS-AS1,plus,100506476,MIDEAS antisense RNA 1
+NC_000014.9,73799015,73799118,LOC124903424,plus,124903424,small nucleolar RNA U13
+NC_000014.9,73822559,73830135,LINC02274,minus,100506498,long intergenic non-protein coding RNA 2274
+NC_000014.9,73851831,73885726,PTGR2,plus,145482,prostaglandin reductase 2
+NC_000014.9,73886859,73932521,ZNF410,plus,57862,zinc finger protein 410
+NC_000014.9,73922699,73950094,FAM161B,minus,145483,FAM161 centrosomal protein B
+NC_000014.9,73949918,73963670,COQ6,plus,51004,"coenzyme Q6, monooxygenase"
+NC_000014.9,73955329,74019288,ENTPD5,minus,957,ectonucleoside triphosphate diphosphohydrolase 5 (inactive)
+NC_000014.9,74003356,74003781,RPL41P4,plus,326308,ribosomal protein L41 pseudogene 4
+NC_000014.9,74019349,74082864,BBOF1,plus,80127,basal body orientation factor 1
+NC_000014.9,74056847,74084453,ALDH6A1,minus,4329,aldehyde dehydrogenase 6 family member A1
+NC_000014.9,74084956,74201493,LIN52,plus,91750,lin-52 DREAM MuvB core complex component
+NC_000014.9,74091413,74091485,RNY4P21,minus,100862663,RNY4 pseudogene 21
+NC_000014.9,74096663,74142561,LOC105370563,minus,105370563,uncharacterized LOC105370563
+NC_000014.9,74174456,74174753,RN7SL530P,plus,106481067,"RNA, 7SL, cytoplasmic 530, pseudogene"
+NC_000014.9,74191896,74193277,LOC112268141,plus,112268141,small ubiquitin-related modifier 2-like
+NC_000014.9,74208861,74217764,LOC105370564,minus,105370564,uncharacterized LOC105370564
+NC_000014.9,74239449,74262738,VSX2,plus,338917,visual system homeobox 2
+NC_000014.9,74285269,74302934,ABCD4,minus,5826,ATP binding cassette subfamily D member 4
+NC_000014.9,74302993,74360008,VRTN,plus,55237,vertebrae development associated
+NC_000014.9,74305423,74306063,SUB1P2,plus,100287680,SUB1 pseudogene 2
+NC_000014.9,74377687,74378623,RPS2P2,minus,326325,ribosomal protein S2 pseudogene 2
+NC_000014.9,74405899,74480143,SYNDIG1L,minus,646658,synapse differentiation inducing 1 like
+NC_000014.9,74479935,74493512,NPC2,minus,10577,NPC intracellular cholesterol transporter 2
+NC_000014.9,74480133,74480204,MIR4709,minus,100616211,microRNA 4709
+NC_000014.9,74482847,74484166,RAP1AP,plus,5907,"RAP1A, member of RAS oncogene family pseudogene"
+NC_000014.9,74493765,74497106,ISCA2,plus,122961,iron-sulfur cluster assembly 2
+NC_000014.9,74498183,74612237,LTBP2,minus,4053,latent transforming growth factor beta binding protein 2
+NC_000014.9,74514892,74519318,LOC124903347,plus,124903347,uncharacterized LOC124903347
+NC_000014.9,74552315,74561653,LOC124903346,plus,124903346,uncharacterized LOC124903346
+NC_000014.9,74613185,74614048,LOC101928352,plus,101928352,uncharacterized LOC101928352
+NC_000014.9,74650840,74657524,LOC105370567,minus,105370567,uncharacterized LOC105370567
+NC_000014.9,74658042,74658601,LOC100419503,plus,100419503,ribosomal protein S2 pseudogene
+NC_000014.9,74661256,74713080,AREL1,minus,9870,apoptosis resistant E3 ubiquitin protein ligase 1
+NC_000014.9,74713144,74738620,FCF1,plus,51077,FCF1 rRNA-processing protein
+NC_000014.9,74763316,74837318,YLPM1,plus,56252,YLP motif containing 1
+NC_000014.9,74839166,74842019,LOC105370569,plus,105370569,uncharacterized LOC105370569
+NC_000014.9,74853033,74876145,PROX2,minus,283571,prospero homeobox 2
+NC_000014.9,74858506,74859435,LOC124903348,plus,124903348,uncharacterized LOC124903348
+NC_000014.9,74873600,74874254,METTL5P1,plus,100131950,METTL5 pseudogene 1
+NC_000014.9,74881916,74903743,DLST,plus,1743,dihydrolipoamide S-succinyltransferase
+NC_000014.9,74903951,74923260,RPS6KL1,minus,83694,ribosomal protein S6 kinase like 1
+NC_000014.9,74941830,74955764,PGF,minus,5228,placental growth factor
+NC_000014.9,74942729,74950227,LOC107984690,plus,107984690,uncharacterized LOC107984690
+NC_000014.9,75002921,75012366,EIF2B2,plus,8892,eukaryotic translation initiation factor 2B subunit beta
+NC_000014.9,75013775,75051467,MLH3,minus,27030,mutL homolog 3
+NC_000014.9,75020761,75020867,RNU6-689P,plus,106479870,"RNA, U6 small nuclear 689, pseudogene"
+NC_000014.9,75053243,75069490,ACYP1,minus,97,acylphosphatase 1
+NC_000014.9,75069641,75079988,ZC2HC1C,plus,79696,zinc finger C2HC-type containing 1C
+NC_000014.9,75079353,75127202,NEK9,minus,91754,NIMA related kinase 9
+NC_000014.9,75116426,75116608,HIF1AP1,minus,100874523,HIF1AP pseudogene 1
+NC_000014.9,75131469,75176612,TMED10,minus,10972,transmembrane p24 trafficking protein 10
+NC_000014.9,75202081,75202169,RNU4ATAC14P,minus,106481159,"RNA, U4atac small nuclear 14, pseudogene"
+NC_000014.9,75270675,75270780,LOC124903434,minus,124903434,uncharacterized LOC124903434
+NC_000014.9,75278828,75282230,FOS,plus,2353,"Fos proto-oncogene, AP-1 transcription factor subunit"
+NC_000014.9,75291882,75292461,DPPA5P4,minus,646701,developmental pluripotency associated 5 pseudogene 4
+NC_000014.9,75294404,75296410,LINC01220,plus,731223,long intergenic non-protein coding RNA 1220
+NC_000014.9,75423667,75427655,JDP2-AS1,minus,101928377,JDP2 antisense RNA 1
+NC_000014.9,75426943,75474107,JDP2,plus,122953,Jun dimerization protein 2
+NC_000014.9,75515846,75519774,LOC105370572,plus,105370572,uncharacterized LOC105370572
+NC_000014.9,75522469,75546992,BATF,plus,10538,basic leucine zipper ATF-like transcription factor
+NC_000014.9,75558171,75559918,LOC107984653,plus,107984653,uncharacterized LOC107984653
+NC_000014.9,75574901,75579588,FLVCR2-AS1,minus,102724153,FLVCR2 antisense RNA 1
+NC_000014.9,75578620,75648167,FLVCR2,plus,55640,FLVCR choline and putative heme transporter 2
+NC_000014.9,75595736,75596243,RPS24P2,minus,326321,ribosomal protein S24 pseudogene 2
+NC_000014.9,75604173,75612677,RNA5SP387,plus,107133508,"RNA, 5S ribosomal pseudogene 387"
+NC_000014.9,75649791,75660876,ERG28,minus,11161,ergosterol biosynthesis 28 homolog
+NC_000014.9,75661246,75955079,TTLL5,plus,23093,tubulin tyrosine ligase like 5
+NC_000014.9,75838528,75839138,RPS2P43,minus,100271246,ribosomal protein S2 pseudogene 43
+NC_000014.9,75958097,75983011,TGFB3,minus,7043,transforming growth factor beta 3
+NC_000014.9,75985763,76084073,IFT43,plus,112752,intraflagellar transport 43
+NC_000014.9,76013648,76014334,LOC100506576,plus,100506576,ubiquitin conjugating enzyme E2 L3 pseudogene
+NC_000014.9,76079436,76080653,LOC105370573,minus,105370573,uncharacterized LOC105370573
+NC_000014.9,76151922,76235555,GPATCH2L,plus,55668,G-patch domain containing 2 like
+NC_000014.9,76227313,76310419,LOC105370575,minus,105370575,uncharacterized LOC105370575
+NC_000014.9,76310777,76501837,ESRRB,plus,2103,estrogen related receptor beta
+NC_000014.9,76590665,76596082,LOC105370576,minus,105370576,uncharacterized LOC105370576
+NC_000014.9,76633646,76634328,CYCSP1,plus,122950,CYCS pseudogene 1
+NC_000014.9,76634705,76635737,RPSAP3,minus,158674,ribosomal protein SA pseudogene 3
+NC_000014.9,76690016,76690798,H1-8P2,minus,100130048,H1-8 pseudogene 2
+NC_000014.9,76710430,76726711,LOC105370577,minus,105370577,uncharacterized LOC105370577
+NC_000014.9,76761468,76783015,VASH1,plus,22846,vasohibin 1
+NC_000014.9,76781733,76786724,VASH1-AS1,minus,100506603,VASH1 antisense RNA 1
+NC_000014.9,76786009,76812882,ANGEL1,minus,23357,angel homolog 1
+NC_000014.9,76826408,76870304,LRRC74A,plus,145497,leucine rich repeat containing 74A
+NC_000014.9,76886320,76886772,RPL22P2,minus,326292,ribosomal protein L22 pseudogene 2
+NC_000014.9,76890263,76890613,RN7SKP17,plus,106479102,RN7SK pseudogene 17
+NC_000014.9,76927972,76929507,LOC124903349,minus,124903349,uncharacterized LOC124903349
+NC_000014.9,76959638,76965802,LINC01629,plus,105370578,long intergenic non-protein coding RNA 1629
+NC_000014.9,76967518,76967765,RN7SL356P,minus,106479353,"RNA, 7SL, cytoplasmic 356, pseudogene"
+NC_000014.9,76968555,76969183,RPLP1P1,plus,145499,ribosomal protein lateral stalk subunit P1 pseudogene 1
+NC_000014.9,77024543,77028708,IRF2BPL,minus,64207,interferon regulatory factor 2 binding protein like
+NC_000014.9,77027468,77031572,LOC107984638,plus,107984638,uncharacterized LOC107984638
+NC_000014.9,77031559,77034206,LOC105370579,minus,105370579,uncharacterized LOC105370579
+NC_000014.9,77041049,77069503,LINC02288,plus,283575,long intergenic non-protein coding RNA 2288
+NC_000014.9,77069180,77076191,LINC02289,minus,102724190,long intergenic non-protein coding RNA 2289
+NC_000014.9,77096465,77098018,LOC124903350,minus,124903350,uncharacterized LOC124903350
+NC_000014.9,77098258,77117287,CIPC,plus,85457,CLOCK interacting pacemaker
+NC_000014.9,77131270,77142288,ZDHHC22,minus,283576,zinc finger DHHC-type palmitoyltransferase 22
+NC_000014.9,77172877,77173706,FAM204DP,minus,100420963,"family with sequence similarity 204 member D, pseudogene"
+NC_000014.9,77181798,77259495,TMEM63C,plus,57156,transmembrane protein 63C
+NC_000014.9,77259819,77263827,LOC124903351,plus,124903351,uncharacterized LOC124903351
+NC_000014.9,77265483,77271206,NGB,minus,58157,neuroglobin
+NC_000014.9,77266218,77266290,MIR1260A,plus,100302236,microRNA 1260a
+NC_000014.9,77274956,77320883,POMT2,minus,29954,protein O-mannosyltransferase 2
+NC_000014.9,77321036,77331597,GSTZ1,plus,2954,glutathione S-transferase zeta 1
+NC_000014.9,77335021,77377094,TMED8,minus,283578,transmembrane p24 trafficking protein family member 8
+NC_000014.9,77359416,77359999,LOC100422225,plus,100422225,ATP binding cassette subfamily G member 2 (Junior blood group) pseudogene
+NC_000014.9,77377379,77392163,SAMD15,plus,161394,sterile alpha motif domain containing 15
+NC_000014.9,77394021,77426013,NOXRED1,minus,122945,NADP dependent oxidoreductase domain containing 1
+NC_000014.9,77426675,77457601,VIPAS39,minus,63894,"VPS33B interacting protein, apical-basolateral polarity regulator, spe-39 homolog"
+NC_000014.9,77457867,77469472,AHSA1,plus,10598,activator of HSP90 ATPase activity 1
+NC_000014.9,77474394,77498816,ISM2,minus,145501,isthmin 2
+NC_000014.9,77505997,77616637,SPTLC2,minus,9517,serine palmitoyltransferase long chain base subunit 2
+NC_000014.9,77547566,77547858,RN7SL587P,minus,106479437,"RNA, 7SL, cytoplasmic 587, pseudogene"
+NC_000014.9,77652705,77653130,COX6CP11,minus,106480266,cytochrome c oxidase subunit 6C pseudogene 11
+NC_000014.9,77672404,77708023,ALKBH1,minus,8846,"alkB homolog 1, histone H2A dioxygenase"
+NC_000014.9,77683190,77684027,RPL21P10,minus,319143,ribosomal protein L21 pseudogene 10
+NC_000014.9,77696769,77697364,ZMYND19P1,plus,100421055,zinc finger MYND-type containing 19 pseudogene 1
+NC_000014.9,77708071,77717598,SLIRP,plus,81892,SRA stem-loop interacting RNA binding protein
+NC_000014.9,77717599,77761156,SNW1,minus,22938,SNW domain containing 1
+NC_000014.9,77760768,77769742,C14orf178,plus,283579,chromosome 14 open reading frame 178
+NC_000014.9,77800109,77935014,ADCK1,plus,57143,aarF domain containing kinase 1
+NC_000014.9,77966162,77968065,LOC105370581,plus,105370581,uncharacterized LOC105370581
+NC_000014.9,78059594,78060286,FXNP1,minus,122942,frataxin pseudogene 1
+NC_000014.9,78170373,79868291,NRXN3,plus,9369,neurexin 3
+NC_000014.9,78177803,78177921,RNA5SP388,minus,100873642,"RNA, 5S ribosomal pseudogene 388"
+NC_000014.9,78231277,78231619,RPS26P48,minus,100271574,ribosomal protein S26 pseudogene 48
+NC_000014.9,78234495,78234567,TRSUP-CTA3-1,minus,100189470,tRNA suppressor (anticodon CTA) 3-1
+NC_000014.9,78703615,78709960,LOC105370589,minus,105370589,uncharacterized LOC105370589
+NC_000014.9,79072167,79075525,LOC124903353,minus,124903353,uncharacterized LOC124903353
+NC_000014.9,79077199,79091494,LOC105370588,minus,105370588,uncharacterized LOC105370588
+NC_000014.9,79186732,79199904,LOC124903352,minus,124903352,uncharacterized LOC124903352
+NC_000014.9,79199982,79201632,LOC105370586,plus,105370586,uncharacterized LOC105370586
+NC_000014.9,79594679,79597730,LOC124903354,minus,124903354,uncharacterized LOC124903354
+NC_000014.9,79597721,79633203,LOC105370583,minus,105370583,uncharacterized LOC105370583
+NC_000014.9,79874266,79917142,LOC105370582,minus,105370582,uncharacterized LOC105370582
+NC_000014.9,79944007,79972609,LOC107984630,plus,107984630,uncharacterized LOC107984630
+NC_000014.9,79972368,79976496,LOC112267892,minus,112267892,uncharacterized LOC112267892
+NC_000014.9,79982398,79987108,LOC105370590,minus,105370590,uncharacterized LOC105370590
+NC_000014.9,80147487,80153729,LOC105370591,plus,105370591,uncharacterized LOC105370591
+NC_000014.9,80167414,80188856,LOC105370593,minus,105370593,uncharacterized LOC105370593
+NC_000014.9,80197526,80231057,DIO2,minus,1734,iodothyronine deiodinase 2
+NC_000014.9,80211419,80455467,DIO2-AS1,plus,100628307,DIO2 antisense RNA 1
+NC_000014.9,80476969,80959502,CEP128,minus,145508,centrosomal protein 128
+NC_000014.9,80822429,80823606,HMGN2P2,plus,317726,high mobility group nucleosomal binding domain 2 pseudogene 2
+NC_000014.9,80955621,81146306,TSHR,plus,7253,thyroid stimulating hormone receptor
+NC_000014.9,80981593,80985795,GPRASP3P1,plus,100431177,GPRASP3 pseudogene 1
+NC_000014.9,81001134,81001817,RPL17P3,minus,326286,ribosomal protein L17 pseudogene 3
+NC_000014.9,81014066,81170406,LOC101928462,minus,101928462,uncharacterized LOC101928462
+NC_000014.9,81032474,81032979,NMNAT1P1,plus,326607,NMNAT1 pseudogene 1
+NC_000014.9,81168772,81171835,LOC105370594,plus,105370594,uncharacterized LOC105370594
+NC_000014.9,81175452,81221390,GTF2A1,minus,2957,general transcription factor IIA subunit 1
+NC_000014.9,81202695,81202834,SNORA79,minus,677845,"small nucleolar RNA, H/ACA box 79"
+NC_000014.9,81221218,81223380,GTF2A1-AS1,plus,101928504,GTF2A1 antisense RNA 1
+NC_000014.9,81246010,81246671,DYNLL1P1,minus,246720,dynein light chain LC8-type 1 pseudogene 1
+NC_000014.9,81258328,81260234,UNGP3,minus,319122,uracil-DNA glycosylase pseudogene 3
+NC_000014.9,81260652,81436465,STON2,minus,85439,stonin 2
+NC_000014.9,81332844,81333393,RPS24P3,minus,326322,ribosomal protein S24 pseudogene 3
+NC_000014.9,81412865,81413514,DYNLL1P2,plus,731308,dynein light chain LC8-type 1 pseudogene 2
+NC_000014.9,81441987,81450157,LINC02308,minus,100506700,long intergenic non-protein coding RNA 2308
+NC_000014.9,81471547,81533853,SEL1L,minus,6400,SEL1L adaptor subunit of SYVN1 ubiquitin ligase
+NC_000014.9,81605347,81623061,LINC01467,minus,101928559,long intergenic non-protein coding RNA 1467
+NC_000014.9,81661392,81663303,EEF1A1P2,plus,319112,eukaryotic translation elongation factor 1 alpha 1 pseudogene 2
+NC_000014.9,81734612,81743138,LINC02311,minus,102724294,long intergenic non-protein coding RNA 2311
+NC_000014.9,81737197,82074146,LOC107984704,plus,107984704,uncharacterized LOC107984704
+NC_000014.9,81776920,81777633,RPL9P6,minus,326311,ribosomal protein L9 pseudogene 6
+NC_000014.9,81811475,81820083,LOC105370598,minus,105370598,uncharacterized LOC105370598
+NC_000014.9,81916200,81918058,EIF3LP1,plus,319117,eukaryotic translation initiation factor 3 subunit L pseudogene 1
+NC_000014.9,82420184,82428638,LOC105370599,plus,105370599,uncharacterized LOC105370599
+NC_000014.9,82462088,82462188,LOC124903428,plus,124903428,small nucleolar RNA U13
+NC_000014.9,82642632,82706825,LINC02301,plus,101928599,long intergenic non-protein coding RNA 2301
+NC_000014.9,82692873,82693198,ENSAP2,minus,319114,endosulfine alpha pseudogene 2
+NC_000014.9,83012120,83039645,LOC105370600,minus,105370600,uncharacterized LOC105370600
+NC_000014.9,83048580,83048638,RNU7-51P,plus,100151647,"RNA, U7 small nuclear 51 pseudogene"
+NC_000014.9,83205009,83226317,LOC107984645,plus,107984645,uncharacterized LOC107984645
+NC_000014.9,83281877,83308942,LOC105370601,plus,105370601,uncharacterized LOC105370601
+NC_000014.9,83750401,83750499,RNU6ATAC28P,plus,106479555,"RNA, U6atac small nuclear 28, pseudogene"
+NC_000014.9,83903437,83915347,LINC02305,minus,102724338,long intergenic non-protein coding RNA 2305
+NC_000014.9,83963372,83974903,LOC124903401,minus,124903401,uncharacterized LOC124903401
+NC_000014.9,84048696,84053450,LOC124903402,minus,124903402,uncharacterized LOC124903402
+NC_000014.9,84172841,84173606,MTND4P33,plus,107075253,MT-ND4 pseudogene 33
+NC_000014.9,84175522,84175694,MTND6P27,plus,107133501,MT-ND6 pseudogene 27
+NC_000014.9,84176419,84177088,MTCYBP27,plus,107075133,MT-CYB pseudogene 27
+NC_000014.9,84216852,84299016,LOC105370603,minus,105370603,uncharacterized LOC105370603
+NC_000014.9,84739942,84740052,RNU6-976P,plus,106481488,"RNA, U6 small nuclear 976, pseudogene"
+NC_000014.9,84998278,84999293,LOC100421611,minus,100421611,golgi associated RAB2B interactor family member 3 pseudogene
+NC_000014.9,85148645,85194702,LOC105370604,minus,105370604,uncharacterized LOC105370604
+NC_000014.9,85271932,85272061,SNORD3P3,plus,26843,"small nucleolar RNA, C/D box 3 pseudogene 3"
+NC_000014.9,85387275,85388765,LINC02329,plus,105370605,long intergenic non-protein coding RNA 2329
+NC_000014.9,85393879,85420074,LINC00911,plus,100996280,long intergenic non-protein coding RNA 911
+NC_000014.9,85525046,85531659,FLRT2-AS1,minus,100506731,FLRT2 antisense RNA 1
+NC_000014.9,85530144,85654428,FLRT2,plus,23768,fibronectin leucine rich transmembrane protein 2
+NC_000014.9,85934678,86129778,LINC02328,plus,101928767,long intergenic non-protein coding RNA 2328
+NC_000014.9,86006893,86062986,LINC02316,minus,102724380,long intergenic non-protein coding RNA 2316
+NC_000014.9,86331583,86357710,LINC02309,plus,105370607,long intergenic non-protein coding RNA 2309
+NC_000014.9,86905778,86922755,LINC01148,plus,283585,long intergenic non-protein coding RNA 1148
+NC_000014.9,87033371,87034140,LOC105370608,minus,105370608,uncharacterized LOC105370608
+NC_000014.9,87344646,87613463,LINC02296,minus,105370610,long intergenic non-protein coding RNA 2296
+NC_000014.9,87634379,87655294,LINC02330,minus,105370611,long intergenic non-protein coding RNA 2330
+NC_000014.9,87933014,87993667,GALC,minus,2581,galactosylceramidase
+NC_000014.9,87952526,87955403,SHLD2P2,plus,100128781,shieldin complex subunit 2 pseudogene 2
+NC_000014.9,87963888,87965498,LOC124903355,minus,124903355,uncharacterized LOC124903355
+NC_000014.9,87996345,87996448,RNU6-835P,minus,106481445,"RNA, U6 small nuclear 835, pseudogene"
+NC_000014.9,88005135,88014811,GPR65,plus,8477,G protein-coupled receptor 65
+NC_000014.9,88018605,88026312,LINC01147,minus,101928791,long intergenic non-protein coding RNA 1147
+NC_000014.9,88024550,88087346,HISLA,plus,283587,HIF1A stabilizing long noncoding RNA
+NC_000014.9,88142581,88146503,LOC107984699,plus,107984699,uncharacterized LOC107984699
+NC_000014.9,88160634,88180198,LOC105370612,plus,105370612,uncharacterized LOC105370612
+NC_000014.9,88180108,88326912,KCNK10,minus,54207,potassium two pore domain channel subfamily K member 10
+NC_000014.9,88385657,88470350,SPATA7,plus,55812,spermatogenesis associated 7
+NC_000014.9,88465778,88555007,PTPN21,minus,11099,protein tyrosine phosphatase non-receptor type 21
+NC_000014.9,88500867,88515502,LOC105370614,plus,105370614,uncharacterized LOC105370614
+NC_000014.9,88513498,88513663,RNU4-22P,plus,107057646,"RNA, U4 small nuclear 22, pseudogene"
+NC_000014.9,88554657,88556790,LOC124903405,minus,124903405,proline-rich protein 2-like
+NC_000014.9,88563037,88627596,ZC3H14,plus,79882,zinc finger CCCH-type containing 14
+NC_000014.9,88612431,88792953,EML5,minus,161436,EMAP like 5
+NC_000014.9,88820297,88820432,RNU4-92P,plus,106479601,"RNA, U4 small nuclear 92, pseudogene"
+NC_000014.9,88824153,88881079,TTC8,plus,123016,tetratricopeptide repeat domain 8
+NC_000014.9,88979098,88979170,TRA-AGC15-1,plus,100189117,tRNA-Ala (anticodon AGC) 15-1
+NC_000014.9,89013395,89025809,LOC124903356,plus,124903356,uncharacterized LOC124903356
+NC_000014.9,89034364,89075447,LOC105370615,plus,105370615,uncharacterized LOC105370615
+NC_000014.9,89109908,89111423,MPPE1P1,minus,390501,metallophosphoesterase 1 pseudogene 1
+NC_000014.9,89123827,89125788,LOC124903357,minus,124903357,uncharacterized LOC124903357
+NC_000014.9,89156177,89619165,FOXN3,minus,1112,forkhead box N3
+NC_000014.9,89289998,89291673,CAP2P1,minus,353163,cyclase associated actin cytoskeleton regulatory protein 2 pseudogene 1
+NC_000014.9,89350287,89365008,LOC101928817,plus,101928817,uncharacterized LOC101928817
+NC_000014.9,89417354,89419793,FOXN3-AS1,plus,400236,FOXN3 antisense RNA 1
+NC_000014.9,89428354,89431072,LOC107984635,plus,107984635,uncharacterized LOC107984635
+NC_000014.9,89576216,89577477,FOXN3-AS2,plus,29018,FOXN3 antisense RNA 2
+NC_000014.9,89619317,89643614,LOC105370617,plus,105370617,uncharacterized LOC105370617
+NC_000014.9,89621918,89622155,RN7SKP107,plus,106480464,RN7SK pseudogene 107
+NC_000014.9,89628921,89642081,LOC105370616,minus,105370616,uncharacterized LOC105370616
+NC_000014.9,89712511,89712750,RN7SKP255,plus,106479209,RN7SK pseudogene 255
+NC_000014.9,89734673,89738400,CHORDC2P,minus,317775,"cysteine and histidine rich domain containing 2, pseudogene"
+NC_000014.9,89794669,89954777,EFCAB11,minus,90141,EF-hand calcium binding domain 11
+NC_000014.9,89891784,89893110,RAB42P1,plus,646996,"RAB42, member RAS oncogene family, pseudogene 1"
+NC_000014.9,89913136,89914021,LOC124903358,plus,124903358,uncharacterized LOC124903358
+NC_000014.9,89954968,90044764,TDP1,plus,55775,tyrosyl-DNA phosphodiesterase 1
+NC_000014.9,90048134,90061733,LOC124903406,plus,124903406,uncharacterized LOC124903406
+NC_000014.9,90061994,90185853,KCNK13,plus,56659,potassium two pore domain channel subfamily K member 13
+NC_000014.9,90107612,90109303,GLRXP2,plus,171418,glutaredoxin pseudogene 2
+NC_000014.9,90256553,90275429,PSMC1,plus,5700,"proteasome 26S subunit, ATPase 1"
+NC_000014.9,90267860,90331941,NRDE2,minus,55051,"NRDE-2, necessary for RNA interference, domain containing"
+NC_000014.9,90364554,90368923,LOC105370618,plus,105370618,uncharacterized LOC105370618
+NC_000014.9,90366635,90367222,RPL21P11,minus,157206,ribosomal protein L21 pseudogene 11
+NC_000014.9,90396502,90408268,CALM1,plus,801,calmodulin 1
+NC_000014.9,90452063,90455117,LINC02317,minus,101930294,long intergenic non-protein coding RNA 2317
+NC_000014.9,90455230,90458905,LINC00642,plus,400238,long intergenic non-protein coding RNA 642
+NC_000014.9,90505744,90508469,LOC124903359,plus,124903359,uncharacterized LOC124903359
+NC_000014.9,90515806,90517209,LOC105370619,minus,105370619,uncharacterized LOC105370619
+NC_000014.9,90524564,90816430,TTC7B,minus,145567,tetratricopeptide repeat domain 7B
+NC_000014.9,90642629,90648891,TTC7B-AS1,plus,101928909,TTC7B antisense RNA 1
+NC_000014.9,90697333,90699374,LOC105370622,plus,105370622,uncharacterized LOC105370622
+NC_000014.9,90758561,90759517,LOC124903360,plus,124903360,uncharacterized LOC124903360
+NC_000014.9,90766495,90767028,RPS18P2,plus,326320,ribosomal protein S18 pseudogene 2
+NC_000014.9,90820073,90828174,LINC02321,minus,105370623,long intergenic non-protein coding RNA 2321
+NC_000014.9,90847861,91060641,RPS6KA5,minus,9252,ribosomal protein S6 kinase A5
+NC_000014.9,91060333,91225632,DGLUCY,plus,80017,D-glutamate cyclase
+NC_000014.9,91091076,91091136,RNU7-30P,plus,100147817,"RNA, U7 small nuclear 30 pseudogene"
+NC_000014.9,91126426,91126552,SNORA11B,plus,100124539,"small nucleolar RNA, H/ACA box 11B"
+NC_000014.9,91232532,91270790,GPR68,minus,8111,G protein-coupled receptor 68
+NC_000014.9,91271323,91417820,CCDC88C,minus,440193,coiled-coil domain containing 88C
+NC_000014.9,91369539,91374251,LOC107984673,plus,107984673,uncharacterized LOC107984673
+NC_000014.9,91378641,91400199,LOC105370624,minus,105370624,uncharacterized LOC105370624
+NC_000014.9,91418246,91424859,CCDC88C-DT,plus,105370625,CCDC88C divergent transcript
+NC_000014.9,91418453,91419830,LOC112268126,plus,112268126,COX assembly mitochondrial protein homolog
+NC_000014.9,91448478,91457170,LOC124903361,plus,124903361,uncharacterized LOC124903361
+NC_000014.9,91457508,91510554,PPP4R3A,minus,55671,protein phosphatase 4 regulatory subunit 3A
+NC_000014.9,91520516,91577822,LOC101928957,minus,101928957,uncharacterized LOC101928957
+NC_000014.9,91580698,91732086,CATSPERB,minus,79820,cation channel sperm associated auxiliary subunit beta
+NC_000014.9,91602568,91603563,POLR3GP1,minus,100422395,RNA polymerase III subunit G pseudogene 1
+NC_000014.9,91604182,91605522,NANOGP7,minus,414130,Nanog homeobox pseudogene 7
+NC_000014.9,91709115,91710644,LOC100128939,plus,100128939,pyruvate dehydrogenase kinase 3 pseudogene
+NC_000014.9,91714915,91715130,LOC124903436,minus,124903436,small nucleolar RNA U3
+NC_000014.9,91779746,91867536,TC2N,minus,123036,"tandem C2 domains, nuclear"
+NC_000014.9,91840094,91846685,LOC124903362,plus,124903362,uncharacterized LOC124903362
+NC_000014.9,91869411,91947694,FBLN5,minus,10516,fibulin 5
+NC_000014.9,91965991,92040059,TRIP11,minus,9321,thyroid hormone receptor interactor 11
+NC_000014.9,92026422,92027567,PTMAP7,plus,326626,prothymosin alpha pseudogene 7
+NC_000014.9,92040164,92063364,LOC124903363,plus,124903363,uncharacterized LOC124903363
+NC_000014.9,92044775,92106582,ATXN3,minus,4287,ataxin 3
+NC_000014.9,92116123,92121706,NDUFB1,minus,4707,NADH:ubiquinone oxidoreductase subunit B1
+NC_000014.9,92121969,92172145,CPSF2,plus,53981,cleavage and polyadenylation specific factor 2
+NC_000014.9,92265702,92265807,RNU6-366P,plus,106481294,"RNA, U6 small nuclear 366, pseudogene"
+NC_000014.9,92304414,92319650,LOC105370627,plus,105370627,uncharacterized LOC105370627
+NC_000014.9,92322581,92501481,SLC24A4,plus,123041,solute carrier family 24 member 4
+NC_000014.9,92513781,92688994,RIN3,plus,79890,Ras and Rab interactor 3
+NC_000014.9,92514374,92515511,LOC124903365,plus,124903365,uncharacterized LOC124903365
+NC_000014.9,92669111,92673107,LOC124903364,minus,124903364,uncharacterized LOC124903364
+NC_000014.9,92703809,92748627,LGMN,minus,5641,legumain
+NC_000014.9,92794305,92839947,GOLGA5,plus,9950,golgin A5
+NC_000014.9,92891410,92893508,LINC02833,plus,105370629,long intergenic non-protein coding RNA 2833
+NC_000014.9,92905697,92907482,LINC02287,minus,101929002,long intergenic non-protein coding RNA 2287
+NC_000014.9,92922664,92935285,CHGA,plus,1113,chromogranin A
+NC_000014.9,92936914,93115925,ITPK1,minus,3705,inositol-tetrakisphosphate 1-kinase
+NC_000014.9,92948340,92951939,LOC124903366,minus,124903366,uncharacterized LOC124903366
+NC_000014.9,93067452,93072152,ITPK1-AS1,plus,319085,ITPK1 antisense RNA 1
+NC_000014.9,93138007,93138977,CYB5AP3,plus,1531,cytochrome b5 type A pseudogene 3
+NC_000014.9,93182199,93184897,MOAP1,minus,64112,modulator of apoptosis 1
+NC_000014.9,93184974,93188463,LYSET,plus,26175,lysosomal enzyme trafficking factor
+NC_000014.9,93202894,93207065,GON7,minus,84520,GON7 subunit of KEOPS complex
+NC_000014.9,93207256,93229215,UBR7,plus,55148,ubiquitin protein ligase E3 component n-recognin 7
+NC_000014.9,93223549,93224175,RPL18AP1,minus,326289,ribosomal protein L18a pseudogene 1
+NC_000014.9,93237550,93333036,BTBD7,minus,55727,BTB domain containing 7
+NC_000014.9,93243960,93244423,RPL36AP4,plus,326304,ribosomal protein L36a pseudogene 4
+NC_000014.9,93333182,93707876,UNC79,plus,57578,"unc-79 homolog, NALCN channel complex subunit"
+NC_000014.9,93347182,93348356,COX8C,plus,341947,cytochrome c oxidase subunit 8C
+NC_000014.9,93437400,93437510,RNU6-1258P,minus,106480115,"RNA, U6 small nuclear 1258, pseudogene"
+NC_000014.9,93712671,93714507,LOC124903367,plus,124903367,uncharacterized LOC124903367
+NC_000014.9,93718298,93788994,PRIMA1,minus,145270,proline rich membrane anchor 1
+NC_000014.9,93880426,93885404,LOC105370631,plus,105370631,uncharacterized LOC105370631
+NC_000014.9,93904730,93926372,FAM181A-AS1,minus,283592,FAM181A antisense RNA 1
+NC_000014.9,93918894,93929608,FAM181A,plus,90050,family with sequence similarity 181 member A
+NC_000014.9,93934166,93976570,ASB2,minus,51676,ankyrin repeat and SOCS box containing 2
+NC_000014.9,93948226,93948302,MIR4506,minus,100616140,microRNA 4506
+NC_000014.9,93977425,93990066,LOC107984663,minus,107984663,uncharacterized LOC107984663
+NC_000014.9,93987225,94011695,CCDC197,plus,256369,coiled-coil domain containing 197
+NC_000014.9,93991575,93997190,LOC124903368,minus,124903368,uncharacterized LOC124903368
+NC_000014.9,94026340,94048930,OTUB2,plus,78990,"OTU deubiquitinase, ubiquitin aldehyde binding 2"
+NC_000014.9,94048287,94081202,DDX24,minus,57062,DEAD-box helicase 24
+NC_000014.9,94081310,94102709,IFI27L1,plus,122509,interferon alpha inducible protein 27 like 1
+NC_000014.9,94105894,94116690,IFI27,plus,3429,interferon alpha inducible protein 27
+NC_000014.9,94127781,94129604,IFI27L2,minus,83982,interferon alpha inducible protein 27 like 2
+NC_000014.9,94144633,94157293,LOC105370634,minus,105370634,uncharacterized LOC105370634
+NC_000014.9,94174322,94279734,PPP4R4,plus,57718,protein phosphatase 4 regulatory subunit 4
+NC_000014.9,94280460,94293268,SERPINA10,minus,51156,serpin family A member 10
+NC_000014.9,94304248,94323336,SERPINA6,minus,866,serpin family A member 6
+NC_000014.9,94364318,94366702,SERPINA2,minus,390502,serpin family A member 2 (gene/pseudogene)
+NC_000014.9,94376747,94390635,SERPINA1,minus,5265,serpin family A member 1
+NC_000014.9,94442464,94452800,SERPINA11,minus,256394,serpin family A member 11
+NC_000014.9,94460006,94462642,LOC105370635,plus,105370635,uncharacterized LOC105370635
+NC_000014.9,94462721,94476197,SERPINA9,minus,327657,serpin family A member 9
+NC_000014.9,94487279,94517844,SERPINA12,minus,145264,serpin family A member 12
+NC_000014.9,94558172,94561411,LOC124903410,minus,124903410,uncharacterized LOC124903410
+NC_000014.9,94561442,94569906,SERPINA4,plus,5267,serpin family A member 4
+NC_000014.9,94581426,94593118,SERPINA5,plus,5104,serpin family A member 5
+NC_000014.9,94592692,94598923,LOC112268127,minus,112268127,uncharacterized LOC112268127
+NC_000014.9,94594246,94596998,LOC124903411,plus,124903411,uncharacterized LOC124903411
+NC_000014.9,94612391,94624053,SERPINA3,plus,12,serpin family A member 3
+NC_000014.9,94633671,94634574,ADIPOR1P2,plus,390503,adiponectin receptor 1 pseudogene 2
+NC_000014.9,94640725,94646994,SERPINA13P,plus,388007,"serpin family A member 13, pseudogene"
+NC_000014.9,94675277,94675827,LOC100288028,minus,100288028,coiled-coil domain containing 59 pseudogene
+NC_000014.9,94726212,94727245,RPSAP4,plus,145259,ribosomal protein SA pseudogene 4
+NC_000014.9,94768223,94770113,GSC,minus,145258,goosecoid homeobox
+NC_000014.9,94770642,94773607,GSC-DT,plus,108868751,GSC divergent transcript
+NC_000014.9,94799382,94801515,RPL15P2,minus,326279,ribosomal protein L15 pseudogene 2
+NC_000014.9,94842803,94856850,LOC107984693,plus,107984693,uncharacterized LOC107984693
+NC_000014.9,94864760,94868294,LOC124903369,plus,124903369,uncharacterized LOC124903369
+NC_000014.9,94960277,94962166,LOC124903370,minus,124903370,uncharacterized LOC124903370
+NC_000014.9,94962515,94963775,LINC02279,minus,107984637,long intergenic non-protein coding RNA 2279
+NC_000014.9,94967526,94970407,LOC107984646,minus,107984646,uncharacterized LOC107984646
+NC_000014.9,95086228,95158010,DICER1,minus,23405,"dicer 1, ribonuclease III"
+NC_000014.9,95137919,95137986,MIR3173,minus,100422981,microRNA 3173
+NC_000014.9,95157688,95179933,DICER1-AS1,plus,400242,DICER1 antisense RNA 1
+NC_000014.9,95181940,95319908,CLMN,minus,79789,calmin
+NC_000014.9,95326169,95328872,LOC105370637,minus,105370637,uncharacterized LOC105370637
+NC_000014.9,95329584,95335504,LINC02292,plus,101929080,long intergenic non-protein coding RNA 2292
+NC_000014.9,95334480,95339688,LOC124903371,minus,124903371,uncharacterized LOC124903371
+NC_000014.9,95346587,95369001,LOC107984710,plus,107984710,uncharacterized LOC107984710
+NC_000014.9,95361346,95362280,LOC105370638,minus,105370638,uncharacterized LOC105370638
+NC_000014.9,95389730,95393878,LOC105370639,minus,105370639,uncharacterized LOC105370639
+NC_000014.9,95396163,95405106,LOC105370640,minus,105370640,uncharacterized LOC105370640
+NC_000014.9,95407266,95516650,SYNE3,minus,161176,spectrin repeat containing nuclear envelope family member 3
+NC_000014.9,95516120,95517911,SYNE3-AS1,plus,101929107,SYNE3 antisense RNA 1
+NC_000014.9,95532912,95534872,SNHG10,minus,283596,small nucleolar RNA host gene 10
+NC_000014.9,95533355,95533629,SCARNA13,minus,677768,small Cajal body-specific RNA 13
+NC_000014.9,95535050,95544714,GLRX5,plus,51218,glutaredoxin 5
+NC_000014.9,95573562,95581956,LINC02318,plus,100506999,long intergenic non-protein coding RNA 2318
+NC_000014.9,95588582,95590990,LOC105370643,plus,105370643,uncharacterized LOC105370643
+NC_000014.9,95652097,95673452,TCL6,plus,27004,T cell leukemia/lymphoma 6
+NC_000014.9,95664813,95670414,LOC124903372,plus,124903372,uncharacterized LOC124903372
+NC_000014.9,95686426,95692628,TCL1B,plus,9623,TCL1 family AKT coactivator B
+NC_000014.9,95700211,95703483,LOC124903373,plus,124903373,uncharacterized LOC124903373
+NC_000014.9,95709947,95714125,TCL1A,minus,8115,TCL1 family AKT coactivator A
+NC_000014.9,95715483,95756779,LOC107984703,plus,107984703,uncharacterized LOC107984703
+NC_000014.9,95771571,95774954,LOC105370644,minus,105370644,uncharacterized LOC105370644
+NC_000014.9,95876448,95925571,TUNAR,plus,100507043,TCL1 upstream neural differentiation-associated RNA
+NC_000014.9,96039362,96093971,C14orf132,plus,56967,chromosome 14 open reading frame 132
+NC_000014.9,96095822,96099033,LOC124903374,plus,124903374,uncharacterized LOC124903374
+NC_000014.9,96204839,96244164,BDKRB2,plus,624,bradykinin receptor B2
+NC_000014.9,96223045,96223819,CKS1BP1,plus,317780,CDC28 protein kinase regulatory subunit 1B pseudogene 1
+NC_000014.9,96256210,96264763,BDKRB1,plus,623,bradykinin receptor B1
+NC_000014.9,96259231,96268580,LOC124903375,minus,124903375,uncharacterized LOC124903375
+NC_000014.9,96279195,96363341,ATG2B,minus,55102,autophagy related 2B
+NC_000014.9,96323691,96323787,LOC124903430,minus,124903430,uncharacterized LOC124903430
+NC_000014.9,96363526,96387290,GSKIP,plus,51527,GSK3B interacting protein
+NC_000014.9,96384624,96384812,RNU2-33P,plus,106480211,"RNA, U2 small nuclear 33, pseudogene"
+NC_000014.9,96392128,96489427,AK7,plus,122481,adenylate kinase 7
+NC_000014.9,96414661,96417532,LOC124903276,plus,124903276,translation machinery-associated protein 7-like
+NC_000014.9,96422928,96424297,PEBP1P1,minus,326614,phosphatidylethanolamine binding protein 1 pseudogene 1
+NC_000014.9,96456529,96457053,RPL23AP10,minus,326293,ribosomal protein L23a pseudogene 10
+NC_000014.9,96501648,96502326,PAPOLA-DT,minus,730202,PAPOLA divergent transcript
+NC_000014.9,96502376,96567116,PAPOLA,plus,10914,poly(A) polymerase alpha
+NC_000014.9,96638293,96638514,RN7SKP108,minus,106480866,RN7SK pseudogene 108
+NC_000014.9,96663795,96681827,LOC105370645,plus,105370645,uncharacterized LOC105370645
+NC_000014.9,96741191,96790613,LINC02299,plus,105370646,long intergenic non-protein coding RNA 2299
+NC_000014.9,96797382,96881609,VRK1,plus,7443,VRK serine/threonine kinase 1
+NC_000014.9,96943579,96945394,LINC00618,plus,145249,long intergenic non-protein coding RNA 618
+NC_000014.9,97005587,97007624,LOC124903376,minus,124903376,uncharacterized LOC124903376
+NC_000014.9,97027715,97049542,LOC105370647,plus,105370647,uncharacterized LOC105370647
+NC_000014.9,97154857,97158736,LINC02304,plus,105370648,long intergenic non-protein coding RNA 2304
+NC_000014.9,97458816,97581383,LINC02325,plus,101929241,long intergenic non-protein coding RNA 2325
+NC_000014.9,97630944,97638893,LOC124903378,plus,124903378,uncharacterized LOC124903378
+NC_000014.9,97632647,97686658,LINC02291,minus,100129345,long intergenic non-protein coding RNA 2291
+NC_000014.9,97660824,97665909,LOC124903377,minus,124903377,uncharacterized LOC124903377
+NC_000014.9,97662631,97688603,LOC105370650,plus,105370650,uncharacterized LOC105370650
+NC_000014.9,97706135,97797570,LOC105370651,plus,105370651,uncharacterized LOC105370651
+NC_000014.9,97749264,97762831,LINC02312,minus,100132612,long intergenic non-protein coding RNA 2312
+NC_000014.9,97925610,97978124,LINC01550,minus,388011,long intergenic non-protein coding RNA 1550
+NC_000014.9,98033252,98038854,LOC107984706,minus,107984706,uncharacterized LOC107984706
+NC_000014.9,98063888,98166164,LOC105370655,minus,105370655,uncharacterized LOC105370655
+NC_000014.9,98087934,98093197,LOC105370654,minus,105370654,uncharacterized LOC105370654
+NC_000014.9,98093304,98116668,LOC105370653,plus,105370653,uncharacterized LOC105370653
+NC_000014.9,98135987,98166733,LINC02295,plus,105370652,long intergenic non-protein coding RNA 2295
+NC_000014.9,98201993,98205155,LOC107987207,minus,107987207,uncharacterized LOC107987207
+NC_000014.9,98213991,98242796,LOC105370656,plus,105370656,uncharacterized LOC105370656
+NC_000014.9,98351367,98351664,RN7SL714P,minus,106480527,"RNA, 7SL, cytoplasmic 714, pseudogene"
+NC_000014.9,98546279,98550388,LOC105370657,plus,105370657,uncharacterized LOC105370657
+NC_000014.9,98711613,98717766,LINC02914,plus,283598,long intergenic non-protein coding RNA 2914
+NC_000014.9,98792286,98798262,LOC124903403,minus,124903403,uncharacterized LOC124903403
+NC_000014.9,98820187,98823822,LOC105370658,minus,105370658,uncharacterized LOC105370658
+NC_000014.9,98972823,98973301,RPL3P4,minus,326307,ribosomal protein L3 pseudogene 4
+NC_000014.9,98999425,99076140,LOC107984696,minus,107984696,uncharacterized LOC107984696
+NC_000014.9,99123687,99139856,LOC105370659,minus,105370659,uncharacterized LOC105370659
+NC_000014.9,99169287,99272197,BCL11B,minus,64919,BCL11 transcription factor B
+NC_000014.9,99197393,99214336,LOC124903412,minus,124903412,uncharacterized LOC124903412
+NC_000014.9,99280011,99287362,LOC105370660,minus,105370660,uncharacterized LOC105370660
+NC_000014.9,99397748,99486458,SETD3,minus,84193,"SET domain containing 3, actin N3(tau)-histidine methyltransferase"
+NC_000014.9,99444306,99444412,RNU6-91P,plus,106479606,"RNA, U6 small nuclear 91, pseudogene"
+NC_000014.9,99481409,99512440,CCNK,plus,8812,cyclin K
+NC_000014.9,99500190,99604207,CCDC85C,minus,317762,coiled-coil domain containing 85C
+NC_000014.9,99536617,99538012,LOC105370661,plus,105370661,uncharacterized LOC105370661
+NC_000014.9,99604538,99680569,HHIPL1,plus,84439,HHIP like 1
+NC_000014.9,99684298,99727301,CYP46A1,plus,10858,cytochrome P450 family 46 subfamily A member 1
+NC_000014.9,99737722,99942060,EML1,plus,2009,EMAP like 1
+NC_000014.9,99942004,99949301,LOC102724682,minus,102724682,uncharacterized LOC102724682
+NC_000014.9,99945315,99945477,RNU1-47P,plus,106480161,"RNA, U1 small nuclear 47, pseudogene"
+NC_000014.9,99964464,99965575,VDAC3P1,plus,341965,voltage dependent anion channel 3 pseudogene 1
+NC_000014.9,99971422,100144236,EVL,plus,51466,Enah/Vasp-like
+NC_000014.9,99974290,99975033,RPS2P3,minus,326326,ribosomal protein S2 pseudogene 3
+NC_000014.9,100031395,100064044,LOC124903379,minus,124903379,uncharacterized LOC124903379
+NC_000014.9,100109419,100109514,MIR151B,minus,100616247,microRNA 151b
+NC_000014.9,100109655,100109753,MIR342,plus,442909,microRNA 342
+NC_000014.9,100130332,100132768,LOC124903381,minus,124903381,uncharacterized LOC124903381
+NC_000014.9,100143957,100166886,DEGS2,minus,123099,"delta 4-desaturase, sphingolipid 2"
+NC_000014.9,100160037,100161714,LOC124903380,plus,124903380,uncharacterized LOC124903380
+NC_000014.9,100207080,100238621,YY1-DT,minus,132565735,YY1 divergent transcript
+NC_000014.9,100239144,100282788,YY1,plus,7528,YY1 transcription factor
+NC_000014.9,100277357,100277417,MIR6764,plus,102466730,microRNA 6764
+NC_000014.9,100278567,100306444,SLC25A29,minus,123096,solute carrier family 25 member 29
+NC_000014.9,100307859,100307956,MIR345,plus,442910,microRNA 345
+NC_000014.9,100319071,100319370,RN7SL523P,minus,106479414,"RNA, 7SL, cytoplasmic 523, pseudogene"
+NC_000014.9,100323339,100330421,SLC25A47,plus,283600,solute carrier family 25 member 47
+NC_000014.9,100333790,100376327,WARS1,minus,7453,tryptophanyl-tRNA synthetase 1
+NC_000014.9,100366588,100367043,NDUFB3P4,plus,93995,NADH:ubiquinone oxidoreductase subunit B3 pseudogene 4
+NC_000014.9,100376485,100530303,WDR25,plus,79446,WD repeat domain 25
+NC_000014.9,100406958,100408929,LOC105370664,plus,105370664,uncharacterized LOC105370664
+NC_000014.9,100452149,100459331,LOC124903383,plus,124903383,uncharacterized LOC124903383
+NC_000014.9,100480881,100482078,HMGN1P25,plus,100507124,high mobility group nucleosome binding domain 1 pseudogene 25
+NC_000014.9,100487544,100487787,RN7SKP92,plus,106479135,RN7SK pseudogene 92
+NC_000014.9,100537147,100587417,BEGAIN,minus,57596,brain enriched guanylate kinase associated
+NC_000014.9,100537972,100542943,LOC124903382,plus,124903382,uncharacterized LOC124903382
+NC_000014.9,100552295,100557075,LOC124903384,plus,124903384,uncharacterized LOC124903384
+NC_000014.9,100657268,100672744,LINC00523,plus,283601,long intergenic non-protein coding RNA 523
+NC_000014.9,100686934,100687916,LOC105370668,plus,105370668,uncharacterized LOC105370668
+NC_000014.9,100689331,100691880,LOC124903385,plus,124903385,uncharacterized LOC124903385
+NC_000014.9,100709067,100709751,LOC105370669,plus,105370669,uncharacterized LOC105370669
+NC_000014.9,100726892,100738224,DLK1,plus,8788,delta like non-canonical Notch ligand 1
+NC_000014.9,100814491,100814574,MIR2392,plus,100616495,microRNA 2392
+NC_000014.9,100826108,100861026,MEG3,plus,55384,maternally expressed 3
+NC_000014.9,100852390,100852487,MIR770,plus,768222,microRNA 770
+NC_000014.9,100869060,100869148,MIR493,plus,574450,microRNA 493
+NC_000014.9,100874493,100874585,MIR337,plus,442905,microRNA 337
+NC_000014.9,100875033,100875104,MIR665,plus,100126315,microRNA 665
+NC_000014.9,100879753,100903722,RTL1,minus,388015,retrotransposon Gag like 1
+NC_000014.9,100881007,100881120,MIR431,plus,574038,microRNA 431
+NC_000014.9,100881886,100881978,MIR433,plus,574034,microRNA 433
+NC_000014.9,100882979,100883075,MIR127,plus,406914,microRNA 127
+NC_000014.9,100884483,100884576,MIR432,plus,574451,microRNA 432
+NC_000014.9,100884702,100884783,MIR136,plus,406927,microRNA 136
+NC_000014.9,100889649,100999113,MEG8,plus,79104,"maternally expressed 8, small nucleolar RNA host gene"
+NC_000014.9,100897920,100897996,SNORD112,plus,692215,"small nucleolar RNA, C/D box 112"
+NC_000014.9,100911139,100911213,MIR370,plus,442915,microRNA 370
+NC_000014.9,100924821,100924890,SNORD113-1,plus,767561,"small nucleolar RNA, C/D box 113-1"
+NC_000014.9,100927342,100927412,SNORD113-2,plus,767562,"small nucleolar RNA, C/D box 113-2"
+NC_000014.9,100929919,100929989,SNORD113-3,plus,767563,"small nucleolar RNA, C/D box 113-3"
+NC_000014.9,100936491,100936564,SNORD113-4,plus,767564,"small nucleolar RNA, C/D box 113-4"
+NC_000014.9,100938187,100938263,SNORD113-5,plus,767565,"small nucleolar RNA, C/D box 113-5"
+NC_000014.9,100939556,100939629,SNORD113-6,plus,767566,"small nucleolar RNA, C/D box 113-6"
+NC_000014.9,100941126,100941201,SNORD113-7,plus,767567,"small nucleolar RNA, C/D box 113-7"
+NC_000014.9,100943451,100943523,SNORD113-8,plus,767568,"small nucleolar RNA, C/D box 113-8"
+NC_000014.9,100945649,100945719,SNORD113-9,plus,767569,"small nucleolar RNA, C/D box 113-9"
+NC_000014.9,100949833,100949903,SNORD114-1,plus,767577,"small nucleolar RNA, C/D box 114-1"
+NC_000014.9,100951856,100951932,SNORD114-2,plus,767578,"small nucleolar RNA, C/D box 114-2"
+NC_000014.9,100953349,100953422,SNORD114-3,plus,767579,"small nucleolar RNA, C/D box 114-3"
+NC_000014.9,100954344,100954447,SNORD114-4,plus,767580,"small nucleolar RNA, C/D box 114-4"
+NC_000014.9,100955370,100955438,SNORD114-5,plus,767581,"small nucleolar RNA, C/D box 114-5"
+NC_000014.9,100956240,100956312,LOC124903418,plus,124903418,small nucleolar RNA SNORD113/SNORD114 family
+NC_000014.9,100957166,100957236,SNORD114-6,plus,767582,"small nucleolar RNA, C/D box 114-6"
+NC_000014.9,100963054,100963129,SNORD114-7,plus,767583,"small nucleolar RNA, C/D box 114-7"
+NC_000014.9,100964781,100964851,SNORD114-8,plus,767584,"small nucleolar RNA, C/D box 114-8"
+NC_000014.9,100966029,100966099,SNORD114-9,plus,767585,"small nucleolar RNA, C/D box 114-9"
+NC_000014.9,100967052,100967122,SNORD114-10,plus,767588,"small nucleolar RNA, C/D box 114-10"
+NC_000014.9,100968111,100968184,SNORD114-11,plus,767589,"small nucleolar RNA, C/D box 114-11"
+NC_000014.9,100968948,100969021,SNORD114-12,plus,767590,"small nucleolar RNA, C/D box 114-12"
+NC_000014.9,100969879,100969951,SNORD114-13,plus,767591,"small nucleolar RNA, C/D box 114-13"
+NC_000014.9,100972103,100972176,SNORD114-14,plus,767592,"small nucleolar RNA, C/D box 114-14"
+NC_000014.9,100972670,100972740,SNORD114-15,plus,767593,"small nucleolar RNA, C/D box 114-15"
+NC_000014.9,100973595,100973663,SNORD114-16,plus,767594,"small nucleolar RNA, C/D box 114-16"
+NC_000014.9,100974806,100974879,SNORD114-17,plus,767595,"small nucleolar RNA, C/D box 114-17"
+NC_000014.9,100975825,100975895,SNORD114-18,plus,767596,"small nucleolar RNA, C/D box 114-18"
+NC_000014.9,100976477,100976550,SNORD114-19,plus,767597,"small nucleolar RNA, C/D box 114-19"
+NC_000014.9,100977389,100977465,LOC124903419,plus,124903419,small nucleolar RNA SNORD113/SNORD114 family
+NC_000014.9,100979002,100979090,LOC124903417,plus,124903417,uncharacterized LOC124903417
+NC_000014.9,100979992,100980066,LOC124903420,plus,124903420,small nucleolar RNA SNORD113/SNORD114 family
+NC_000014.9,100981004,100981074,SNORD114-20,plus,767598,"small nucleolar RNA, C/D box 114-20"
+NC_000014.9,100981975,100982045,SNORD114-21,plus,767599,"small nucleolar RNA, C/D box 114-21"
+NC_000014.9,100982926,100982996,SNORD114-22,plus,767600,"small nucleolar RNA, C/D box 114-22"
+NC_000014.9,100983876,100983946,SNORD114-23,plus,767603,"small nucleolar RNA, C/D box 114-23"
+NC_000014.9,100984777,100984847,SNORD114-24,plus,767604,"small nucleolar RNA, C/D box 114-24"
+NC_000014.9,100986057,100986127,SNORD114-25,plus,767605,"small nucleolar RNA, C/D box 114-25"
+NC_000014.9,100987046,100987116,SNORD114-26,plus,767606,"small nucleolar RNA, C/D box 114-26"
+NC_000014.9,100988161,100988229,SNORD114-27,plus,767608,"small nucleolar RNA, C/D box 114-27"
+NC_000014.9,100989130,100989200,SNORD114-28,plus,767609,"small nucleolar RNA, C/D box 114-28"
+NC_000014.9,100990091,100990159,SNORD114-29,plus,767610,"small nucleolar RNA, C/D box 114-29"
+NC_000014.9,100991919,100991989,SNORD114-30,plus,767611,"small nucleolar RNA, C/D box 114-30"
+NC_000014.9,100993236,100993309,SNORD114-31,plus,767612,"small nucleolar RNA, C/D box 114-31"
+NC_000014.9,100994257,100994330,LOC124903422,plus,124903422,small nucleolar RNA SNORD113/SNORD114 family
+NC_000014.9,100998467,100998541,LOC124903421,plus,124903421,small nucleolar RNA SNORD113/SNORD114 family
+NC_000014.9,101005837,101034482,LOC124903407,plus,124903407,mucin-2-like
+NC_000014.9,101022066,101022132,MIR379,plus,494328,microRNA 379
+NC_000014.9,101023325,101023420,MIR411,plus,693121,microRNA 411
+NC_000014.9,101023794,101023856,MIR299,plus,407023,microRNA 299
+NC_000014.9,101025017,101025077,MIR380,plus,494329,microRNA 380
+NC_000014.9,101025564,101025651,MIR1197,plus,100302250,microRNA 1197
+NC_000014.9,101025732,101025817,MIR323A,plus,442897,microRNA 323a
+NC_000014.9,101026020,101026107,MIR758,plus,768212,microRNA 758
+NC_000014.9,101026785,101026864,MIR329-1,plus,574408,microRNA 329-1
+NC_000014.9,101027100,101027183,MIR329-2,plus,574409,microRNA 329-2
+NC_000014.9,101029634,101029714,MIR494,plus,574452,microRNA 494
+NC_000014.9,101030052,101030129,MIR1193,plus,100422837,microRNA 1193
+NC_000014.9,101031987,101032064,MIR543,plus,100126335,microRNA 543
+NC_000014.9,101033755,101033836,MIR495,plus,574453,microRNA 495
+NC_000014.9,101039690,101039755,MIR376C,plus,442913,microRNA 376c
+NC_000014.9,101040069,101040148,MIR376A2,plus,664615,microRNA 376a-2
+NC_000014.9,101040219,101040299,MIR654,plus,724024,microRNA 654
+NC_000014.9,101040436,101040535,MIR376B,plus,574435,microRNA 376b
+NC_000014.9,101040782,101040849,MIR376A1,plus,494325,microRNA 376a-1
+NC_000014.9,101041363,101041445,MIR300,plus,100126297,microRNA 300
+NC_000014.9,101042977,101043062,MIR1185-1,plus,100302157,microRNA 1185-1
+NC_000014.9,101044198,101044283,MIR1185-2,plus,100302209,microRNA 1185-2
+NC_000014.9,101045157,101051795,MIR381HG,plus,378881,MIR381 host gene
+NC_000014.9,101045920,101045994,MIR381,plus,494330,microRNA 381
+NC_000014.9,101046455,101046538,MIR487B,plus,664616,microRNA 487b
+NC_000014.9,101047321,101047398,MIR539,plus,664612,microRNA 539
+NC_000014.9,101047901,101047979,MIR889,plus,100126345,microRNA 889
+NC_000014.9,101048658,101048748,MIR544A,plus,664613,microRNA 544a
+NC_000014.9,101049550,101049646,MIR655,plus,724025,microRNA 655
+NC_000014.9,101052446,101052525,MIR487A,plus,619555,microRNA 487a
+NC_000014.9,101054306,101054381,MIR382,plus,494331,microRNA 382
+NC_000014.9,101054687,101054759,MIR134,plus,406924,microRNA 134
+NC_000014.9,101055258,101055323,MIR668,plus,768214,microRNA 668
+NC_000014.9,101055419,101055491,MIR485,plus,574436,microRNA 485
+NC_000014.9,101056219,101056300,MIR323B,plus,574410,microRNA 323b
+NC_000014.9,101059755,101059838,MIR154,plus,406946,microRNA 154
+NC_000014.9,101060573,101060674,MIR496,plus,574454,microRNA 496
+NC_000014.9,101062050,101062118,MIR377,plus,494326,microRNA 377
+NC_000014.9,101064495,101064578,MIR541,plus,100126308,microRNA 541
+NC_000014.9,101065300,101065378,MIR409,plus,574413,microRNA 409
+NC_000014.9,101065447,101065537,MIR412,plus,574433,microRNA 412
+NC_000014.9,101065598,101065667,MIR369,plus,442914,microRNA 369
+NC_000014.9,101065912,101065991,MIR410,plus,574434,microRNA 410
+NC_000014.9,101066724,101066801,MIR656,plus,724026,microRNA 656
+NC_000014.9,101069911,101072937,MEG9,plus,100507257,maternally expressed 9
+NC_000014.9,101071978,101077656,LOC105370670,minus,105370670,uncharacterized LOC105370670
+NC_000014.9,101120514,101121296,LOC124903386,minus,124903386,uncharacterized LOC124903386
+NC_000014.9,101120856,101123545,LINC02285,plus,101929422,long intergenic non-protein coding RNA 2285
+NC_000014.9,101145480,101145695,LOC124903435,minus,124903435,small nucleolar RNA U3
+NC_000014.9,101217387,101218231,LOC100128373,minus,100128373,AKT interacting protein pseudogene
+NC_000014.9,101325552,101335493,LOC124903387,minus,124903387,uncharacterized LOC124903387
+NC_000014.9,101354511,101364393,LOC107984697,minus,107984697,uncharacterized LOC107984697
+NC_000014.9,101405987,101407922,LINC00524,minus,338002,long intergenic non-protein coding RNA 524
+NC_000014.9,101442076,101444315,LINC02314,plus,100507277,long intergenic non-protein coding RNA 2314
+NC_000014.9,101464143,101475790,LINC03117,minus,105370672,long intergenic non-protein coding RNA 3117
+NC_000014.9,101521703,101545666,LOC105370673,minus,105370673,uncharacterized LOC105370673
+NC_000014.9,101545862,101547964,LOC105370674,plus,105370674,uncharacterized LOC105370674
+NC_000014.9,101552221,101560422,DIO3OS,minus,64150,DIO3 opposite strand upstream RNA
+NC_000014.9,101560287,101560422,MIR1247,minus,100302145,microRNA 1247
+NC_000014.9,101561495,101563452,DIO3,plus,1735,iodothyronine deiodinase 3
+NC_000014.9,101566788,101567844,LOC105370675,minus,105370675,uncharacterized LOC105370675
+NC_000014.9,101628349,101731306,LINC02320,minus,105370676,long intergenic non-protein coding RNA 2320
+NC_000014.9,101677937,101678423,RPL26P4,plus,283603,ribosomal protein L26 pseudogene 4
+NC_000014.9,101730437,101732525,LINC00239,plus,145200,long intergenic non-protein coding RNA 239
+NC_000014.9,101760573,101927992,PPP2R5C,plus,5527,protein phosphatase 2 regulatory subunit B'gamma
+NC_000014.9,101764079,101767049,LOC107984658,plus,107984658,uncharacterized LOC107984658
+NC_000014.9,101795076,101810990,LOC124903388,minus,124903388,uncharacterized LOC124903388
+NC_000014.9,101803227,101803331,RNU6-790P,plus,106481430,"RNA, U6 small nuclear 790, pseudogene"
+NC_000014.9,101842773,101844136,NPM1P20,minus,326608,nucleophosmin 1 pseudogene 20
+NC_000014.9,101964573,102056443,DYNC1H1,plus,1778,dynein cytoplasmic 1 heavy chain 1
+NC_000014.9,102036315,102039037,LOC107984661,minus,107984661,uncharacterized LOC107984661
+NC_000014.9,102077180,102077469,RN7SL472P,minus,106479395,"RNA, 7SL, cytoplasmic 472, pseudogene"
+NC_000014.9,102080742,102139749,HSP90AA1,minus,3320,heat shock protein 90 alpha family class A member 1
+NC_000014.9,102139423,102224839,WDR20,plus,91833,WD repeat domain 20
+NC_000014.9,102203878,102208606,LOC105370677,minus,105370677,uncharacterized LOC105370677
+NC_000014.9,102214596,102305164,MOK,minus,5891,MOK protein kinase
+NC_000014.9,102317092,102317165,TRI-AAT5-4,plus,100189275,tRNA-Ile (anticodon AAT) 5-4
+NC_000014.9,102317506,102342367,ZNF839,plus,55778,zinc finger protein 839
+NC_000014.9,102348282,102362890,CINP,minus,51550,cyclin dependent kinase 2 interacting protein
+NC_000014.9,102358799,102358902,LOC124903427,minus,124903427,small nucleolar RNA U13
+NC_000014.9,102362941,102502477,TECPR2,plus,9895,tectonin beta-propeller repeat containing 2
+NC_000014.9,102369744,102394812,LOC124903389,minus,124903389,uncharacterized LOC124903389
+NC_000014.9,102374238,102374319,LOC124903440,minus,124903440,uncharacterized LOC124903440
+NC_000014.9,102501676,102501774,RNU6-244P,plus,106866981,"RNA, U6 small nuclear 244, pseudogene"
+NC_000014.9,102501767,102509776,ANKRD9,minus,122416,ankyrin repeat domain 9
+NC_000014.9,102510043,102514354,LOC105370679,plus,105370679,uncharacterized LOC105370679
+NC_000014.9,102517467,102531291,LOC105370680,plus,105370680,uncharacterized LOC105370680
+NC_000014.9,102539644,102539726,MIR4309,plus,100422954,microRNA 4309
+NC_000014.9,102545254,102555826,LINC02323,plus,105370681,long intergenic non-protein coding RNA 2323
+NC_000014.9,102582888,102583177,RN7SL546P,minus,106479420,"RNA, 7SL, cytoplasmic 546, pseudogene"
+NC_000014.9,102592649,102730561,RCOR1,plus,23186,REST corepressor 1
+NC_000014.9,102662193,102662728,RPL23AP11,minus,326294,ribosomal protein L23a pseudogene 11
+NC_000014.9,102742717,102761662,LOC124903390,plus,124903390,uncharacterized LOC124903390
+NC_000014.9,102777449,102911500,TRAF3,plus,7187,TNF receptor associated factor 3
+NC_000014.9,102789491,102789591,LOC124903426,minus,124903426,small nucleolar RNA U13
+NC_000014.9,102865856,102865962,RNU6-1316P,plus,106480140,"RNA, U6 small nuclear 1316, pseudogene"
+NC_000014.9,102922663,102930842,AMN,plus,81693,amnion associated transmembrane protein
+NC_000014.9,102932380,103057549,CDC42BPB,minus,9578,CDC42 binding protein kinase beta
+NC_000014.9,103041436,103042126,RPL13P6,plus,100129176,ribosomal protein L13 pseudogene 6
+NC_000014.9,103084210,103090027,LBHD2,plus,107984640,LBH domain containing 2
+NC_000014.9,103094174,103110559,EXOC3L4,plus,91828,exocyst complex component 3 like 4
+NC_000014.9,103120849,103122909,LINC00677,minus,105370683,long intergenic non-protein coding RNA 677
+NC_000014.9,103121469,103137439,TNFAIP2,plus,7127,TNF alpha induced protein 2
+NC_000014.9,103139675,103141959,NDUFB4P11,plus,107075247,NADH:ubiquinone oxidoreductase subunit B4 pseudogene 11
+NC_000014.9,103148557,103149438,RPL21P12,plus,122409,ribosomal protein L21 pseudogene 12
+NC_000014.9,103164194,103175425,LOC105370685,plus,105370685,uncharacterized LOC105370685
+NC_000014.9,103184157,103185071,GCSHP2,plus,100288298,GCSH pseudogene 2
+NC_000014.9,103187221,103189028,LINC00605,minus,100131366,long intergenic non-protein coding RNA 605
+NC_000014.9,103196195,103208870,LOC124903391,minus,124903391,uncharacterized LOC124903391
+NC_000014.9,103241452,103242005,RPL21P13,plus,319144,ribosomal protein L21 pseudogene 13
+NC_000014.9,103279223,103279955,RAP2CP1,plus,106480249,RAP2C pseudogene 1
+NC_000014.9,103282914,103283498,RPL17P4,plus,326288,ribosomal protein L17 pseudogene 4
+NC_000014.9,103294074,103317142,LOC105370686,minus,105370686,uncharacterized LOC105370686
+NC_000014.9,103317284,103318539,LOC105378183,plus,105378183,uncharacterized LOC105378183
+NC_000014.9,103331672,103334660,EIF5-DT,minus,105370687,EIF5 divergent transcript
+NC_000014.9,103334237,103345025,EIF5,plus,1983,eukaryotic translation initiation factor 5
+NC_000014.9,103337849,103337974,SNORA28,plus,677811,"small nucleolar RNA, H/ACA box 28"
+NC_000014.9,103364215,103364844,HMGB3P26,minus,100130405,high mobility group box 3 pseudogene 26
+NC_000014.9,103373963,103374992,RPSAP5,minus,319129,ribosomal protein SA pseudogene 5
+NC_000014.9,103385415,103503831,MARK3,plus,4140,microtubule affinity regulating kinase 3
+NC_000014.9,103412087,103412792,RPL10AP1,minus,319135,ribosomal protein L10a pseudogene 1
+NC_000014.9,103507400,103511650,LOC112268130,minus,112268130,uncharacterized LOC112268130
+NC_000014.9,103519667,103522830,CKB,minus,1152,creatine kinase B
+NC_000014.9,103529196,103537073,TRMT61A,plus,115708,tRNA methyltransferase 61A
+NC_000014.9,103540315,103553481,LOC124903392,minus,124903392,uncharacterized LOC124903392
+NC_000014.9,103550345,103550406,RNU7-160P,plus,106479085,"RNA, U7 small nuclear 160 pseudogene"
+NC_000014.9,103556551,103562657,BAG5,minus,9529,BAG cochaperone 5
+NC_000014.9,103562960,103590899,COA8,plus,84334,cytochrome c oxidase assembly factor 8
+NC_000014.9,103567405,103567545,RNU4-68P,plus,106479589,"RNA, U4 small nuclear 68, pseudogene"
+NC_000014.9,103627502,103629143,LOC105370688,minus,105370688,uncharacterized LOC105370688
+NC_000014.9,103629211,103701544,KLC1,plus,3831,kinesin light chain 1
+NC_000014.9,103697617,103715451,XRCC3,minus,7517,X-ray repair cross complementing 3
+NC_000014.9,103715810,103733664,ZFYVE21,plus,79038,zinc finger FYVE-type containing 21
+NC_000014.9,103733195,103848814,PPP1R13B,minus,23368,protein phosphatase 1 regulatory subunit 13B
+NC_000014.9,103797272,103797348,LOC124900347,minus,124900347,small nucleolar RNA SNORD51
+NC_000014.9,103847721,103858049,PPP1R13B-DT,plus,145216,PPP1R13B divergent transcript
+NC_000014.9,103872087,103880378,LOC105370689,plus,105370689,uncharacterized LOC105370689
+NC_000014.9,103912288,103921529,ATP5MJ,minus,9556,ATP synthase membrane subunit j
+NC_000014.9,103928456,104052667,TDRD9,plus,122402,tudor domain containing 9
+NC_000014.9,103940426,103942529,RD3L,minus,647286,RD3 like
+NC_000014.9,104013642,104013933,RN7SL634P,plus,106481096,"RNA, 7SL, cytoplasmic 634, pseudogene"
+NC_000014.9,104080853,104083695,LOC124903408,plus,124903408,uncharacterized LOC124903408
+NC_000014.9,104085700,104115582,ASPG,plus,374569,asparaginase
+NC_000014.9,104117405,104117514,MIR203A,plus,406986,microRNA 203a
+NC_000014.9,104117418,104117503,MIR203B,minus,100616173,microRNA 203b
+NC_000014.9,104134783,104138629,KIF26A-DT,minus,105370708,KIF26A divergent transcript
+NC_000014.9,104138587,104180894,KIF26A,plus,26153,kinesin family member 26A
+NC_000014.9,104205624,104209800,LOC124903393,plus,124903393,uncharacterized LOC124903393
+NC_000014.9,104223584,104288069,LINC02691,plus,145195,long intergenic non-protein coding RNA 2691
+NC_000014.9,104377710,104378944,LOC124903394,minus,124903394,uncharacterized LOC124903394
+NC_000014.9,104400943,104401048,RNU6-684P,minus,106481396,"RNA, U6 small nuclear 684, pseudogene"
+NC_000014.9,104450833,104451834,CEND1P1,plus,122631,cell cycle exit and neuronal differentiation 1 pseudogene 1
+NC_000014.9,104529685,104541798,LOC124903395,minus,124903395,uncharacterized LOC124903395
+NC_000014.9,104579764,104590515,C14orf180,plus,400258,chromosome 14 open reading frame 180
+NC_000014.9,104590864,104604772,TMEM179,minus,388021,transmembrane protein 179
+NC_000014.9,104661120,104665558,LINC02280,minus,101929634,long intergenic non-protein coding RNA 2280
+NC_000014.9,104677694,104677749,MIR4710,minus,100616300,microRNA 4710
+NC_000014.9,104681133,104722535,INF2,plus,64423,inverted formin 2
+NC_000014.9,104724229,104747325,ADSS1,plus,122622,adenylosuccinate synthase 1
+NC_000014.9,104734568,104737514,LOC124903396,minus,124903396,uncharacterized LOC124903396
+NC_000014.9,104741144,104741669,LOC107984670,minus,107984670,uncharacterized LOC107984670
+NC_000014.9,104747330,104766949,LOC107987209,minus,107987209,uncharacterized LOC107987209
+NC_000014.9,104753147,104759654,SIVA1,plus,10572,SIVA1 apoptosis inducing factor
+NC_000014.9,104764815,104769416,LOC102723342,plus,102723342,uncharacterized LOC102723342
+NC_000014.9,104769349,104795748,AKT1,minus,207,AKT serine/threonine kinase 1
+NC_000014.9,104800554,104804712,ZBTB42,plus,100128927,zinc finger and BTB domain containing 42
+NC_000014.9,104821201,104823718,VESTAR,plus,196872,VEGFC mRNA stability associated lncRNA
+NC_000014.9,104830836,104831170,RPS26P49,minus,100271575,ribosomal protein S26 pseudogene 49
+NC_000014.9,104835957,104836907,RPS2P4,minus,92427,ribosomal protein S2 pseudogene 4
+NC_000014.9,104863496,104865149,LOC124903397,minus,124903397,uncharacterized LOC124903397
+NC_000014.9,104864513,104896747,CEP170B,plus,283638,centrosomal protein 170B
+NC_000014.9,104865314,104865411,MIR12121,plus,113219454,microRNA 12121
+NC_000014.9,104924879,104937785,PLD4,plus,122618,phospholipase D family member 4
+NC_000014.9,104937253,104978374,AHNAK2,minus,113146,AHNAK nucleoprotein 2
+NC_000014.9,104985788,105001274,CLBA1,plus,122616,clathrin binding box of aftiphilin containing 1
+NC_000014.9,105009573,105021083,CDCA4,minus,55038,cell division cycle associated 4
+NC_000014.9,105032857,105055777,LOC124903398,plus,124903398,uncharacterized LOC124903398
+NC_000014.9,105049395,105065430,GPR132,minus,29933,G protein-coupled receptor 132
+NC_000014.9,105094147,105099496,LINC02298,plus,102723354,long intergenic non-protein coding RNA 2298
+NC_000014.9,105140995,105168776,JAG2,minus,3714,jagged canonical Notch ligand 2
+NC_000014.9,105150778,105150864,MIR6765,minus,102465458,microRNA 6765
+NC_000014.9,105172939,105181312,NUDT14,minus,256281,nudix hydrolase 14
+NC_000014.9,105209286,105315589,BRF1,minus,2972,BRF1 RNA polymerase III transcription initiation factor subunit
+NC_000014.9,105248533,105251093,BTBD6,plus,90135,BTB domain containing 6
+NC_000014.9,105300628,105311193,LOC124903409,plus,124903409,uncharacterized LOC124903409
+NC_000014.9,105300774,105398147,PACS2,plus,23241,phosphofurin acidic cluster sorting protein 2
+NC_000014.9,105374621,105374971,RPS20P33,plus,100271564,ribosomal protein S20 pseudogene 33
+NC_000014.9,105398538,105413859,TEX22,plus,647310,testis expressed 22
+NC_000014.9,105417581,105419739,MTA1-DT,minus,100507437,MTA1 divergent transcript
+NC_000014.9,105419827,105470729,MTA1,plus,9112,metastasis associated 1
+NC_000014.9,105472945,105480170,CRIP2,plus,1397,cysteine rich protein 2
+NC_000014.9,105486886,105488947,CRIP1,plus,1396,cysteine rich protein 1
+NC_000014.9,105489855,105499248,TEDC1,plus,283643,tubulin epsilon and delta complex 1
+NC_000014.9,105526583,105530198,TMEM121,plus,80757,transmembrane protein 121
+NC_000014.9,105531855,105534318,LOC105370697,plus,105370697,uncharacterized LOC105370697
+NC_000014.9,105536746,105537292,ATP5MC1P1,minus,319136,ATP synthase membrane subunit c locus 1 pseudogene 1
+NC_000014.9,105545423,105549834,ELK2BP,minus,9995,"ETS transcription factor ELK2B, pseudogene"
+NC_000014.9,105547193,105557403,LOC105370698,plus,105370698,uncharacterized LOC105370698
+NC_000014.9,105586437,106879844,IGH,minus,3492,immunoglobulin heavy locus
+NC_000014.9,105586937,105588394,IGHA2,minus,3494,immunoglobulin heavy constant alpha 2 (A2m marker)
+NC_000014.9,105600066,105601727,IGHE,minus,3497,immunoglobulin heavy constant epsilon
+NC_000014.9,105621116,105621180,MIR8071-1,plus,102465871,microRNA 8071-1
+NC_000014.9,105624476,105626065,IGHG4,minus,3503,immunoglobulin heavy constant gamma 4 (G4m marker)
+NC_000014.9,105640168,105640232,MIR8071-2,plus,102466889,microRNA 8071-2
+NC_000014.9,105643203,105644789,IGHG2,minus,3501,immunoglobulin heavy constant gamma 2 (G2m marker)
+NC_000014.9,105668249,105670040,IGHGP,minus,3505,immunoglobulin heavy constant gamma P (non-functional)
+NC_000014.9,105669577,105672807,ELK2AP,minus,2003,"ETS transcription factor ELK2A, pseudogene"
+NC_000014.9,105707168,105708664,IGHA1,minus,3493,immunoglobulin heavy constant alpha 1
+NC_000014.9,105721794,105722527,IGHEP1,minus,3498,immunoglobulin heavy constant epsilon P1 (pseudogene)
+NC_000014.9,105741473,105743070,IGHG1,minus,3500,immunoglobulin heavy constant gamma 1 (G1m marker)
+NC_000014.9,105759493,105765996,LOC105378184,plus,105378184,uncharacterized LOC105378184
+NC_000014.9,105765914,105771405,IGHG3,minus,3502,immunoglobulin heavy constant gamma 3 (G3m marker)
+NC_000014.9,105784496,105785972,ATP6V1G1P1,minus,319116,ATPase H+ transporting V1 subunit G1 pseudogene 1
+NC_000014.9,105838401,105845677,IGHD,minus,3495,immunoglobulin heavy constant delta
+NC_000014.9,105851966,105856217,IGHM,minus,3507,immunoglobulin heavy constant mu
+NC_000014.9,105857513,105857572,MIR4539,minus,100616374,microRNA 4539
+NC_000014.9,105858124,105858175,MIR4507,minus,100616135,microRNA 4507
+NC_000014.9,105858165,105858242,MIR4538,minus,100616276,microRNA 4538
+NC_000014.9,105859484,105859553,MIR4537,minus,100616422,microRNA 4537
+NC_000014.9,105863196,105863260,IGHJ6,minus,28475,immunoglobulin heavy joining 6
+NC_000014.9,105863415,105863465,IGHJ3P,minus,28478,immunoglobulin heavy joining 3P (pseudogene)
+NC_000014.9,105863812,105863864,IGHJ5,minus,28476,immunoglobulin heavy joining 5
+NC_000014.9,105864213,105864262,IGHJ4,minus,28477,immunoglobulin heavy joining 4
+NC_000014.9,105864585,105864636,IGHJ3,minus,28479,immunoglobulin heavy joining 3
+NC_000014.9,105864793,105864852,IGHJ2P,minus,28480,immunoglobulin heavy joining 2P (pseudogene)
+NC_000014.9,105865197,105865251,IGHJ2,minus,28481,immunoglobulin heavy joining 2
+NC_000014.9,105865405,105865458,IGHJ1,minus,28483,immunoglobulin heavy joining 1
+NC_000014.9,105865551,105865561,IGHD7-27,minus,28484,immunoglobulin heavy diversity 7-27
+NC_000014.9,105865624,105865677,IGHJ1P,minus,28482,immunoglobulin heavy joining 1P (pseudogene)
+NC_000014.9,105881034,105881053,IGHD1-26,minus,28506,immunoglobulin heavy diversity 1-26
+NC_000014.9,105881539,105881556,IGHD6-25,minus,28485,immunoglobulin heavy diversity 6-25
+NC_000014.9,105883903,105883922,IGHD5-24,minus,28489,immunoglobulin heavy diversity 5-24 (non-functional)
+NC_000014.9,105884870,105884888,IGHD4-23,minus,28493,immunoglobulin heavy diversity 4-23 (non-functional)
+NC_000014.9,105886031,105886061,IGHD3-22,minus,28497,immunoglobulin heavy diversity 3-22
+NC_000014.9,105888551,105888578,IGHD2-21,minus,28502,immunoglobulin heavy diversity 2-21
+NC_000014.9,105891191,105891207,IGHD1-20,minus,28507,immunoglobulin heavy diversity 1-20
+NC_000014.9,105891699,105891719,IGHD6-19,minus,28486,immunoglobulin heavy diversity 6-19
+NC_000014.9,105893542,105893561,IGHD5-18,minus,28490,immunoglobulin heavy diversity 5-18
+NC_000014.9,105894508,105894523,IGHD4-17,minus,28494,immunoglobulin heavy diversity 4-17
+NC_000014.9,105895634,105895670,IGHD3-16,minus,28498,immunoglobulin heavy diversity 3-16
+NC_000014.9,105897957,105897987,IGHD2-15,minus,28503,immunoglobulin heavy diversity 2-15
+NC_000014.9,105900638,105900654,IGHD1-14,minus,28508,immunoglobulin heavy diversity 1-14 (non-functional)
+NC_000014.9,105901142,105901162,IGHD6-13,minus,28487,immunoglobulin heavy diversity 6-13
+NC_000014.9,105902649,105902671,IGHD5-12,minus,28491,immunoglobulin heavy diversity 5-12
+NC_000014.9,105903616,105903631,IGHD4-11,minus,28495,immunoglobulin heavy diversity 4-11 (non-functional)
+NC_000014.9,105904497,105904527,IGHD3-10,minus,28499,immunoglobulin heavy diversity 3-10
+NC_000014.9,105904681,105904711,IGHD3-9,minus,28500,immunoglobulin heavy diversity 3-9
+NC_000014.9,105907211,105907241,IGHD2-8,minus,28504,immunoglobulin heavy diversity 2-8
+NC_000014.9,105909907,105909923,IGHD1-7,minus,28509,immunoglobulin heavy diversity 1-7
+NC_000014.9,105910410,105910427,IGHD6-6,minus,28488,immunoglobulin heavy diversity 6-6
+NC_000014.9,105912257,105912276,IGHD5-5,minus,28492,immunoglobulin heavy diversity 5-5
+NC_000014.9,105913222,105913237,IGHD4-4,minus,28496,immunoglobulin heavy diversity 4-4
+NC_000014.9,105914359,105914389,IGHD3-3,minus,28501,immunoglobulin heavy diversity 3-3
+NC_000014.9,105916826,105916856,IGHD2-2,minus,28505,immunoglobulin heavy diversity 2-2
+NC_000014.9,105917979,105932642,FAM30A,plus,9834,family with sequence similarity 30 member A
+NC_000014.9,105919502,105919518,IGHD1-1,minus,28510,immunoglobulin heavy diversity 1-1
+NC_000014.9,105939754,105940201,IGHV6-1,minus,28385,immunoglobulin heavy variable 6-1
+NC_000014.9,105944938,105945391,IGHVII-1-1,minus,28377,immunoglobulin heavy variable (II)-1-1 (pseudogene)
+NC_000014.9,105969729,105972269,ADAM6,minus,8755,ADAM metallopeptidase domain 6 (pseudogene)
+NC_000014.9,105978468,105979169,RPS8P1,minus,192133,ribosomal protein S8 pseudogene 1
+NC_000014.9,105986582,105987019,IGHV1-2,minus,28474,immunoglobulin heavy variable 1-2
+NC_000014.9,106001534,106001835,IGHVIII-2-1,minus,28355,immunoglobulin heavy variable (III)-2-1 (pseudogene)
+NC_000014.9,106005095,106005532,IGHV1-3,minus,28473,immunoglobulin heavy variable 1-3
+NC_000014.9,106011922,106012356,IGHV4-4,minus,28401,immunoglobulin heavy variable 4-4
+NC_000014.9,106025145,106025581,IGHV7-4-1,minus,57289,immunoglobulin heavy variable 7-4-1
+NC_000014.9,106037902,106038345,IGHV2-5,minus,28457,immunoglobulin heavy variable 2-5
+NC_000014.9,106039666,106039764,IGHVIII-5-1,minus,28354,immunoglobulin heavy variable (III)-5-1 (pseudogene)
+NC_000014.9,106045600,106045860,IGHVIII-5-2,minus,28353,immunoglobulin heavy variable (III)-5-2 (pseudogene)
+NC_000014.9,106055544,106055998,IGHV3-6,minus,28453,immunoglobulin heavy variable 3-6 (pseudogene)
+NC_000014.9,106062149,106062604,IGHV3-7,minus,28452,immunoglobulin heavy variable 3-7
+NC_000014.9,106088122,106088573,IGHV3-64D,minus,102723170,immunoglobulin heavy variable 3-64D
+NC_000014.9,106107972,106108513,IGHV5-10-1,minus,28386,immunoglobulin heavy variable 5-10-1
+NC_000014.9,106116635,106117084,IGHV3-11,minus,28450,immunoglobulin heavy variable 3-11
+NC_000014.9,106120289,106120475,IGHVIII-11-1,minus,28352,immunoglobulin heavy variable (III)-11-1 (pseudogene)
+NC_000014.9,106122420,106122709,IGHV1-12,minus,28471,immunoglobulin heavy variable 1-12 (pseudogene)
+NC_000014.9,106129540,106129992,IGHV3-13,minus,28449,immunoglobulin heavy variable 3-13
+NC_000014.9,106142286,106142584,IGHVIII-13-1,minus,28351,immunoglobulin heavy variable (III)-13-1 (pseudogene)
+NC_000014.9,106145882,106146131,IGHV1-14,minus,28470,immunoglobulin heavy variable 1-14 (pseudogene)
+NC_000014.9,106153622,106154083,IGHV3-15,minus,28448,immunoglobulin heavy variable 3-15
+NC_000014.9,106163534,106163804,IGHVII-15-1,minus,28376,immunoglobulin heavy variable (II)-15-1 (pseudogene)
+NC_000014.9,106165203,106165656,IGHV3-16,minus,28447,immunoglobulin heavy variable 3-16 (non-functional)
+NC_000014.9,106170746,106171051,IGHVIII-16-1,minus,28350,immunoglobulin heavy variable (III)-16-1 (pseudogene)
+NC_000014.9,106174342,106174778,IGHV1-17,minus,28469,immunoglobulin heavy variable 1-17 (pseudogene)
+NC_000014.9,106178885,106180492,SLC20A1P2,minus,192128,solute carrier family 20 member 1 pseudogene 2
+NC_000014.9,106184899,106185335,IGHV1-18,minus,28468,immunoglobulin heavy variable 1-18
+NC_000014.9,106193827,106208423,LOC105370700,plus,105370700,uncharacterized LOC105370700
+NC_000014.9,106196698,106196990,IGHV3-19,minus,28446,immunoglobulin heavy variable 3-19 (pseudogene)
+NC_000014.9,106210936,106211391,IGHV3-20,minus,28445,immunoglobulin heavy variable 3-20
+NC_000014.9,106212786,106212824,IGHVII-20-1,minus,28375,immunoglobulin heavy variable (II)-20-1 (pseudogene)
+NC_000014.9,106235062,106235515,IGHV3-21,minus,28444,immunoglobulin heavy variable 3-21
+NC_000014.9,106257762,106258223,IGHV3-22,minus,28443,immunoglobulin heavy variable 3-22 (pseudogene)
+NC_000014.9,106263360,106263628,IGHVII-22-1,minus,28374,immunoglobulin heavy variable (II)-22-1 (pseudogene)
+NC_000014.9,106264686,106264873,IGHVIII-22-2,minus,28349,immunoglobulin heavy variable (III)-22-2 (pseudogene)
+NC_000014.9,106268606,106269061,IGHV3-23,minus,28442,immunoglobulin heavy variable 3-23
+NC_000014.9,106276546,106276983,IGHV1-24,minus,28467,immunoglobulin heavy variable 1-24
+NC_000014.9,106285995,106287892,HOMER2P2,minus,317769,HOMER2 pseudogene 2
+NC_000014.9,106287674,106288372,LINC00226,plus,338004,long intergenic non-protein coding RNA 226
+NC_000014.9,106289026,106289479,IGHV3-25,minus,28441,immunoglobulin heavy variable 3-25 (pseudogene)
+NC_000014.9,106293566,106293807,IGHVIII-25-1,minus,28348,immunoglobulin heavy variable (III)-25-1 (pseudogene)
+NC_000014.9,106301395,106301838,IGHV2-26,minus,28455,immunoglobulin heavy variable 2-26
+NC_000014.9,106309406,106309712,IGHVIII-26-1,minus,28347,immunoglobulin heavy variable (III)-26-1 (pseudogene)
+NC_000014.9,106314648,106314960,IGHVII-26-2,minus,28373,immunoglobulin heavy variable (II)-26-2 (pseudogene)
+NC_000014.9,106317823,106318236,IGHV7-27,minus,28383,immunoglobulin heavy variable 7-27 (pseudogene)
+NC_000014.9,106324254,106324688,IGHV4-28,minus,28400,immunoglobulin heavy variable 4-28
+NC_000014.9,106329432,106329686,IGHVII-28-1,minus,28372,immunoglobulin heavy variable (II)-28-1 (pseudogene)
+NC_000014.9,106331106,106331563,IGHV3-29,minus,28440,immunoglobulin heavy variable 3-29 (pseudogene)
+NC_000014.9,106332236,106333081,GOLGA4P2,minus,192132,golgin A4 pseudogene 2
+NC_000014.9,106335080,106335533,IGHV3-30,minus,28439,immunoglobulin heavy variable 3-30
+NC_000014.9,106342680,106342953,IGHVII-30-1,minus,28371,immunoglobulin heavy variable (II)-30-1 (pseudogene)
+NC_000014.9,106344385,106344833,IGHV3-30-2,minus,28438,immunoglobulin heavy variable 3-30-2 (pseudogene)
+NC_000014.9,106349283,106349720,IGHV4-30-2,minus,28398,immunoglobulin heavy variable 4-30-2
+NC_000014.9,106354448,106354704,IGHVII-30-21,minus,107548099,immunoglobulin heavy variable (II)-30-21 (pseudogene)
+NC_000014.9,106356145,106356602,IGHV3-32,minus,28435,immunoglobulin heavy variable 3-32 (pseudogene)
+NC_000014.9,106357284,106357797,GOLGA4P1,minus,192131,golgin A4 pseudogene 1
+NC_000014.9,106359791,106360244,IGHV3-33,minus,28434,immunoglobulin heavy variable 3-33
+NC_000014.9,106367391,106367664,IGHVII-33-1,minus,28369,immunoglobulin heavy variable (II)-33-1 (pseudogene)
+NC_000014.9,106369098,106369546,IGHV3-33-2,minus,28433,immunoglobulin heavy variable 3-33-2 (pseudogene)
+NC_000014.9,106373661,106374093,IGHV4-34,minus,28395,immunoglobulin heavy variable 4-34
+NC_000014.9,106377300,106377733,IGHV7-34-1,minus,28382,immunoglobulin heavy variable 7-34-1 (pseudogene)
+NC_000014.9,106389390,106389843,IGHV3-35,minus,28432,immunoglobulin heavy variable 3-35 (non-functional)
+NC_000014.9,106392769,106393231,IGHV3-36,minus,28431,immunoglobulin heavy variable 3-36 (pseudogene)
+NC_000014.9,106396665,106397114,IGHV3-37,minus,28430,immunoglobulin heavy variable 3-37 (pseudogene)
+NC_000014.9,106401525,106446687,LOC124903400,plus,124903400,uncharacterized LOC124903400
+NC_000014.9,106410494,106410943,IGHV3-38,minus,28429,immunoglobulin heavy variable 3-38 (non-functional)
+NC_000014.9,106418018,106418310,IGHVIII-38-1,minus,28346,immunoglobulin heavy variable (III)-38-1 (pseudogene)
+NC_000014.9,106421709,106422147,IGHV4-39,minus,28394,immunoglobulin heavy variable 4-39
+NC_000014.9,106425359,106425561,IGHV7-40,minus,28381,immunoglobulin heavy variable 7-40 (pseudogene)
+NC_000014.9,106440934,106441010,IGHVII-40-1,minus,28368,immunoglobulin heavy variable (II)-40-1 (pseudogene)
+NC_000014.9,106443129,106443584,IGHV3-41,minus,28428,immunoglobulin heavy variable 3-41 (pseudogene)
+NC_000014.9,106458942,106461306,HOMER2P1,minus,317768,HOMER2 pseudogene 1
+NC_000014.9,106463254,106463688,IGHV3-42,minus,28427,immunoglobulin heavy variable 3-42 (pseudogene)
+NC_000014.9,106470263,106470720,IGHV3-43,minus,28426,immunoglobulin heavy variable 3-43
+NC_000014.9,106472791,106473000,IGHVII-43-1,minus,28367,immunoglobulin heavy variable (II)-43-1 (pseudogene)
+NC_000014.9,106478217,106478393,IGHVIII-44,minus,28345,immunoglobulin heavy variable (III)-44 (pseudogene)
+NC_000014.9,106482439,106495515,LINC00221,plus,338005,long intergenic non-protein coding RNA 221
+NC_000014.9,106489342,106489770,IGHVIV-44-1,minus,28337,immunoglobulin heavy variable (IV)-44-1 (pseudogene)
+NC_000014.9,106494145,106494381,IGHVII-44-2,minus,28366,immunoglobulin heavy variable (II)-44-2 (pseudogene)
+NC_000014.9,106506996,106507433,IGHV1-45,minus,28466,immunoglobulin heavy variable 1-45
+NC_000014.9,106511115,106511552,IGHV1-46,minus,28465,immunoglobulin heavy variable 1-46
+NC_000014.9,106515836,106516124,IGHVII-46-1,minus,28365,immunoglobulin heavy variable (II)-46-1 (pseudogene)
+NC_000014.9,106518579,106519034,IGHV3-47,minus,28425,immunoglobulin heavy variable 3-47 (pseudogene)
+NC_000014.9,106531133,106531436,IGHVIII-47-1,minus,28344,immunoglobulin heavy variable (III)-47-1 (pseudogene)
+NC_000014.9,106537810,106538265,IGHV3-48,minus,28424,immunoglobulin heavy variable 3-48
+NC_000014.9,106556936,106557397,IGHV3-49,minus,28423,immunoglobulin heavy variable 3-49
+NC_000014.9,106564328,106564598,IGHVII-49-1,minus,28364,immunoglobulin heavy variable (II)-49-1 (pseudogene)
+NC_000014.9,106566100,106566555,IGHV3-50,minus,28422,immunoglobulin heavy variable 3-50 (pseudogene)
+NC_000014.9,106578742,106579177,IGHV5-51,minus,28388,immunoglobulin heavy variable 5-51
+NC_000014.9,106583501,106583807,IGHV8-51-1,minus,28343,immunoglobulin heavy variable IGHV8-51-1 (non-functional)
+NC_000014.9,106584714,106584976,IGHVII-51-2,minus,28363,immunoglobulin heavy variable (II)-51-2 (pseudogene)
+NC_000014.9,106586376,106586826,IGHV3-52,minus,28421,immunoglobulin heavy variable 3-52 (pseudogene)
+NC_000014.9,106592676,106593126,IGHV3-53,minus,28420,immunoglobulin heavy variable 3-53
+NC_000014.9,106599655,106599924,IGHVII-53-1,minus,28362,immunoglobulin heavy variable (II)-53-1 (pseudogene)
+NC_000014.9,106601336,106601792,IGHV3-54,minus,28419,immunoglobulin heavy variable 3-54 (pseudogene)
+NC_000014.9,106606116,106606551,IGHV4-55,minus,28393,immunoglobulin heavy variable 4-55 (pseudogene)
+NC_000014.9,106609762,106610196,IGHV7-56,minus,28380,immunoglobulin heavy variable 7-56 (pseudogene)
+NC_000014.9,106618909,106619214,IGHV3-57,minus,28418,immunoglobulin heavy variable 3-57 (pseudogene)
+NC_000014.9,106622357,106622794,IGHV1-58,minus,28464,immunoglobulin heavy variable 1-58
+NC_000014.9,106627249,106627680,IGHV4-59,minus,28392,immunoglobulin heavy variable 4-59
+NC_000014.9,106631197,106631653,IGHV3-60,minus,28417,immunoglobulin heavy variable 3-60 (pseudogene)
+NC_000014.9,106636572,106636861,RNA5SP389,plus,106480766,"RNA, 5S ribosomal pseudogene 389"
+NC_000014.9,106637705,106637973,IGHVII-60-1,minus,28361,immunoglobulin heavy variable (II)-60-1 (pseudogene)
+NC_000014.9,106639119,106639556,IGHV4-61,minus,28391,immunoglobulin heavy variable 4-61
+NC_000014.9,106643130,106643585,IGHV3-62,minus,28416,immunoglobulin heavy variable 3-62 (pseudogene)
+NC_000014.9,106650516,106650788,IGHVII-62-1,minus,28360,immunoglobulin heavy variable (II)-62-1 (pseudogene)
+NC_000014.9,106652213,106652680,IGHV3-63,minus,28415,immunoglobulin heavy variable 3-63 (pseudogene)
+NC_000014.9,106653466,106654382,GOLGA4P3,minus,192130,golgin A4 pseudogene 3
+NC_000014.9,106657723,106658178,IGHV3-64,minus,28414,immunoglobulin heavy variable 3-64
+NC_000014.9,106657895,106666395,LOC102724977,plus,102724977,uncharacterized LOC102724977
+NC_000014.9,106666038,106666532,IGHV3-65,minus,28413,immunoglobulin heavy variable 3-65 (pseudogene)
+NC_000014.9,106671772,106672044,IGHVII-65-1,minus,28359,immunoglobulin heavy variable (II)-65-1 (pseudogene)
+NC_000014.9,106675015,106675465,IGHV3-66,minus,28412,immunoglobulin heavy variable 3-66
+NC_000014.9,106680603,106681042,IGHV1-67,minus,28463,immunoglobulin heavy variable 1-67 (pseudogene)
+NC_000014.9,106682630,106684349,SLC20A1P1,minus,192127,solute carrier family 20 member 1 pseudogene 1
+NC_000014.9,106686393,106686542,IGHVII-67-1,minus,28358,immunoglobulin heavy variable (II)-67-1 (pseudogene)
+NC_000014.9,106687102,106687200,IGHVIII-67-2,minus,28342,immunoglobulin heavy variable (III)-67-2 (pseudogene)
+NC_000014.9,106692614,106692888,IGHVIII-67-3,minus,28341,immunoglobulin heavy variable (III)-67-3 (pseudogene)
+NC_000014.9,106695092,106695397,IGHVIII-67-4,minus,28340,immunoglobulin heavy variable (III)-67-4 (pseudogene)
+NC_000014.9,106703807,106704286,IGHV1-68,minus,28462,immunoglobulin heavy variable 1-68 (pseudogene)
+NC_000014.9,106714682,106715120,IGHV1-69,minus,28461,immunoglobulin heavy variable 1-69
+NC_000014.9,106723574,106724017,IGHV2-70D,minus,102723168,immunoglobulin heavy variable 2-70D
+NC_000014.9,106728163,106728615,IGHV3-69-1,minus,28402,immunoglobulin heavy variable 3-69-1 (pseudogene)
+NC_000014.9,106737110,106737547,IGHV1-69-2,minus,28458,immunoglobulin heavy variable 1-69-2
+NC_000014.9,106762092,106762530,IGHV1-69D,minus,102723169,immunoglobulin heavy variable 1-69D
+NC_000014.9,106770577,106771020,IGHV2-70,minus,28454,immunoglobulin heavy variable 2-70
+NC_000014.9,106775157,106775618,IGHV3-71,minus,28411,immunoglobulin heavy variable 3-71 (pseudogene)
+NC_000014.9,106790692,106791153,IGHV3-72,minus,28410,immunoglobulin heavy variable 3-72
+NC_000014.9,106802692,106803153,IGHV3-73,minus,28409,immunoglobulin heavy variable 3-73
+NC_000014.9,106810440,106810895,IGHV3-74,minus,28408,immunoglobulin heavy variable 3-74
+NC_000014.9,106821242,106821410,IGHVII-74-1,minus,28357,immunoglobulin heavy variable (II)-74-1 (pseudogene)
+NC_000014.9,106823678,106824147,IGHV3-75,minus,28407,immunoglobulin heavy variable 3-75 (pseudogene)
+NC_000014.9,106827861,106828310,IGHV3-76,minus,28406,immunoglobulin heavy variable 3-76 (pseudogene)
+NC_000014.9,106831763,106832069,IGHVIII-76-1,minus,28339,immunoglobulin heavy variable (III)-76-1 (pseudogene)
+NC_000014.9,106845811,106877970,LOC124903399,plus,124903399,uncharacterized LOC124903399
+NC_000014.9,106850885,106850999,MIR5195,minus,100847062,microRNA 5195
+NC_000014.9,106851112,106851546,IGHV5-78,minus,28387,immunoglobulin heavy variable 5-78 (pseudogene)
+NC_000014.9,106865621,106865895,IGHVII-78-1,minus,28356,immunoglobulin heavy variable (II)-78-1 (pseudogene)
+NC_000014.9,106867640,106868092,IGHV3-79,minus,28405,immunoglobulin heavy variable 3-79 (pseudogene)
+NC_000014.9,106872783,106873186,IGHV4-80,minus,28390,immunoglobulin heavy variable 4-80 (pseudogene)
+NC_000014.9,106874581,106875017,IGHV7-81,minus,28378,immunoglobulin heavy variable 7-81 (non-functional)
+NC_000014.9,106879553,106879844,IGHVIII-82,minus,28338,immunoglobulin heavy variable (III)-82 (pseudogene)

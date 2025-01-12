@@ -1,0 +1,402 @@
+
+
+'''The molecule class -- discarded
+
+   The groups argument 
+
+   the key word in passing the argument is a 'rin' item which specifies the creation of a ring 
+
+   any 2 rin indecies will have their elements turned into a rings attribute and assingmnets attribute 
+
+   if rin, a ring is initalized. if rin-i-jE then i is the ring index wheras j is the scond ring index 
+   in which the i and j depend on the order of the elemenets and the rings initalized 
+   
+    if 'rin-i-grp-' is used, this indicates that a group defined with valid groups is present as opposed to 1 FG 
+
+    if 'grp-' the entry list is not in itself a ring, but rather a definable group 
+
+    ex - Caffiene's input list is as follows going counterclockwise from the rightmost element 
+
+    ['rin','NCH3','CO','NCH3','C','C','CO','rin','rin','C','NCH3','CH', 'N', 'C','rin', 'rin-1-04C','rin-1-03C']
+    
+    here , rin0 is NCH3CONCH3CCCO, rin1 is NCH3, CH,N,C 
+    the ring connections are by rin 1 to 0, on the 4th and 3rd defined carbons. 
+
+
+    Setting groups in space using shape - 
+
+    the passed groups contain the information of the rings in the following way 
+    the length of the list defines the rotation of element placement 
+    the position order of elements defines the placement order according to rotation 
+    the ring connections define which elements are connected to given rings 
+
+    all we need to do is provide a second list which clarifies the type of connection 
+    the main connectors are [-,=,#]
+
+    for caffiene, we would need to pass 
+    [[-,-,-,=,-,-],[-,-,-,=,-]] 
+
+    for a list of length 6, then elements are always added in order according to 6 directions 
+    -1 = upleft, -2 = downleft, -3 = down, =4 = downright, -5 = upright -6 = up 
+    
+    for a list of length 5 
+    -1 = upleft, -2= downleft, -3 = downright, =4 = right, -5= upright 
+
+    the placement occurs depending on the length,
+    such that each placement defines a rotation for the next placement depending on total turns 
+    everytime - is passed, the orientation is specified based on the length 
+    if = is passed, the same thing occurs as well, although the bond itself is defined differently
+    
+
+
+    ring 0 always defines the starting building point, components surround the origin 
+    once ring 0 is made, the second ring is added accordingly using the connection points 
+
+
+    #define functional groups seperately to enable properties, the string is used to create a mol group object 
+    valid_groups = ['grp','rin','H', 'C', 'CH3', 'CH2', 'CH1', 'N', 'O', 'OH', 'CO', 'COOH', 'NH2','NH'] #basic molecule building blocks for defined molecule types 
+    #rin specifically designates a rin start, a second ring is the ring stop, and the order of the ring-ring 
+    #list is used to place the next position 
+
+    grouper = '|'.join(valid_groups)
+        
+        
+    
+    def drawer(string):
+        mol = Chem.MolFromSmiles(string)
+        return Draw.MolToImage(mol)
+
+    drawer('Cn1c(=O)c2c(ncn2C)n(C)c1=O')
+    Caffiene = 'Cn1c(=O)c2c(ncn2C)n(C)c1=O'
+
+    class FGroup:
+        pass
+    import re
+    class Molecule:
+        def __init__(self, groups, size):
+            self.size = size  # Grid size
+            self.length = size * 2 + 1  # Define the length based on size
+            self.groups = groups  # Input groups
+            self.grid = create_grid(size)  # Create grid for the molecule
+
+            # Initialize containers for rings and functional groups
+            all_rings = []  # List to store all rings
+            connected_rings = []  # Indices of connected rings
+            connection_pos = []  # Positions of connected functional groups
+            ring_groups = []  # Groups associated with rings
+            single_assignment = {'FGroups in grp:': []}  # For non-ring groups
+
+            # Process each group in the input seperately 
+            for lis in self.groups:
+                if 'rin' in lis:  # If there are 'rin' markers
+                    indices = [i for i, item in enumerate(lis) if item == 'rin']
+                    rings = []  # Store rings for the current group
+                    
+                    # Handle pairs of 'rin' markers
+                    for j in range(0, len(indices) - 1, 2):
+                        start_index = indices[j] + 1  # Start after the first 'rin'
+                        end_index = indices[j + 1]  # End at the second 'rin'
+                        ring = lis[start_index:end_index]
+                        rings.append(ring)
+
+                    # Handle leftover 'rin' if the count is odd
+                    if len(indices) % 2 != 0:
+                        start_index = indices[-1] + 1
+                        ring = lis[start_index:]  # Slice to the end
+                        rings.append(ring)
+
+                    all_rings.extend(rings)  # Add collected rings to the main list
+
+                    # Process connections and alternative groups 
+                    for item in lis:
+                        if item.startswith('rin-'):  # Connection to another ring 
+                            checker = item.split('-') 
+                            connected_rings.append(checker[1])  #connecting ring index 
+                            connection_pos.append(checker[2])  # connected ring index and item position index 
+                            if len(checker) > 3 and checker[3] == 'grp':  # If it's a group
+                                ring_groups.append((checker[1], checker[4]))  # Add the connection
+
+                        elif item.startswith('grp-'):  # Non-ring group
+                            extract = item.split('-')[1]
+                            grouper = r'\w+'  # Regex pattern for groups
+                            group = re.findall(grouper, extract)  # Find all group components
+                            single_assignment['FGroups in grp:'].append(group)  # Append the group
+
+            # Store the rings in a dictionary
+            self.rings = {f'Ring{i}': ring for i, ring in enumerate(all_rings)}
+
+            # Handle assignments for connected rings and groups
+            indiv_assignments = [(ring, pos) for ring, pos in zip(connected_rings, connection_pos)]
+            if indiv_assignments:  # If there are connections
+                assignments = {}  # Dictionary for assignments
+                for key, value in indiv_assignments:
+                    key = 'Ring' + str(int(key) + 1)  # Convert to 1-indexed ring keys
+                    if key not in assignments:
+                        assignments[key] = []  # Initialize list if key not present
+                    assignments[key].append(value)
+
+                if ring_groups:
+                    assignments["Groups:"] = [tup for tup in ring_groups]  # Add ring groups
+
+                self.assignments = assignments  # Assign the dictionary to the instance
+
+            else:  # If no connections, assign non-ring groups
+                self.assignment = single_assignment
+
+        def shape(self, positions):
+            
+            screen = self.grid    
+            origin = self.size 
+            length = self.length 
+            #define directions with counter clockwise orientation 
+            {'-':[0,1,2,3,4,5,6,7], '=':[0,1,2,3,4,5,6,7]}
+
+            
+
+            
+        
+
+
+        
+            
+                
+            
+                #deal with non rings contined on rings (connections) 
+                #first collect those items 
+        Caffiene = 'Cn1c(=O)c2c(ncn2C)n(C)c1=O'       
+        drawer('Cn1c(=O)c2c(ncn2C)n(C)c1=O')
+        C_groups = ['rin','NCH3','CO','NCH3','C','C','CO','rin','rin','C','NCH3','CH', 'N', 'C','rin', 'rin-1-04C','rin-1-03C']
+        Caf = Molecule([C_groups], 4)
+        Caf.assignments #contains any ring connections for tricyclic systems, indexed based on order 
+        Caf.rings  #contains ring contents, indexed according to actual ring presence 
+
+        C_groups = [['rin', 'NCH3', 'C', 'C', 'COOH', 'NCH3', 'rin', 'rin', 'C', 'NCH3', 'C', 'N', 'C', 'rin']]
+        molecule = Molecule(groups=C_groups, size=3)
+        Thy = Molecule(C_groups, 4)
+        Thy.assignments
+        Thy.rings
+        show_grid(Thy.grid)
+        show_grid(Thy.grid)
+        drawer(Thymin)
+    '''
+
+
+'''Proarray for loop ver backup ? 
+
+    def pro_array(proseq, show=False):
+    # Define amino acid sets
+    helix_set = {'E', 'L', 'K', 'A', 'M', 'Q', 'S'}
+    beta_set = {'V', 'I', 'T', 'G', 'P', 'F', 'Y', 'W'}
+    amino_acids = set('ACDEFGHIKLMNPQRSTVWY')  # All amino acids
+    string_set = {aa for aa in amino_acids if aa not in helix_set and aa not in beta_set}
+
+    # Initialize dimensions and parameters
+    helix_dim, beta_dim, string_dim = [], [], []
+    chunks_holder = []
+    search = 6  # Fixed chunk size
+    processed_chunks = set()  # To track already processed chunks
+
+    # Iterate over the sequence in chunks of size `search`
+    for i in range(0, len(proseq), search):
+        chunk = proseq[i:i + search]
+
+        # Skip if the chunk has already been processed
+        if chunk in processed_chunks:
+            continue
+
+        # Count matches for each category
+        helix_match = sum(1 for aa in chunk if aa in helix_set)
+        beta_match = sum(1 for aa in chunk if aa in beta_set)
+        string_match = sum(1 for aa in chunk if aa in string_set)
+
+        # Show chunk comparison logic
+        if show:
+            print(f"Chunk: {chunk}")
+            print(f"Helix Matches: {helix_match}, Beta Matches: {beta_match}, String Matches: {string_match}")
+
+        # Check for G or P in the chunk
+        if 'G' in chunk or 'P' in chunk:
+            idx_gp = [idx for idx, aa in enumerate(chunk) if aa in {'G', 'P'}]
+            for idx in idx_gp:
+                left = chunk[:idx]
+                right = chunk[idx + 1:]
+
+                # Print the chunk split details for show=True
+                if show:
+                    print(f"  Found G/P at index {idx}. Left part: {left}, Right part: {right}")
+
+                # Process the left part
+                if len(left) >= 2:
+                    helix_match_left = sum(1 for aa in left if aa in helix_set)
+                    beta_match_left = sum(1 for aa in left if aa in beta_set)
+                    if helix_match_left >= 2:
+                        helix_dim.append((left, f'{i // search}'))
+                        if show:
+                            print(f"  Classified left part as Helix")
+                    elif beta_match_left >= 3:
+                        beta_dim.append((left, f'{i // search}'))
+                        if show:
+                            print(f"  Classified left part as Beta")
+                    else:
+                        string_dim.append((left + chunk[idx], f'{i // search}'))
+                        if show:
+                            print(f"  Classified left part as String")
+
+                # Process the right part
+                if len(right) >= 2:
+                    helix_match_right = sum(1 for aa in right if aa in helix_set)
+                    beta_match_right = sum(1 for aa in right if aa in beta_set)
+                    if helix_match_right >= 2:
+                        helix_dim.append((right, f'{i // search}'))
+                        if show:
+                            print(f"  Classified right part as Helix")
+                    elif beta_match_right >= 3:
+                        beta_dim.append((right, f'{i // search}'))
+                        if show:
+                            print(f"  Classified right part as Beta")
+                    else:
+                        string_dim.append((right + 'G', f'{i // search}'))  # Add G to string
+                        if show:
+                            print(f"  Classified right part as String with G")
+                
+                # Mark this chunk as processed to avoid redundant processing
+                processed_chunks.add(chunk)
+                continue  # Skip further classification for this chunk
+
+        # Standard classification if no G or P is found
+        if helix_match >= 4 or (helix_match == 3 and string_match + beta_match == 3):
+            helix_dim.append((chunk, f'{i // search}'))
+            processed_chunks.add(chunk)  # Mark as processed
+            if show:
+                print(f"Classified as: Helix\n")
+            continue
+
+        # Beta classification
+        elif beta_match >= 4:
+            beta_dim.append((chunk, f'{i // search}'))
+            processed_chunks.add(chunk)  # Mark as processed
+            if show:
+                print(f"Classified as: Beta\n")
+            continue
+
+        # Handle leftover beta chunks if no new match is found
+        elif chunks_holder:
+            beta_dim.append((''.join(chunks_holder), f'{i // search}'))
+            chunks_holder = []
+            if show:
+                print(f"Added combined Beta chunk.\n")
+
+        # String condition
+        if string_match >= 2 or beta_match + helix_match != 3:
+            string_dim.append((chunk, f'{i // search}'))
+            processed_chunks.add(chunk)  # Mark as processed
+            if show:
+                print(f"Classified as: String\n")
+
+    # Handle leftover beta chunks
+    if chunks_holder:
+        beta_dim.append((''.join(chunks_holder), f'{len(proseq) // search}'))
+        if show:
+            print(f"Added remaining Beta chunk.\n")
+
+    # Handle any remainder chunk (less than `search` size)
+    remainder_start = len(proseq) - (len(proseq) % search)
+    if remainder_start < len(proseq):
+        remainder_chunk = proseq[remainder_start:]
+        helix_match = sum(1 for aa in remainder_chunk if aa in helix_set)
+        beta_match = sum(1 for aa in remainder_chunk if aa in beta_set)
+        string_match = sum(1 for aa in remainder_chunk if aa in string_set)
+
+        if show:
+            print(f"Remainder Chunk: {remainder_chunk}")
+            print(f"Helix Matches: {helix_match}, Beta Matches: {beta_match}, String Matches: {string_match}")
+
+        if helix_match >= 4 or (helix_match == 3 and string_match + beta_match == 3):
+            helix_dim.append((remainder_chunk, f'{remainder_start // search}'))
+            processed_chunks.add(remainder_chunk)  # Mark as processed
+            if show:
+                print(f"Classified as: Helix (Remainder)\n")
+        elif beta_match >= 4:
+            beta_dim.append((remainder_chunk, f'{remainder_start // search}'))
+            processed_chunks.add(remainder_chunk)  # Mark as processed
+            if show:
+                print(f"Classified as: Beta (Remainder)\n")
+        elif string_match >= 2:
+            string_dim.append((remainder_chunk, f'{remainder_start // search}'))
+            processed_chunks.add(remainder_chunk)  # Mark as processed
+            if show:
+                print(f"Classified as: String (Remainder)\n")
+
+    return [helix_dim, beta_dim, string_dim]
+
+
+
+'''String based searches - index backup
+    
+    def domains_dict(input_string, arrays, chunk, show=False):
+    # Occurrences dictionary of domain string components
+    chunk_dict = {}
+    for array in arrays:
+        for entry in array:
+            seq = entry['seq'].tobytes().decode('utf-8').strip()
+            chunk_dict[seq] = entry['idx']
+
+    matched_components = []  # Store matched components
+    current_index = 0
+
+    while current_index < len(input_string):
+        match_found = False
+        initial_chunk = chunk
+
+        # Try matching with the given chunk size and adjust if no match is found
+        while initial_chunk > 0:
+            chunk_slice = input_string[current_index:current_index + initial_chunk]
+
+            # Print the attempt to match the current chunk size if show is True
+            if show:
+                print(f"Attempting to match chunk: {chunk_slice} (size {initial_chunk})")
+
+            if chunk_slice in chunk_dict:
+                # Print the match every time if show is True
+                if show:
+                    print(f"Match found: {chunk_slice} -> {chunk_dict[chunk_slice]}")
+                matched_components.append((chunk_slice, chunk_dict[chunk_slice]))
+                current_index += initial_chunk  # Move index forward by chunk size
+                match_found = True
+                break  # Exit the loop once a match is found
+
+            initial_chunk -= 1  # Reduce the chunk size if no match
+
+        # If no match is found, print unmatched portion and move to the next character
+        if not match_found:
+            if show:
+                print(f"No match found for: {input_string[current_index]} (moving forward)")
+            current_index += 1
+
+        # If the initial chunk size is smaller than 6, double it for the next iteration
+        if chunk < 6:
+            chunk = min(6, chunk * 2)
+            if show:
+                print(f"Increasing chunk size for next iteration: {chunk}")
+
+    return matched_components
+
+
+
+    def search_sort(input_string, array, chunk, show=False):
+    finds = []
+
+    # Loop through indices 0, 1, 2
+    for i in range(3):  # [0-2]
+        # Call domains_dict for the subarray at array[0, i, :, :]
+        matched_components = domains_dict(input_string, array[0, i, :, :], chunk, show)
+        finds.extend(matched_components)  # Add matched components to finds
+
+    # Sort the finds list:
+    # First by the second value of the tuple (index)
+    # If there are ties, sort by the length of the matched string (first value of the tuple)
+    finds_sorted = sorted(finds, key=lambda x: (x[1], len(x[0])))
+
+    return finds_sorted
+'''
+
